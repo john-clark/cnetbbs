@@ -1,3 +1,0 @@
-1750		@	df00
-Swiftlink	@	de00
-SID		@	d700

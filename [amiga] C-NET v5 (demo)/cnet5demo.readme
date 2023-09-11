@@ -1,0 +1,52 @@
+Short:        CNet/5 Professional BBS (DEMO)
+Author:       rakey@netrover.com  (Ray Akey)
+Uploader:     rakey netrover com  (Ray Akey)
+Type:         comm/cnet
+Replaces:     cnet4demo.lha
+Architecture: m68k-amigaos
+
+CNet/5 Professional BBS demo package.
+
+CNet/5 Registration provides you with free maintenance releases up to, but
+not including, CNet Amiga v6.0.
+
+Please read all contained .readme's, guides and the contents of the changes/ directory for more information.
+
+!changes.readme and !change.guide contains the most verbose discussion and bug fix history or current (and many past) releases, beta or otherwise.
+
+To inquire about registering/support, please feel free to contact ZenMetal
+software via any of the following outlets:
+
+INTERNET EMAIL:
+
+   sales@cnetbbs.net
+
+OFFICIAL CNET WEB PAGE:
+
+   http://www.cnetbbs.net/
+
+POSTAL (SNAIL MAIL) ADDRESSES:
+
+   ZenMetal Software
+   Attn: Ray Akey
+   411 Bridge Avenue
+   Windsor, ON
+   Canada  N9B 2M3
+
+MAILING LIST: (SEND EMAIL TO)
+
+   To: cnet-request@lists.best.com
+   Subject: SUBSCRIBE
+
+   SUBSCRIBE <email address>
+
+CNET BULLETIN BOARD SUPPORT SYSTEMS:
+
+   (519)256-0278 - The Metal Shoppe BBS (Development/Sales/Support/Licensing)
+   (519)256-7378 - The Metal Shoppe BBS (line #2)
+
+INTERNET RELAY CHAT CHANNEL
+
+   server : irc.cnetbbs.net
+   port   : 6667
+   channel: #cnetindependent

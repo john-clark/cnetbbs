@@ -1,0 +1,9 @@
+[submodule "[64] Image v git repos/ImageBBS"]
+	path = [64] Image v git repos/ImageBBS
+	url = https://github.com/Pinacolada64/ImageBBS.git
+[submodule "[64] Image v git repos/ImageBBS3"]
+	path = [64] Image v git repos/ImageBBS3
+	url = https://github.com/Pinacolada64/ImageBBS3.git
+[submodule "[64] Image v git repos/TADA"]
+	path = [64] Image v git repos/TADA
+	url = https://github.com/Pinacolada64/TADA.git

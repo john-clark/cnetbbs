@@ -1,0 +1,8 @@
+Short:        CNet manual updates since V2.0 to V2.41
+Author:       
+Uploader:     philip griffith dwr csiro au
+Type:         comms/bbs/CNet/DOCS
+Architecture: m68k-amigaos
+
+CNET.UPDATEINFO is a disk based updated list of new features added to CNET 
+since the publication of the original spiral bound 2.0 manual.

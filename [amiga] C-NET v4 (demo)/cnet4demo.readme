@@ -1,0 +1,69 @@
+Short:        CNet/4 Professional BBS DEMO; fixed install
+Author:       rakey@netrover.com  (Ray Akey)
+Uploader:     rakey netrover com  (Ray Akey)
+Type:         comm/bbs
+Replaces:     comm/bbs/cnet4demo.lha, comm/bbs/cnet426eR1demo.lha
+Architecture: m68k-amigaos
+
+CNet/4 Professional BBS demo package - Release 2.
+This demo contains no serial support whatsoever but the software can be set
+up for local sysop use for checking/browsing CNet's features.
+
+CNet/4 Registration provides you with free maintenance releases up to, but
+not including, CNet Amiga v5.0.
+
+Please read all contained .readme's and .guides for more information.
+!changes.readme and !change.guide contains the most verbose discussion and bug fix
+history or current (and many past) releases, beta or otherwise.
+
+To inquire about registering/support, please feel free to contact ZenMetal
+software via any of the following outlets:
+
+INTERNET EMAIL:
+
+   rakey@netrover.com    (Ray A. Akey)
+   	(OR)
+   thknight@netrover.com (Todd H. Knight)
+
+FIDONET/C-LINK NETMAIL:
+
+	Heavy Metal@1:246/74          (Fidonet)
+	Heavy Metal@911:9000/0        (C-Link)
+
+OFFICIAL CNET WEB PAGE:
+
+   http://www.tggh.net/~rakey
+
+POSTAL (SNAIL MAIL) ADDRESSES:
+
+   ZenMetal Software
+   Attn: Ray Akey
+   411 Bridge Avenue
+   Windsor, ON
+   Canada  N9B 2M3
+
+         (OR)
+
+   ZenMetal Software
+   Attn: Todd H. Knight
+   100 Erie St. South
+   Leamington, Ontario
+   CANADA  N8H 3B3
+
+MAILING LIST: (SEND EMAIL TO)
+
+   To: cnetrequest@megalith.miami.fl.us
+   Subject: SUBSCRIBE
+
+   SUBSCRIBE <email address>
+
+CNET BULLETIN BOARD SUPPORT SYSTEMS:
+
+   (519)256-0278 - The Metal Shoppe BBS (Development/Sales/Support/Licensing)
+   (519)322-0450 - FreeSpace: Negative BBS (Sales/Support/License Transfers)
+
+INTERNET RELAY CHAT CHANNEL
+
+   server : babylon.beyond.irc.net
+   port   : 6667
+   channel: #cnet
