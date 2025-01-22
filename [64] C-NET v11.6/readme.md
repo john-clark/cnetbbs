@@ -1,0 +1,1 @@
+Version 11.x, which was written by Jim Selleck, was succeeded by C-Net 11.6. Which was eventually rebranded as C-Net DS2
