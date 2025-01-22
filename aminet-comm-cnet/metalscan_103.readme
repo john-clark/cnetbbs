@@ -1,0 +1,42 @@
+Short:        MetalScan - Replacement/Companion SCAN command for CNet.
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This is the only item scanning implementation I've heard of for CNet Amiga.
+It is FULLY configurable.  Here's two samples of the unlimited
+configurations that can be configured, without the MCI that you would normally
+see, of course:
+
+---------8<  SAMPLE 1  >8-------
+#### DL Filename/Title       Bytes Description
+
+ ------------------------------ Fri 28-Oct-1994 ------------------------------
+
+   1  6 adddescript_11.lha     18K AddDescript - Allows one to add a text file
+                                   to the long or short description of a file
+                                   being adopted, transformed or uploaded.
+                                   [METALSOFT]
+
+ ------------------------------ Tue 15-Mar-1994 ------------------------------
+
+   2  7 baudcheck_30.lha       13K BaudCheck v3.0 - checks user's Baud
+                                   rate and if less than specified,
+                                   user is referred to lower baud line.
+---------8<--->8------
+
+
+---------8<  SAMPLE 2  >8-------
+ ### DL Filename/Title           Bytes  #### DL Filename/Title           Bytes
+   1  6 adddescript_11.lha       17800     2  7 baudcheck_30.lha         12109
+   3  1 cdaxe_103.lha            31257     4  3 cnmp_10b.lha            135733
+   5 20 diz-e_10.lha             46226     6 10 dloaddesc_31.lha         11567
+   7  6 dupescan_201.lha         13953     8  9 lastcallers_85.lha       55413
+   9  3 metalscan_103.lha        42152    10  6 ms-credits_62.lha        38246
+  11 14 ms-topstats_53.lha       41987    12 11 portpri_11.lha            9522
+  13  2 sublist.lha              16009    14  8 tosl_21.lha              17596
+  15  8 unilist_22.lha           19923
+---------8<--->8------
+
+MANY MANY more configurations are possible!

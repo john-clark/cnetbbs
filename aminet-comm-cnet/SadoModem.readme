@@ -1,0 +1,29 @@
+Short:        SModem interface for CNet v3.05c
+Author:       rrr@klinja.fipnet.fi (Reijo Rypale)
+Uploader:     rrr klinja fipnet fi (Reijo Rypale)
+Type:         comm/cnet
+Version:      0.20
+Replaces:     comm/cnet/SadoModem.lha
+Requires:     CNet v3.05c
+Architecture: m68k-amigaos
+
+	SadoModem v0.20 is an SMODEM (bi-directional
+	transfer protocol with chat) interface for CNet v3.05c
+    BBS software. Because of the simultaneous upload/download
+    without any cps loss, smodem is quite superior to zmodem
+    or other xpr-based protocols. 
+
+	SadoModem is freeware and completely written
+	in C. Sourcecode is included.
+          
+    New in 0.20:
+
+    ¤ Selects the upload partition according to free space available    
+    ¤ Doesn't ask user to re-describe already described files           
+    ¤ CD-ROM temp dir support                                           
+    ¤ Datafile writing rewritten (still hacky)                          
+    ¤ Fixed the handling of aborted/skipped uploads                     
+    ¤ Removes only those files which were downloaded from the selectlist
+    ¤ Lets user download the files she has credits to                   
+    ¤ Uses subboards own semaphore to lock the subboard while using     
+      the datafiles. Hope it works better now. Atleast its slower. ;)

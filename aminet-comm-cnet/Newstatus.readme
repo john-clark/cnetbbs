@@ -1,0 +1,16 @@
+Short:        Replacement for Cnet Status Command.
+Author:       Thomas Newsom@2:2502/61.0
+Uploader:     f61 n2502 z2 fidonet org (no real Inet address :()
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+NewStatus.rexx. What is it?
+---------------------------
+
+Okay first of all its a simple status viewer for your users to see their
+current status on your BBS. Nothing simpler eh!
+
+I havent seen a program for Cnet that will do as this one does. Maybe I'm
+wrong, I dont know. Anyway, this new status program will also allow you to
+view ANOTHER users status as well. You can also give users with the right
+access the ability to do this too.

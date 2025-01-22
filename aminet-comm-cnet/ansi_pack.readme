@@ -1,0 +1,28 @@
+Short:        Ansi Code List & How to CODE using ANSI!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.20
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4.xx
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/ansi_pack.lha
+
+v1.20 is an update to my previously released "ANSI_List" archive.
+
+Includes both a LONG and SHORT listing of available ANSI codes, with descriptions, as well as a NEW article on HOW to CODE using ANSI in ARexx.
+
+Examples of creating ARexx routines that read keys off the keyboard, like the ansi-cursor arrows, the enter key, the delete key, etc. are included. Also, examples of creating AnsiARexx editors that e
+xactly mimic the way CNetC VDE editors work are also given. Lastly, for fun, some kaleidoscope routines are included for creating wild and fancy design displays on the screen!
+
+In addition, numerous little scripts are also included as a BONUS, including:
+
+PrintPAR: Which lets you print files with IBM graphic characters to your printer, using the PAR: device.
+
+RunARexx: Which lets you test drive new AREXX files from within CNet, just like the RUN command lets you do with CNetC files.
+
+TestDoor: A little script you can toss ARexx fragments into to TEST to see if they work or not.
+
+NewDoor: A general framework you can use to get you started in your own creations.
+
+...and MORE...! :-)

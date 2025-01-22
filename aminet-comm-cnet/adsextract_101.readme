@@ -1,0 +1,23 @@
+Short:        Xtract "short:" from .readmes and .ads files (update)
+Author:       Ray Akey
+Uploader:     rakey netcore ca
+Type:         comm/cnet
+Replaces:     adsextract_*.lha
+Architecture: m68k-amigaos
+
+	AdsExtract is a program that will scan pre-configured directories for
+files matching a user-specified pattern and when found, will extract the
+"short" description from those files and place them, plus the matching
+filename to which they belong, in a user-specified "files.bbs" file.
+
+	AdsExtract was designed for CNet sysops who download aminet files, or
+recieve fidonet *.ads files with the Amiga Distribution System files. It
+provides an easy method of adding the short descriptions without worrying
+about missing .tic files or things of that nature.  Also, AdsExtract, via
+a command line argument, will delete the current AmigaDOS filenote from
+the files which have a matching .readme (or whatever the file is that
+contains the short: description.  Full documentation included.
+
+
+- This archive may be added, in unaltered form, to Disk/CDRom and other media
+distribution or collections.

@@ -1,0 +1,7 @@
+Short:        CPS Gauge v1.0 - Replaces CNet's generic CPS output w/ more info
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Nico van Royen (nico room109 xs4all nl)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+

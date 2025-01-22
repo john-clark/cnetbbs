@@ -1,0 +1,22 @@
+Short: Log details of last 10 CNet BBS callers
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: 
+
+This is a "Last 10 Callers" type of program, but gives the Sysop a lot more 
+flexibility in the customization of the finished output file. The output file 
+is suitable for use as a GFile on your system, or for inclusion into your 
+"sys.welcome" file.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1083     493 54.4% 18-Oct-92 19:04:52  !FRONTIERS!
+   13124    3901 70.2% 19-Nov-92 20:07:26  Call_Logger
+    2588    1100 57.4% 19-Nov-92 17:00:00  Call_Logger_HISTORY!
+   16844    5913 64.8% 19-Nov-92 23:23:14  Call_Logger_READ_ME!
+: READ THIS FILE FOR VALUABLE SETUP INSTRUCTIONS!
+-------- ------- ----- --------- --------
+   33639   11407 66.0% 19-Nov-92 07:00:00   4 files

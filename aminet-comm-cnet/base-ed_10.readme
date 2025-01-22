@@ -1,0 +1,12 @@
+Short:        Most efficient CNet subboard editor
+Author:       Ray Akey (AKA Heavy Metal)
+Uploader:     philip griffith dwr csiro au
+Type:         comms/bbs/CNet/AREXX
+Architecture: m68k-amigaos
+
+
+What is it?
+-----------
+Simply the most useful (and possibly only) subboard editing tool available.  
+It performs MANY functions which will are FULLY explained in the Base-Ed.doc 
+file which is included in the archive.

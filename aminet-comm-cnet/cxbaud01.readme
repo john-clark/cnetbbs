@@ -1,0 +1,14 @@
+Short:        Shows user's baud and stats in BIG ANSI
+Author:       Sune Stjerneby (No E-Mail, but a BBS: +45 56276730)
+Uploader:     Sune Stjerneby (No E-Mail, but a BBS: +45 56276730)
+Type:         comm/cnet
+Version:      0.1
+Architecture: m68k-amigaos
+
+CXBaud  v0.1  by  Sune Stjerneby (06-Apr-96) - A CNet PFile which shows the
+user's BPS in BIG ANSI text, and lists some relevant stats too.
+
+By:    Sune Stjerneby   Codex Amiga BBS:  +45 56276730
+                                FidoNet:  2:236/103.10
+                                C-Link:   912:2000/8.10
+                                HOA-Net:  10:1/20.10

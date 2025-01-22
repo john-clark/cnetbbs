@@ -1,0 +1,31 @@
+Short:        CredBank V1.01 Credit bank for Cnet
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         comm/cnet
+Version:      1.01
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Well I`ve made this Credit Bank becoz I hate when I can`t download a file
+coz I don`t have enough creds of one type so now you can use this bank
+to Exchange or just take a TEMPORARY loan of some creds.
+
+I hope you have use for it!
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/CredBank101.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     600     378 37.0% 29-Sep-96 02:43:52  credbank/menus/About.ANSI
+     195     118 39.4% 29-Sep-96 02:44:24  credbank/menus/EXMenu.ANSI
+     176     110 37.5% 29-Sep-96 02:44:42  credbank/menus/LoanMenu.ANSI
+     357     236 33.8% 29-Sep-96 02:45:30  credbank/menus/LoanRules.ANSI
+     274     158 42.3% 29-Sep-96 02:46:10  credbank/menus/MainMenu.ANSI
+    2084     881 57.7% 30-May-96 22:50:34  credbank/reductigLoan.Rexx
+    5093    2242 55.9% 29-Sep-96 15:13:54  credbank/CredBank.Guide
+   12156    3299 72.8% 29-Sep-96 03:35:22  credbank/CredBank.Rexx
+-------- ------- ----- --------- --------
+   20935    7422 64.5% 29-Sep-96 17:52:04   8 files
+
+Operation successful.

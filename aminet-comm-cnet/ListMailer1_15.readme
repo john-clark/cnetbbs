@@ -1,0 +1,12 @@
+Short:        Send posts/replies to email addresses for mailing lists
+Author:       bmaple@burner.com (Bob Maple)
+Uploader:     bmaple burner com (Bob Maple)
+Type:         comm/cnet
+Requires:     CNet Amiga Professional v4.20+
+Architecture: m68k-amigaos
+
+Allows CNet Amiga v4.20+ to automatically send posts and replies to email
+addresses instead via sendmail.  This is handy for moderated newsgroups,
+or mailing lists that are converted into fake newsgroups.. it allows the
+user to post and reply as if it were a normal newsgroup, even though the
+message is being emailed.

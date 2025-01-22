@@ -1,0 +1,20 @@
+Short:        V1.0 Configurable Prompts for CNet/3
+Author:       add123@netvoyage.net
+Uploader:     add123 netvoyage net
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                 _____.  __________.  __________. __ _____
+                /     |_/   ___    |_/   ___    | \//    /
+                |     ||     \/    ||     \/    |  /    /
+                |     ||     /     ||     /     | /    /__
+                |____/~|__________/~|__________/~ \___/ \/
+               --------------------------------------------
+                 PromptED, v1.0 (01-Nov-95) by Adolescent
+
+
+                                 Features
+                                 --------
+- 10 built in prompts to chose from (all COLOR/ANSI)
+- User can make own prompts using default editor (up to 5 lines).
+- Can use default prompts if you choose....

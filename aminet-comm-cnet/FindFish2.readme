@@ -1,0 +1,29 @@
+Short: Online Fred Fish Search for CNet V2.63+ "C" pfile
+
+  A program to search through the contents files from the Fred Fish
+library.  Allows searching for text strings in the filename or body
+text.  You can specify ranges of disks you want searched or just
+single disks.
+
+  FindFish, a program that is both simple to setup and a snap to use.
+Not crippled in any way.  The program is well tested with CNet V2.63
+It requires ~200K of ram and is quite fast, even on a 68000 equipped
+machine!
+
+  I split the database files into two archives so that people could
+download part 1 (FindFish2.lha) and try the FindFish program.  If it
+looks usefull to you and your users you can then download the rest of
+the database files (FindFishData.lha).
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+   15484    9084 41.3% 29-Jun-93 20:15:24  FindFish
+    5879    2133 63.7% 29-Jun-93 20:18:34  FindFish.doc
+  158084   61717 60.9% 09-Nov-92 22:33:44  FishData/fish0
+  123600   47765 61.3% 09-Nov-92 22:36:08  FishData/fish1
+     776     288 62.8% 27-Jun-93 12:40:02  ReadMeNow
+-------- ------- ----- --------- --------
+  303823  120987 60.1% 08-Jul-93 15:45:22   5 files

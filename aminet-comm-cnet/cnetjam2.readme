@@ -1,0 +1,114 @@
+Short:        How to use JamMail with CNet Amiga 3.x!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v2.0 has MANY new enhancements, hints, tricks, etc for setting up the JamMail front-end for use with CNet Amiga BBS. This version includes screen shots of my actual CNet CONFIG screens and my JamMail
+ config screens, which should make setting JamMail up on your systems a snap. I've also included a plethora of home grown utilities for use with JamMail, including a file-list maker, nodediff procces
+sor, tick proccessor, polling scripts and more!
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    4486    1852 58.7% 28-Jan-95 14:39:24  CNetJam2/cnet/mail/!Dir_Contents!
+     431     245 43.1% 28-Jan-95 15:27:14  CNetJam2/cnet/mail/Bin/!Dir_Contents!
+    1584     667 57.8% 28-Jan-95 12:13:22  CNetJam2/cnet/mail/JamCall.rexx
+    1200     632 47.3% 28-Jan-95 12:16:28  CNetJam2/cnet/mail/jamscan.cfg
+     128     117  8.5% 05-Dec-94 22:28:58  CNetJam2/cnet/mail/Poll-Script1
+    2306     811 64.8% 28-Jan-95 12:26:34  CNetJam2/cnet/mail/Poll-Script2
+       0       0  0.0% 28-Jan-95 13:01:46  CNetJam2/cnet/mail/dupetables/!DELETE_ME!
+    1363     567 58.4% 28-Jan-95 14:51:30  CNetJam2/cnet/mail/FFRS/!Dir_Contents!
+       0       0  0.0% 28-Jan-95 14:44:20  CNetJam2/cnet/mail/FFRS/bin/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 14:44:26  CNetJam2/cnet/mail/FFRS/configs/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 14:44:34  CNetJam2/cnet/mail/FFRS/docs/!DELETE_ME!
+     522     220 57.8% 15-Jul-94 18:18:12  CNetJam2/cnet/mail/FFRS/!Error
+     335     130 61.1% 15-Jul-94 18:14:08  CNetJam2/cnet/mail/FFRS/!Footer
+       0       0  0.0% 28-Jan-95 14:44:44  CNetJam2/cnet/mail/FFRS/groupie/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 14:44:52  CNetJam2/cnet/mail/FFRS/rexx/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 14:45:04  CNetJam2/cnet/mail/FFRS/scripts/!DELETE_ME!
+     320     174 45.6% 26-Sep-94 11:15:46  CNetJam2/cnet/mail/FFRS/!Footer2
+     934     410 56.1% 19-Feb-94 23:36:46  CNetJam2/cnet/mail/FFRS/!Frontiers
+     867     361 58.3% 25-Sep-94 21:04:36  CNetJam2/cnet/mail/FFRS/!Header
+     553     195 64.7% 26-Sep-94 10:42:32  CNetJam2/cnet/mail/FFRS/!Header2
+    3879    1456 62.4% 28-Jan-95 12:54:12  CNetJam2/cnet/mail/FFRS/ffrs.cfg
+       0       0  0.0% 28-Jan-95 14:51:56  CNetJam2/cnet/mail/fido/docs/!DELETE_ME!
+    1023     509 50.2% 28-Jan-95 14:58:12  CNetJam2/cnet/mail/fido/other/!Dir_Contents!
+    1852     990 46.5% 17-Jan-92 04:24:22  CNetJam2/cnet/mail/fido/other/enumnodes
+    1888    1010 46.5% 17-Jan-92 04:24:24  CNetJam2/cnet/mail/fido/other/listpasswd
+    1852    1001 45.9% 17-Jan-92 04:24:22  CNetJam2/cnet/mail/fido/ClearAcct
+    1940    1044 46.1% 17-Jan-92 04:24:22  CNetJam2/cnet/mail/fido/ENumNet
+    2356    1351 42.6% 17-Jan-92 04:24:24  CNetJam2/cnet/mail/fido/GetNode
+    2000    1067 46.6% 17-Jan-92 04:24:24  CNetJam2/cnet/mail/fido/other/setconfig
+    1940    1037 46.5% 17-Jan-92 04:24:24  CNetJam2/cnet/mail/fido/other/setpasswd
+     952     465 51.1% 28-Jan-95 15:03:44  CNetJam2/cnet/mail/fido/!Dir_Contents!
+    3497    1474 57.8% 28-Jan-95 12:47:58  CNetJam2/cnet/mail/fido/DoTick.rexx
+    2212    1198 45.8% 17-Jan-92 04:24:24  CNetJam2/cnet/mail/fido/ListAcct
+    2260     830 63.2% 28-Jan-95 12:38:02  CNetJam2/cnet/mail/fido/NodeDiff.rexx
+     635     300 52.7% 28-Jan-95 12:32:20  CNetJam2/cnet/mail/fido/Poll.rexx
+       0       0  0.0% 28-Jan-95 13:02:20  CNetJam2/cnet/mail/inbound/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 15:13:24  CNetJam2/cnet/mail/jammail/docs/!DELETE_ME!
+     520     248 52.3% 24-Jan-95 16:19:52  CNetJam2/cnet/mail/jammail/text/Banner
+     400     165 58.7% 20-May-94 23:19:58  CNetJam2/cnet/mail/jammail/text/BbsError
+   63175   15302 75.7% 28-Jan-95 03:13:42  CNetJam2/cnet/mail/jammail/text/FileList
+     609     155 74.5% 21-May-94 23:57:04  CNetJam2/cnet/mail/jammail/text/FReqBanner
+    1294     433 66.5% 13-Aug-94 18:00:54  CNetJam2/cnet/mail/jammail/text/FReqHelp
+     119      90 24.3% 13-Aug-94 17:48:48  CNetJam2/cnet/mail/jammail/text/Goodbye
+     172     103 40.1% 20-May-94 23:01:36  CNetJam2/cnet/mail/jammail/text/Help
+    1547     761 50.8% 26-Sep-94 11:09:46  CNetJam2/cnet/mail/jammail/text/Magic
+     512     298 41.7% 28-Jan-95 15:26:38  CNetJam2/cnet/mail/jammail/!Dir_Contents!
+    1081     441 59.2% 28-Jan-95 15:21:50  CNetJam2/cnet/mail/jammail/text/!Dir_Contents!
+    1826     575 68.5% 14-Aug-94 11:54:40  CNetJam2/cnet/mail/jammail/text/UserFreq
+       0       0  0.0% 28-Jan-95 13:02:34  CNetJam2/cnet/mail/netmail/!DELETE_ME!
+     442     260 41.1% 28-Jan-95 15:07:38  CNetJam2/cnet/mail/nodelist/!Dir_Contents!
+    1223     501 59.0% 28-Jan-95 15:05:18  CNetJam2/cnet/mail/nodelist/traplist.cfg
+     477     281 41.0% 28-Jan-95 15:10:44  CNetJam2/cnet/mail/outbound/!Dir_Contents!
+       0       0  0.0% 28-Jan-95 15:08:24  CNetJam2/cnet/mail/outbound/packets/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 15:11:02  CNetJam2/cnet/mail/queue/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 15:11:28  CNetJam2/cnet/mail/temp/inbound/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 15:11:24  CNetJam2/cnet/mail/temp/netmail/!DELETE_ME!
+       0       0  0.0% 28-Jan-95 15:11:18  CNetJam2/cnet/mail/temp/outbound/!DELETE_ME!
+     278     174 37.4% 28-Jan-95 15:13:00  CNetJam2/cnet/mail/temp/!Dir_Contents!
+       0       0  0.0% 28-Jan-95 13:02:56  CNetJam2/cnet/mail/users/!DELETE_ME!
+    5847    2233 61.8% 28-Jan-95 03:03:12  CNetJam2/cnet/pfiles/fido/!Dir_Contents!
+    4165    1957 53.0% 27-Jan-95 10:11:46  CNetJam2/cnet/pfiles/fido/BaseSizer
+    1677     783 53.3% 28-Jan-95 01:29:48  CNetJam2/cnet/pfiles/fido/FidoMenu
+    1270     607 52.2% 24-Jan-95 18:46:40  CNetJam2/cnet/pfiles/fido/Call_Jam
+    1686     704 58.2% 28-Jan-95 02:36:48  CNetJam2/cnet/pfiles/fido/FidoBusyMessage
+    2831    1391 50.8% 28-Jan-95 10:09:06  CNetJam2/cnet/pfiles/fido/Give_Me_FILES
+    1727     867 49.7% 27-Jan-95 10:44:48  CNetJam2/cnet/pfiles/fido/Look_Up
+    1699     566 66.6% 28-Jan-95 01:47:12  CNetJam2/cnet/pfiles/fido/TossReport
+   14377    5016 65.1% 27-Jan-95 11:26:40  CNetJam2/cnet/pfiles/fido/FREQ-List_Maker2
+    2066    1002 51.5% 27-Jan-95 10:34:30  CNetJam2/cnet/pfiles/fido/FreqTester
+    2069    1021 50.6% 27-Jan-95 11:01:08  CNetJam2/cnet/pfiles/fido/NetLogViewer
+    2198     990 54.9% 27-Jan-95 11:08:30  CNetJam2/cnet/pfiles/fido/NetUtils
+    4930    2184 55.6% 28-Jan-95 01:45:06  CNetJam2/cnet/pfiles/fido/TossReporter
+    1597     714 55.2% 26-Jan-95 20:41:46  CNetJam2/cnet/!Dir_Contents!
+       0       0  0.0% 26-Jan-95 20:46:28  CNetJam2/cnet/base1/BAD_MSGS/!DELETE_ME!
+       0       0  0.0% 26-Jan-95 20:46:22  CNetJam2/cnet/base1/CNET/!DELETE_ME!
+       0       0  0.0% 26-Jan-95 20:46:14  CNetJam2/cnet/base1/CNET_BBS/!DELETE_ME!
+     311     208 33.1% 26-Jan-95 20:47:06  CNetJam2/cnet/pfiles/!Dir_Contents!
+    1363     664 51.2% 26-Jan-95 20:45:54  CNetJam2/cnet/base1/!Dir_Contents!
+    1412     410 70.9% 28-Jan-95 09:00:20  CNetJam2/cnet/base1/BaseSizes
+       0       0  0.0% 26-Jan-95 20:46:06  CNetJam2/cnet/base1/JAMMAIL/!DELETE_ME!
+       0       0  0.0% 26-Jan-95 20:44:20  CNetJam2/cnet/udbase0/BADFILES/!DELETE_ME!
+       0       0  0.0% 26-Jan-95 20:44:16  CNetJam2/cnet/udbase0/FIDONEWS/!DELETE_ME!
+    1382     648 53.1% 26-Jan-95 20:43:14  CNetJam2/cnet/udbase0/!Dir_Contents!
+       0       0  0.0% 26-Jan-95 20:44:10  CNetJam2/cnet/udbase0/HUBSTUFF/!DELETE_ME!
+       0       0  0.0% 26-Jan-95 20:44:02  CNetJam2/cnet/udbase0/NODEDIFF/!DELETE_ME!
+    2056    1018 50.4% 26-Jan-95 20:37:54  CNetJam2/s/!Dir_Contents!
+    3186    1563 50.9% 24-Jan-95 17:09:50  CNetJam2/s/JamMail.cfg2
+   46217   10130 78.0% 24-Jan-95 17:09:48  CNetJam2/s/JamMail.Wpl2
+    3874    1636 57.7% 28-Jan-95 16:21:12  CNetJam2/!READ_ME_FIRST!
+   29928   29928  0.0% 28-Jan-95 16:19:48  CNetJam2/!Screen_Shots!/CNet_Config.LHA
+      97      92  5.1% 26-Feb-94 14:37:56  CNetJam2/s/call
+     224     128 42.8% 01-Nov-94 23:52:02  CNetJam2/s/killjam
+     175     143 18.2% 26-Feb-94 14:38:08  CNetJam2/s/setup.cli2
+     661     371 43.8% 24-Jan-95 17:09:50  CNetJam2/s/setup2
+     753     278 63.0% 24-Jan-95 22:12:46  CNetJam2/s/user-startup
+     242     176 27.2% 28-Jan-95 15:32:50  CNetJam2/WBStartup/!Dir_Contents!
+   27683   27683  0.0% 28-Jan-95 16:20:18  CNetJam2/!Screen_Shots!/Jam_Mail.LHA
+-------- ------- ----- --------- --------
+  284693  135011 52.5% 28-Jan-95 16:26:54   97 files
+
+--- from dotoran

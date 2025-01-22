@@ -1,0 +1,12 @@
+Short:        A VERY useful timebank-util
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Let the user deposit time, lend files & bytes from
+the bank, lend creds to another user, gamble for 
+time.
+The SysOp can take interest on lent creds, and give
+interest to deposited time. 
+For Cnet 2.63+

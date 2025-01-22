@@ -1,0 +1,15 @@
+Short:        Stupid user higscore list 3.5 for Cnet
+Author:       snille@swipnet.se
+Uploader:     snille swipnet se
+Type:         comm/cnet
+Version:      3.5
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Have you ever seen a user just pressing return for no reason?
+Well in that case you probably wonder why?
+So did I... So i made a program that sends fun comments if the user
+just press return or types unknown commands.
+
+AND if the user do this alot he will enter a list...
+A list of Most Stupid Users! :-)

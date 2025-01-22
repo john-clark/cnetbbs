@@ -1,0 +1,15 @@
+Short:        Source to the CNet utils I wrote
+Author:       kcochran@best.com (Kelly Cochran)
+Uploader:     kcochran best com (Kelly Cochran)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This is the source to most of the CNet utilities I've done in the past several years.  This includes CINS, various sysops utils, maint tools and the beginnings of some other projects.  Also includes 
+
+a POP3 daemon for CNet/4.5+
+
+Use them in good health.  Please read the READMEs in the archive for any notes and
+restrictions (not many) on usage.
+
+- Trolan (kcochran@best.com)
+  11/27/99 1:30AM

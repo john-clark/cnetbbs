@@ -1,0 +1,193 @@
+Short:        INetShell v3.25f CNet->Internet SubSystem
+Author:       seahorse@dcroads.com (Andy Dickison)
+Uploader:     seahorse dcroads com (Andy Dickison)
+Type:         comm/cnet
+Replaces:     INetShell.lha
+Architecture: m68k-amigaos
+Distribution: Aminet
+
+      INetShell is a CNet BBS tool that allows users to use Internet
+      easily.  INet has the ability to store user database entries
+      for FTP/TELNET/FINGER sites as well as many other features.
+
+      This is a full working version, it is only limited in that it
+      will only allow one user to be in INetShell at a time.
+
+      Once registered.  This same version is only limited by the number
+      of active ports that you have on your system.
+
+      v3.25f update:  Works with both v3.05c and v4.xx of CNet Amiga BBS
+
+      Read installation instructions carefully or it could/will screw up
+      some of your databases.  This is a concern with v4.xx of CNet, as
+      the data structures and method of maintaining UUCP IDs has been
+      changed.
+
+      Changes in this version:
+
+      /*******************************************************************\
+      |*                        INetShell v3.25e Changes                 *|
+      \*******************************************************************/
+
+      REVISIONS   :
+
+  3.25f (08/05/97)  - (IS) Was able to track down and fix the insufficient time
+                           bug in INetShell.  (Thank you Tempest Bloodguad for
+                           your help). Problem resulted from there not being
+                           a bbscharges file in use or present.  INetShell now
+                           will check for the existance of the file.
+
+  3.25e (07/22/97)  - (IS) Located and fixed a couple of routines that were
+                           causing Enforcer Hits.
+                      (IS) Hopefully located and fixed the problem some sysops
+                           were having with time remaining/accounting system.
+
+  3.25d (04/20/97)  - (IS) INetShell will now allow the format for ftp file
+                           storage as following:
+                              AmiTCP:Users/%s/Files/
+                           Where the %s represents the users UUCPID. The ftp
+                           path MUST contain a "%s" and end in a "/" or
+                           INetShell will not operate correctly.
+                    - (IC) Modified to allow the above, and presents
+                           NOTE/WARNING message when editing FTP dir path.
+                    - (IM) Modified for above to allow for full proper
+                           operation.
+                    - (IC) Upon exiting INetConfig, if Config/text files have
+                           been copied to ram:  Configuration changes will be
+                           automatically updated in ram:
+                    - (IS) Found a corrected a problem with INet not able to
+                           correctly locate itself when program was being made
+                           resident.
+                    - (IC) Found a corrected a problem with INetConfig not
+                           able to correctly locate itself when program was
+                           being made resident.
+                    - (IM) Found a corrected a problem with INetMaint not able
+                           to correctly locate itself when program was being
+                           made resident.
+
+  3.25c (03/25/97)  - (IS) Located a problem with time left not being properly
+                           updated.  Fixed.
+                    - (IS) Launching of Alynx, no longer requires to the use
+                           of the files in AlynxDownload.lha archive.  (these
+                           files can still be used if desired, but they are
+                           required.  If the AlynxDownload.lha archive files
+                           are NOT used, you must ensure that all proper
+                           options for use of Alynx are entered into the
+                           config module.
+                    - (IC) Sysops can now define the location/types and
+                           arguments used for the clients used in INetShell.
+                    - (IS) INetShell was not properly locating all of its
+                           config files.  Fixed.
+                    - (IS) Directory maint Kill/Download option in selection
+                           submenu not appearing or disappearing on
+                           select/deselect all.  Fixed.
+
+  3.25b (03/02/97)  - (IS) Directory maintainance tagging of files for either
+                           download or deletion was a bit confusing (not
+                           allowing the function to be performed from the
+                           selection menu) this has been corrected.  One can
+                           now delete or download files directly from the
+                           selection menu.
+                    - (IS) When moving to a submenu of the Directory Maint
+                           module, the activity you are preforming is now
+                           highlighted in RED and the [ ] are removed, again
+                           to avoid confusion for the user thinking that the
+                           item is a possible menu selection.
+                    - (IS) Fixed a bug that was preventing Outbound TALK
+                           client from operation correctly.
+                    - (IS) All selection flags are now cleared after either
+                           downloading or deleting selected files.
+                    - (IS) Fixed a bug in Dir Maintenance Kill Files option,
+                           that was not deleted all of the user selected
+                           files.
+                    - (IS) Fixed a bug in Dir Maintenance that was allowing
+                           the ANSI highlight bar move into a spot where no
+                           option is available.
+                    - (IS) INetShell is now able to located where it is
+                           started from allowing you to place it most
+                           anyplace.  (LIMIT path to 200 characters)
+                    - (IC) INetShell is now able to located where it is
+                           started from allowing you to place it most
+                           anyplace.  (LIMIT path to 200 characters)
+                    - (IM) INetShell is now able to located where it is
+                           started from allowing you to place it most
+                           anyplace.  (LIMIT path to 200 characters)
+
+  3.25a (02/22/97)  - (IS) Added some additional HELP menu items, and help has
+                           a whole new look and feel.
+                    - (IS) For unregistered versions of INetShell, the unreg
+                           screen now provides a progress indicator during
+                           delay so that user will not think that the system
+                           has froze up on them.
+
+  3.25  (02/14/97)  - (IM) Added INetMaint abilility to maintain its own log
+                           file.
+
+  3.24  (02/09/97)  - (IS) Completed first "release" of CNetC version of
+                           INetShell
+                    - (IM) Rewrote INetMaint to implement new changes in CNet.
+                    - (IM) Log to mail feature now uses mail-task inaccordance
+                           with developers instructions.  :)
+                    - (IS) Removed INetShell Unlimited time feature.  No
+                           longer required due to CNetC rewrite of INetShell.
+                    - (IC) Updated accounting to conform with cnet.  (ie
+                           instead of using $0.0000/min format, you now enter
+                           as 0.01c/min).
+                    - (IS) INetShell now checks users FTP Directory size upon
+                           initial entry into INetShell and upon leaveing each
+                           of the file xfer capable clients.  If FTP directory
+                           size is over that set in INetConfig, it will remove
+                           the ability of the user to utilize a client that
+                           has file xfer capability.  (NOTE:  This does not
+                           affect users with maint access enabled.)
+                    - (IS) Time Left online for user now updated on all menu
+                           screens, taking in account actual time left in call
+                           as well as account balance.  Converts funds in
+                           account balance to minutes automatically.
+                    - (IS) INetShell will now, perform the auto-hide/muffle
+                           and port monitor in a method that makes sense.  It
+                           will hide or muffle you only if you are not
+                           already hidden/muffled.  For port monitor, it will
+                           ONLY turn port monitor OFF and not turn it on, when
+                           entering INetShell.  Additionally it will remeber
+                           which ports where set up which way and return them
+                           to the original settings upon exiting.
+                    - (IS) Added a check to make sure the various clients are
+                           installed.  If they are not, the option to use them
+                           does not even show up in the main menu command
+                           list.
+                    - (IS) Added Notebook entry option for user defined IRC
+                           sites.
+                    - (IS) Notebook entries are now displayed as a normal list
+                           instead of having to cycle through each one.  This
+                           allows for faster and more flexible maintenance of
+                           the notebook.
+                    - (IS) Limited SysOp defined TELNET/FTP menu items to 100.
+                           Each menu list can have 100 entries as well, for a
+                           possible 10000 different TELNET/FTP listings.
+                    - (IS) SysOp defined IRC sites limited to 100.  If someone
+                           wants this section to be menu capable as are
+                           FTP/Telnet sites it can be done.
+                    - (IS) SysOp defined Finger sites not presently available,
+                           if someone would like this added, it would not be
+                           difficult, this could also include a menu list as
+                           well.
+                    - (IS) Limited user defined TELNET/FTP/FINGER/IRC sites to
+                           100.  Will consider setting this up as a menu
+                           feature as are the SysOp defined sites.
+                    - (IS) Added ability to view files in both ASCII and Hex
+                           format.
+                    - (IS) You can now either download your selected file
+                           right away, or just add them to you download
+                           buffer.
+                    - (IS) You may now have up to 100 listed Archie servers.
+                           INet will use the same type of paging format used
+                           elsewhere when more than 10 items in to be listed.
+                    - (IS) Added ANSI screen movement to allow both hot key
+                           selection and use of the arrow keys.
+
+      ADDRESS CHANGE FOR INETSHELL REGISTRATION:
+
+          CND Communications
+          PO Box 7410
+          York PA 17404-0410

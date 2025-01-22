@@ -1,0 +1,31 @@
+Short:        UUBoing 1.13 (07-Jul-96) - CNet Amiga 4.13+ UUCP Mail Bouncer
+Author:       bmaple@burner.com  (Bob Maple)
+Uploader:     thknight netrover com (Todd H  Knight - 50% of ZenMetal!)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+       UUBoing 1.13 (07-Jul-96) - CNet Amiga 4.13+ UUCP Mail Bouncer
+                  © 1993-96 Bob Maple - bmaple@burner.com
+
+                            "What is UUBoing?"
+
+ The current major release of C-Net Amiga, v3.0, has an exciting addition;
+ the internal support for UUCP!
+ 
+ This brings on other problems.  Since users may or may not have free run
+ on the network from your system, it's possible that they could get deleted
+ or decide to change their netname.  If someone on the net should happen to
+ send mail to a non-existant user at your machine, the files just lay around
+ in UUMail:.
+ 
+ UUBoing solves this by 'bouncing' messages that arrived for users it does
+ not know.  It remails the original sender letting him/her know that the
+ person they mailed couldn't be found, and sends you (postmaster) a message
+ letting you know it bounced a message.
+ 
+ UUBoing works by scanning the C-Net 'bbs.ukeys4' file, which contains a
+ list of all the users on your board, their real name, and their UUCP name.
+ UUBoing collects files in UUMail: and attemps to match them to users on
+ your system via their UUCP name, and if it can't, bounces the message.
+
+ Simple as that.

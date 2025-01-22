@@ -1,0 +1,24 @@
+Short:        SysInfo V1.01 Shows info system
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.01
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+This program lets the user check out your hard/software...
+Use it and brag! :-)
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/SysInfo101.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    6538    2649 59.4% 29-Sep-96 15:31:48  sysinfo/SysInfo.Guide
+   10053    2918 70.9% 29-Sep-96 14:24:42  sysinfo/SysInfo.Rexx
+     208     160 23.0% 29-Sep-96 02:51:44  sysinfo/SysInfoAbout.Ansi
+     340     102 70.0% 17-May-96 12:36:58  sysinfo/SysInfoMain.Ansi
+-------- ------- ----- --------- --------
+   17139    5829 65.9% 29-Sep-96 17:52:06   4 files
+
+Operation successful.

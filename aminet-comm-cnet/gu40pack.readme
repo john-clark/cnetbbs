@@ -1,0 +1,50 @@
+Short:        GetUser Package for CNet 3.05c & 4.26b!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      4.02
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.26b
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v4.02 of the GETUSER PACKAGE, includes:
+
+    GU40_Intro ------> An Introduction to WHAT and HOW to USE the GetUsers!
+
+    GU40_Shorts -----> Lists the 102 Short, Decimal GetUser Values as well
+                       as a discussion on the proper usage of LOADSCRATCH!
+
+    GU40_Longs ------> Lists ALL Known 7-Digit GetUser Values, for MANY of
+                       the internal structures used in CNet Amiga!
+
+    GU40_PrivINFO ---> A text file explaining exactly how to work with the
+                       CNet Amiga Priviledge Flags, including examples!
+
+    GU40_Coders -----> This document includes the "heavy" discusion on how
+                       to glean data from structures that do NOT have easy
+                       GetUser defines for them, as well as a laymens terms
+                       discussion on the proper use of the Scratch Buffer!
+
+    OFFSET_Scanner --> ARexx Program that lets you peak "behind the scenes"
+                       of your CNet Amiga, and search out any possible NEW
+                       GetUser Values!
+
+    GetUserChecker --> This program allows you to check the VALIDITY of any
+                       of the SHORT GetUser values. It shows you which values
+                       work with GetUser and which work with GetScratch. Some
+                       of the values DON'T do what they SAY they do, so this
+                       file is a great help in FINDING these oddities!
+
+    GetUserReader ---> This program gives you a command that allows you to
+                       view the contents of ANY GetUser value from ANYWHERE
+                       (and ANY PROMPT) within your System. You also have
+                       the ability of specifying HOW you wish to view the
+                       contents: Decimal, Hexadecimal, Binary, or CHAR!
+
+      GetUserSearch -> An OnLine CNet GetUser Database. Type a search term,
+                       then let this program FIND and DISPLAY ONLY those
+                       GetUser values that CONTAIN this search text. With
+                       multiple command settings, this file will find a use
+                       on almost ALL "inspired" CNet BBS's!
+
+-- Written by Dotoran of Frontiers --

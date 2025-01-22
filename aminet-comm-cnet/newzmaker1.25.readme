@@ -1,0 +1,17 @@
+Short:        Excellent NEWS maker for C-Net! v1.25! Try!
+Author:       case@energytele.com (Jeremy Rusnak)
+Uploader:     case energytele com (Jeremy Rusnak)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This program is written for the lazy SysOp (like myself) who still wants
+people to *THINK* he really is on top of things.  Basically, in a nutshell,
+it writes News Files for you in a standardized form and keeps a record of
+what has happened to your system.  Possessed by hundreds of C-Net SysOps,
+you should be next! :)
+
+Version 1.25 * 28-Jan-95 : Second public release
+               - Added preview function w/re-editing possible
+               - Automatically detect previous newz files to allow
+                 multiple newz files in the same directory
+               - Defaults noted on prompt lines

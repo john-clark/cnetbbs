@@ -1,0 +1,15 @@
+Short:        CNet 4.2x UUCP Path Checker/Creator
+Author:       harischr@cadvision.com (Randal Harisch)
+Uploader:     harischr cadvision com (Randal Harisch)
+Type:         comm/cnet
+Replaces:     conn/cnet/uucpcheck.lha
+Architecture: m68k-amigaos
+
+UUCP is a CNet 4.2x UUCP Path checking/creator utility.
+
+Since getting CNet4.2x I started moving my subboards around and changing
+the paths that I used for my uucp subboards.  Unfortunatly, I did not create
+the needed directories for the uucp numbered files to be stored.
+
+I wrote this little utility to check the uucp affiliated subboards of CNet and
+create the data and cdrom paths if they did not exist.

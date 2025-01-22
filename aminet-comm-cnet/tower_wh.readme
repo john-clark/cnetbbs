@@ -1,0 +1,39 @@
+Short:        A CNET C who program for cnet 3.0x
+Author:       regg@dlois.com (Regg Enman)
+Uploader:     regg dlois com
+Type:         comm/cnetp
+Architecture: m68k-amigaos
+
+I did a few minor modifications to the who program, it now has fewer
+options, instead of user and sysop options it now just has one set of
+options and the program looks to see if the person who is using it is in
+access group 31 which is the group I use for sysop.
+
+add this to bbsmenu 2; Available everywhere
+
+	NW     |   #0pfiles:who.rexx}     `2-31  ; modify path and access
+                                    groups to reflect those used on your bbs
+
+future changes 
+
+check for the sysop flag instead of a access group.
+have a configuration file.
+color selection for user banner.
+multi user banner.
+ui by port number.
+
+
+Let me know how you like the program and any additions or changes that
+might be needed.
+
+The Infinite Warlock 
+
+
+Regg Enman
+67 Leighton Rd
+Durham, ME
+04222
+
+Voice: 1-207-353-8071
+
+internet e-mail tiw@dlois.com

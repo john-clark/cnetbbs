@@ -1,0 +1,11 @@
+Short:        System Activity Graph for CNet 3.05
+Author:       Qwert (no e-mail)
+Uploader:     juergen sokrates franken de
+Type:         comm/cnet
+Version:      activity v1.01 (18.03.95)
+Architecture: m68k-amigaos
+
+Features:   - online calculation
+            - total-line
+            - up to 9 nodes
+            - checks number of lines of userterminal -> up to 14 days

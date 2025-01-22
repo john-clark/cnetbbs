@@ -1,0 +1,8 @@
+Short:        DupeScan - Detects and log users with multiple accounts.
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+	Find all the users who might have two or more accounts on your system.
+Checks handle, real name, address, phone number.

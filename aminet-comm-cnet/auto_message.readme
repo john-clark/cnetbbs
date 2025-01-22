@@ -1,0 +1,48 @@
+Short:        Auto Message for Cnet, v4.24f & beyond!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      3.01
+Requires:     AmigaOS 2/3.x, CNet Amiga, v4.24g+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+=== v3.01 ===
+
+    - Simply updated to work under CNet Amiga, v4.24g!
+
+=== v3.00 ===
+
+    - Updated to work under CNet Amiga, v4.24f!
+
+    - NOTE: This version will NOT work on earlier 4.24 releases, because of
+            the fact the LOADEDITOR command is used so much!
+
+    - The definable variables are now stored in a separate file, which is
+      editable from within the file itself by User ID # 1, provided the
+      HANDLE used matches the one located in CNet's Config.
+    - All files now reside in their own directory, instead of having some
+      files in one location and others in another location.
+    - Program launches now use an argument to determine HOW the file was
+      loaded(from bbsmenu, sys.welcome, or sys.end), instead of trying to
+      fathom a number of minutes online, or which command was last used.
+
+What is AutoMessage?
+~~~~~~~~~~~~~~~~~~~~
+    Auto Message, v3.00, is a program that will allow your users to create a
+short message that will be displayed to the next user who logs onto your bbs.
+
+    In addition, a file can also be created for automatic display when the
+next user logs off of your bbs.
+
+    Within the file itself, the user can view, create, or edit either of the
+two messages.
+
+    The SysOp has the ability to set certain variables which will affect the
+way Auto Message functions on their bbs.
+
+============================================================================
+   Visit Dotoran's CNet Amiga Web Page - http://www.bluemoon.net/~dotoran
+============================================================================
+
+-- Written by Dotoran of Frontiers --

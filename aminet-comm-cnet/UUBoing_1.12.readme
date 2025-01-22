@@ -1,0 +1,15 @@
+Short:        Automatically bounce orphaned Internet email
+Author:       bmaple@burner.com (Bob Maple)
+Uploader:     bmaple burner com (Bob Maple)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+If you are running UUCP with CNet, this util allows you to automatically
+bounce any email that has come in for users that do not exist on your
+system.
+
+UUBoing scans UUMail: as well as the userfile on your BBS and attempts to
+match all mailfiles to people in the userlist;  If it cannot, it returns
+the messages to their sender.
+
+Requires CNet Professional v3.0x.

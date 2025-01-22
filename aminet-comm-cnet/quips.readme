@@ -1,0 +1,14 @@
+Short:        Create 1-Liners Preceeding CNet Prompts!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Version:      1.4
+Requires:     Amiga OS, 2.x/3.x & CNet Amiga, v3.05c
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      quips.lha
+
+Allows you and your users to create up to 100 short 1-liners which can be displayed right before any of six major prompts within CNet Amiga BBS. Also allows for the use of MCI codes within the Quips 
+too. The Sysop can specify an argument to the EQ command, so that (s)he can choose to edit a quips contents if it is seen to contain something they deem inappropriate.
+
+-- Written by Dotoran of Frontiers --

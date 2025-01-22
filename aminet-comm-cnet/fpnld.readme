@@ -1,0 +1,25 @@
+Short:        FPNLD (NodeList Downloader)
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.00
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4.xx
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/fpnld.lha aminet/comm/cnet/fpnld04.lha
+
+What Is It:
+~~~~~~~~~~
+    This little file will scan your nodelist directory, then present the
+user with a listing of the available NodeLists. They can then pick multiple
+nodelists to download.
+
+    Once chosen, the lists will be packed using the user's chosen packer,
+as set in their accounts(or the file will be copied without packing, if the
+user hasn't set a pack type(.TXT) yet).
+
+    The SysOp also has the ability to specify certain NodeLists as being
+PRIVATE, in which case they would NOT be shown to the user, and thus could
+not be downloaded.
+
+-- Written by Dotoran of Frontiers --

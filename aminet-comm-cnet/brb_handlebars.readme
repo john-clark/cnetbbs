@@ -1,0 +1,17 @@
+Short:        BRB(Be Right Back) & Handle Bar Graphs!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Version:      1.70
+Requires:     AmigaOS, 2.x/3.x & CNet Amiga, v3.05c
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/brb_handlebars.lha
+
+    BRB - A command your users can use to let you and other users know that
+          they're around, but temporarily away from the computer.
+
+Handle_Bars - Creates a BAR GRAPH using the users HANDLE as its data
+              source. No two handles will generate the same Graph.
+
+-- Written by Dotoran of Frontiers --

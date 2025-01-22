@@ -1,0 +1,39 @@
+Short:        SuperTags TagLine Manager / Generator
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.53
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/v4!
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/supertags.lha
+
+v2.53 SuperTags is the Ultimate Taglist Generator for CNet Amiga 3.xx/4.xx! 
+It allows you to use MULTIPLE configurable lists of taglines, as well as 
+toggling whether or not they'll be used within the different messaging 
+subboards on your system!
+
+- Bug Fixes:
+
+  - Whenever an AreaFix request was processed, SuperTags would be
+    disabled for ALL further text message creations until the next
+    run of the TAGS command OR a CNet Amiga reboot had occurred.
+
+  - Lists that existed in a user's "Chosen" list were not following
+    the "disabled" setting defined on the toggle screen in Maint.
+    (i.e. if "Bimbo" tags were to be DISABLED in FIDO bases, but a
+    user had the "Bimbo" list set as one of their CHOSEN lists, if
+    the user was using a Chosen List mode, it was possible for one
+    of the "Bimbo" tags to make it INTO a Fido base).
+
+  - When the QuickTags mode was enabled, pressing "Q" in the Config
+    was supposed to let you change the list used with QuickTags, but
+    instead it was using the default mode of QUITTING the file.
+
+- Changes:
+
+  - The string-entry gadget for AreaFix Passwords on the Config entry
+    screen in SuperTags Maint was expanded to allow up to 78 characters
+    to be entered, versus the 30 characters from previous versions.
+
+-- Written by Dotoran of Frontiers --

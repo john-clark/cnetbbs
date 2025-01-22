@@ -1,0 +1,38 @@
+Short:        Stupid user higscore list 3.0 for Cnet
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      3.0
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Have you ever seen a user just pressing return for no reason?
+Well in that case you probably wonder why?
+I did to... So i made a program that sends fun comments if the user
+just press return or types unknown commands.
+
+AND if the user do this alot he will enter a list...
+Alist of Most Stupid Users! :-)
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/RTP&UC30.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1007     380 62.2% 27-Sep-96 17:12:48  rtp/hig/Hig.ANSI
+     133     101 24.0% 29-Sep-96 16:30:16  rtp/hig/ReturnProg.Hig
+      92      46 50.0% 27-Sep-96 17:12:48  rtp/hig/ReturnProg.Hig.Empty
+    2693    1117 58.5% 27-Sep-96 17:12:48  rtp/quotes/ReturnQuotes.List
+    1477     657 55.5% 27-Sep-96 17:12:48  rtp/quotes/UnknownCommandQuotes.List
+    2626    1175 55.2% 27-Sep-96 18:57:42  rtp/ReturnProgShowHig.Rexx
+: Edit Path, Sysop and Guest accont in this files...
+    3031    1242 59.0% 27-Sep-96 18:57:42  rtp/SaveHig.Rexx
+: Edit Path, Sysop and Guest accont in this files...
+    4498    1792 60.1% 29-Sep-96 14:03:32  rtp/ReturnPrg.Rexx
+    5638    2490 55.8% 29-Sep-96 15:30:02  rtp/RTP&UC.Guide
+    4558    1820 60.0% 27-Sep-96 18:57:44  rtp/UnknownCommand.Rexx
+: Edit Path, Sysop and Guest accont in this files...
+-------- ------- ----- --------- --------
+   25753   10820 57.9% 29-Sep-96 17:52:06   10 files
+
+Operation successful.

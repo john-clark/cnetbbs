@@ -1,0 +1,26 @@
+Short:        FPDD (File Descriptions Downloader)
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.50
+Requires:     AmigaOS 2/3.x, CNet Amiga, v4.xx
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/fpdd.lha aminet/comm/cnet/fpdd_21.lha
+
+Overview:
+~~~~~~~~
+   FPDD (FP Download Descriptions) allows the user to download a Description
+List of the files he/she is about to download. It offers 2 different kinds
+of Description Lists.
+
+1. Standard  (A formatted, readable output!)
+
+2. FILES.BBS (This is useful for adopting the files you have downloaded
+              onto your own BBS, or when uploading to other CNet BBS's!)
+
+   Other features include: formatted output, support for FILES.BBS type of
+description, grabs descriptions from CD-roms and multiple UDBASEx: assigns,
+and grabs the filenotes, if no CNet short description is available.
+
+-- Written by Dotoran of Frontiers --

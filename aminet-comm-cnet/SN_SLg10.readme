@@ -1,0 +1,8 @@
+Short:        ShowLog v1.0 - Show users online what CNet has logged for them.
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Nico van Royen (nico room109 xs4all nl)
+Type:         comm/cnet
+Replaces:     sn_showlg10.lha
+Architecture: m68k-amigaos
+
+

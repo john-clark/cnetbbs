@@ -1,0 +1,39 @@
+Short:        Last caller door for CNet3/4, many features
+Author:       Neurodancer/1oo% <neurodancer@timewarp.insider.org>
+Uploader:     Devil/1oo% <devil p-lost franken de>
+Type:         comm/cnet
+Version:      2.2
+Architecture: m68k-amigaos
+
+C/Log is a last callers log & view program in ARexx for CNet/3 & 4,
+with some blows and whistles like daily stats, flexible output and
+such. Read thru the .guide to get the idea.
+
+Features:
+
+*   All the usual logging: login, handle, location/organization,
+    time-on, uploads, downloads, node, baud etc.
+
+*   Logging of frontend connects (netcalls, frequests etc.) via
+    aftersession part of ftn mailers.
+
+*   Keeps track of DAILY calls/uploads/downloads/messages, and
+    yesterdays calls/uploads/downloads/messages.
+
+*   Keeps track of record calls, files/bytes up, files/bytes down
+    and written messages (all: feedback, mm, posts, responses, mail)
+
+*   Adapts to callers terminal height - huge display on huge terms!
+    (sysop-definable maximum length).
+
+*   Logs mucho actions (Up/Down/Bulls/Doors/Chat/Carrier/Mail/Pubmail)
+
+*   Easy to add own ansi/ascii, viewer module autochecks height of the
+    ansi, so no need to fuzz around in my trashed ARexx script =)
+
+*   Doesn't need a configured event for maintenance.
+
+*   Built in configuration part.
+
+Please also see the included preview pictures (PNG format) in the
+archive to get a first look of it.

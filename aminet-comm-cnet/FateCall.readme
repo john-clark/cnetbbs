@@ -1,0 +1,57 @@
+Short:        Detailed, colorful Last Callers util - try!
+Author:       Fate/Logic (fxmts205@uni-frankfurt.de)
+Uploader:     Fate/Logic (fxmts205 uni-frankfurt de)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+[This is one of my older utils, just put on AmiNet for completition.]
+
+No, this is NOT just another Last Callers Tool... First of all have a Look
+at its Layout...
+
+    __/\_ __/\_  __/\__:______   __/\____/\_  __/\_ __/\_ _____________/\____
+o===\   /=\  _ \=\  _____ _  /===\  _   ___ \=\   /=\   //  _______  \  ____/=o
+|   / _/__/ _|  \/\__ \/   \/    /  |__/ _|  \/ _/__/ _/___ _)_/ _/ _/\__ \   |
+|  /  \   / \_   \  l  \    \   /   l  \ \_   \ \   / \   / |  \ \   \__l  \  |
+|  \_____/___l___/_____/____/   \______/__l___/____/_____/_____/ |\    /____NeB
+`=============================================================`--'=\__/======='
+N Name              Location/Group      BPS Logon Used Actions    Pumped Downed
+-------------------------------------------------------------------------------
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+0 Nobody            Nowhere              96 00:00 0:00 [--------]     0K     0K
+-------------------------------------------------------------------------------
+* [E]Mail [B]ase [G]Files [P]Files [C]hats [U]pload [D]ownload [L]ost Carrier *
+-------------------------------------------------------------------------------
+Today Calls [   14] <> Today Uploads (K) [    0] <> Today Downloads (K) [    0]
+Y'day Calls [    0] <> Y'day Uploads (K) [    0] <> Y'day Downloads (K) [    0]
+Recrd Calls [   14] <> Recrd Uploads (K) [    0] <> Recrd Downloads (K) [    0]
+Total Calls [   70] <> Total Uploads (K) [11936] <> Total Downloads (K) [ 2132]
+---------------------------------------------------------------=[11 Mar 1994]=-
+     FateCall v1.0 Copyright (C)1994 by Fate/tRiflEX All Rights reserved
+
+Looks nice, eh? Display "FateCall.iff" for a coloured Version.
+Some more Features:
+
++ Random Select of Headers
+  Every Caller can get another Ansi, or, e.g. if you're using NTSC,
+  a different Quote at the Top of the Screen.
++ Auto-Size Converting from KB to MB
++ Nearly unreachable Limits... or did your Users already upload more than
+  99999 MB? :)
++ Uses ONE Datafile which you display directly
++ Extremely configurable
++ Short, compact, optimized Code
+
+Well, I think these are enough Reasons to use FateCall !!!
+
+V1.0 11 March 1994       First Release.
+
+Written by Fate/Logic CNet Innovation.

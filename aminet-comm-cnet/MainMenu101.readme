@@ -1,0 +1,21 @@
+Short:        MainMenu V1.01 Shows a Main meny
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.01
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Displays a Main Menu in CNet. That's it! :-)
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/MainMenu101.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    5316    2249 57.6% 29-Sep-96 16:24:34  mainmenu/MainMenu.Guide
+    3303    1184 64.1% 29-Sep-96 13:39:22  mainmenu/MainMenu.Rexx
+-------- ------- ----- --------- --------
+    8619    3433 60.1% 29-Sep-96 17:52:06   2 files
+
+Operation successful.

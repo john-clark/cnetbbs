@@ -1,0 +1,9 @@
+Short:        ToSelectList (ToSL) - add selections to online/offline select lists
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+ToSL enables you to easily add files to ANY user's select list.   If the
+user is online, his or her select list is updated.  If the user is offline,
+the added selections are saved to his/her on-disk select list.

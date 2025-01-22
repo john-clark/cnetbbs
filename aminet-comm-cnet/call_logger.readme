@@ -1,0 +1,54 @@
+Short:        Call Logger (A "Last X Callers" Prog!)
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      3.34
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.24h+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/call_logger.lha
+
+=== v3.34 ===
+
+    - Released: February 11, 1997!  
+    - Bug Fixes:
+        - added setclip() to error check routine.
+        - fixed corrupted GU command.
+        - fixed corrupted sIGNOFF
+        - fixed corrupted ] characters
+        - fixed corrupted display routines!
+
+=== v3.33 ===
+
+    - Released January 25, 1997!
+    - Updated to work under the new CNet Amiga, v4.24g!
+    - NOTE: There's an error in CNet where the counter used for running
+            pfiles(doors) is not being incremented. If you have users on
+            your bbs who call just to play the games, these users will
+            appear as having done "Nothing!" during their call. This bug
+            will hopefully be fixed by Ray sometime in the near future and
+            is NOT a fault with this program. :-)
+
+=== v3.32 ===
+
+    - Released May 8, 1996!
+    - Updated to run on CNet Amiga, v4.11.
+    - Now uses a "Smart Path", so the "Call_Log1/" directory can be stored
+      anywhere on your system, so long as all command files remain INSIDE
+      of the "Call_Log1/" directory.
+
+=== v3.31 ===
+
+    - Released June 21, 1995!
+    - Bug Fix Update:
+        - It was discovered that my multi-port forbidding was a bit TOO
+          powerful, which resulted in numerous errors being produced when
+          multiple users logged off at the same time.
+    - Use of the FORBID() and PERMIT() functions were REMOVED from the
+      coding and replaced with a CLIP variable flag, which will LOCK all
+      other ports from using the file, until AFTER the current invocation
+      has completed, upon which the next port in line can have access to
+      use it. This lockout is no longer than 2 seconds on my 020 based
+      machine.
+
+-- Written by Dotoran of Frontiers --

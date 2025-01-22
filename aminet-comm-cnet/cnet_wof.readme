@@ -1,0 +1,18 @@
+Short:        Wheel of Fortune for CNet Amiga BBS's!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      6.52
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.38+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_wof.lha aminet/comm/cnet/wof_cnet641.lha
+
+NEWEST version includes CASH LETTERS, FREE SPIN Usages, Hint & Tips on Exit,
+the ability to disable the LOSETURN and BANKRUPT spots if hit on the first
+spin and more!
+
+This version does NOT use the Commodore Installer. The included script is a
+CNet Amiga ARexx file and should be run from within CNet Amiga proper!
+
+-- Written by Dotoran of Frontiers --

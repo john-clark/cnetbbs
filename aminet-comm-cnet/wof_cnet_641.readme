@@ -1,0 +1,28 @@
+Short:        Newest Version Wheel of Fortune for CNet
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+This is a complete archive, however only acts as a maintenance release to the previous 6.40 version. Numerous small bugs were eradicated.
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    4832    2802 42.0% 26-Jun-95 00:30:34  wof/FPInstall
+  115144   60009 47.8% 26-Jun-95 00:30:34  wof/Installer
+     968     758 21.6% 26-Jun-95 00:30:34  wof/RX
+  226088  226088  0.0% 07-Aug-95 08:49:30  wof/WOF.LHA
+   17505    4098 76.5% 07-Aug-95 09:28:50  wof/WOF_Install
+    2713     870 67.9% 06-Aug-95 22:52:42  wof/WOF_Install.info
+     330     236 28.4% 06-Aug-95 22:16:10  wof/WOF_Install.Rexx1
+    2499     720 71.1% 07-Aug-95 07:55:30  wof/WOF_Install.Rexx2
+     901     375 58.3% 07-Aug-95 08:26:26  wof/WOF_Install.Rexx3
+     242     134 44.6% 26-Jun-95 00:30:36  wof/WOFc.FP_Install
+     303     145 52.1% 26-Jun-95 00:30:38  wof/WOFf.FP_Install
+     632     279 55.8% 06-Aug-95 22:52:42  WOF.info
+    1283     445 65.3% 06-Aug-95 22:37:12  READ_ME_FIRST!
+-------- ------- ----- --------- --------
+  373440  296959 20.4% 07-Aug-95 09:29:54   13 files
+
+--- from dotoran

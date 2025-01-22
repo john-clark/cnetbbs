@@ -1,0 +1,35 @@
+Short:        CNet Amiga P/GFile/News Title Editor!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+-- v1.1 --
+    - Released June 13, 1995.
+    - Fixed Two Bugs:
+        - An error occurred if you entered an empty directory. Now, if this
+          should ever happen, you can either QUIT or BACK out of the empty
+          directory and go back to the parent directory.
+        - The counter used with the Color Cycling was not being RESET if you
+          chose to edit more lists, which meant that even though the same
+          Color Cycling string was displayed as the one to use, the items
+          wouldn't START OUT in the same order as defined. (Meaning if you
+          had the string AADD and used it on a listing of 3 items, then you
+          chose to edit another listing, the first item in the new listing
+          would be D, followed by A, A, D, D, etc., because only the first
+          three colors were used in the first listing(leaving the last D)).
+    - Added some ALIASES to the "B"ackup command. You can now go to the
+      PARENT directory by typing any of these characters: B P - < ,(comma).
+      If you're on the EDIT screen, the "P" key will only work if the PAST
+      command is not needed(meaning the first item shown is number 1).
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    6736    2695 59.9% 13-Jun-95 23:24:28  PGNTitleEdit
+    1857     807 56.5% 13-Jun-95 23:10:48  PGNTitleEdit.HISTORY!
+   11022    4665 57.6% 13-Jun-95 23:29:38  PGNTitleEdit.README!
+-------- ------- ----- --------- --------
+   19615    8167 58.3% 13-Jun-95 23:31:14   3 files
+
+--- from dotoran

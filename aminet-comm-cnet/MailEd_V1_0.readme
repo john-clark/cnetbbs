@@ -1,0 +1,23 @@
+Short: Sysop's mail editing utility for CNet
+Type: CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Ray Akey
+
+A very useful mail utility for sysops which..
+
+  Allows you to kill mail (Urgent AND regular) for ANY user.
+  Is a very efficient Mail Verify utility for SysOps.
+  Is a mail scanner to let you know exactly WHO has mail on your system.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+   15020    8520 43.2% 14-Jul-92 22:24:22  MailEd
+    1022     579 43.3% 14-Jul-92 05:43:28  MailEd.doc
+    1183     322 72.7% 14-Jul-92 06:17:12  MailEd_v1.0.doc
+     146      97 33.5% 14-Jul-92 05:59:30  sys.menu.MailEd.edit
+     275     174 36.7% 14-Jul-92 06:03:06  sys.menu.MailEd.main
+-------- ------- ----- --------- --------
+   17646    9692 45.0% 14-Jul-92 06:00:00   5 files

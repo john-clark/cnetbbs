@@ -1,0 +1,10 @@
+Short:        A securitycheck tool
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Ask the user for the 4 last numbers in his/hers
+voicenumber. If the user gives a faulty answer, 
+CNet will hang up on him/her.
+     

@@ -1,0 +1,82 @@
+| Contents of the directory comm/cnet : CNET BBS related
+|------------------------------------------------
+aandm              comm/cnet   28K  26+ANSI<>MCI & MCI<>ANSI Conversion
+ALL_1_0.lha        comm/cnet    1K  41+Add ALL to the CNet bbsmenu
+AntHills110.lha    comm/cnet   33K 130+Game for CNet. Destroy the 'ant hills'
+BADWORDS.lha       comm/cnet    8K 119+Bad language message parser for CNet
+base_ed_10.lha     comm/cnet   20K 119+Most efficient CNet subboard editor
+BBSDowns2.lha      comm/cnet    7K 110+Arexx horse racing game for CNet BBS.
+BBSLISTER.lha      comm/cnet    5K 106+Improved BBSLister for CNet
+BBSMOD10.lha       comm/cnet    7K 119+Auto upgrade BBSTEXT files for CNET.
+BlackJack24.lha    comm/cnet    6K 145+Online Blackjack for CNet BBS
+CallLog32.lha      comm/cnet   12K  25+Call_Logger
+Call_Log_v3_0.lha  comm/cnet   11K 110+Log details of last 10 CNet BBS callers
+CarbonMail.lha     comm/cnet    7K 136+Cc. mail to other users on CNet BBS
+CFortune11.lha     comm/cnet   18K 121+Fortune cookies for use with CNet
+CHKINBND12b.lha    comm/cnet    4K  26+Handles nodediffs, nodelists, tic files+
+Cn305c_1.lha       comm/cnet  570K  25+CNet BBS Version 3.05c.  Disk 1 of 2.
+Cn305c_2.lha       comm/cnet  346K  25+CNet BBS Version 3.05c.  Disk 2 of 2.
+CNetBackUp20.lha   comm/cnet   20K  25+Backup important CNet system files ...
+CNetJam10.lha      comm/cnet   31K  25+Scripts + Configs to use JAM-MAIL w/CNet
+CNet_ArexxList.lha comm/cnet    8K 106+A list of CNet's AREXX commands
+CNET_READ_ME.lha   comm/cnet    0K  41+*** Calling all Cnet Sysops ***
+CNET_UPDATEINF.lha comm/cnet    7K  41+CNet manual updates since V2.0 to V2.41 
+CUSTOMMENU.lha     comm/cnet    5K 111+A custon menu driver for CNet
+DiGits11.lha       comm/cnet    3K 110+A grid type game in AREXX for CNet
+fax_it_cnet.lzh    comm/cnet   40K  13+A nifty FAX door for CNet and GPFax
+FindFish2.lha      comm/cnet  118K  77+Online Fred Fish Search for CNet V2.63+ 
+FSHacker45c.lha    comm/cnet   37K 108+BBS hacking game for CNet BBS
+HeaderSelect.lha   comm/cnet   11K  13+Headerselect 1.0 - select random header-
+kad.lha            comm/cnet    3K   8+Shows an ad on login. Cnet3.
+KEKS_MS084B.lha    comm/cnet    7K  12+MegaStatus 0.84B by Keks CNet Design
+LANDS051c.lha      comm/cnet  105K  25+Battlelands game pfile for CNet
+LastCall_82.lha    comm/cnet   34K  26+LastCallers - Tracks last x callers and 
+lgc_g130.lha       comm/cnet   54K  12+Eases AO like /X's Local Upload, v1.30
+LOID100.lha        comm/cnet   90K  25+Lords of Irongate Adventure!  CNet Pfile
+LORDS092c.lha      comm/cnet  219K  25+Earth Lords, an ARexx Pfile for CNet
+MailEd_V1_0.lha    comm/cnet   10K 129+Sysop's mail editing utility for CNet
+maxdiz11.lha       comm/cnet   52K  25+FILE-ID.DIZ processor for CNet
+MEDIT20.lha        comm/cnet   11K 127+Sysop's mail editing utility for CNet
+MFB.lha            comm/cnet    4K  25+Multi-Feedback utility pfile for CNet
+mywall10.lha       comm/cnet    9K 114+Notice board utility for CNet BBS's
+pdmenu42.lha       comm/cnet   26K  25+Configurable ANSI pulldown menu system
+portpri_11.lha     comm/cnet    9K  25+PortPri - change CNet port priorities
+PRIVREP.lha        comm/cnet    1K  41+E-mail reply facility for CNet 
+PScreen11.lha      comm/cnet    3K  21+Random Pfile advertiser!
+puritytest22.lha   comm/cnet   36K 109+Bizarre sex questionaire for CNEt BBSers
+readme259.lha      comm/cnet    7K 101+CNet 2.59 upgrade update info.
+scripts242e.lha    comm/cnet   16K  43+Various scripts for CNet v2.42e 
+sht_qd11.lha       comm/cnet  188K  14+Q-Dizolve V1.1 - File_ID Processor for C
+SHunt237.lha       comm/cnet    8K  25+A Battleship game pfile for CNet
+SOAFIX.lha         comm/cnet   61K  26+Bugfix for soaunreg12.lha.
+soaunreg12.lha     comm/cnet  150K  26+SPIRIT OF ADVENTURE Role-playing PFile
+speak21.lzh        comm/cnet   13K  43+CNet Speaker Support Utilities 
+Stratego1_2.lha    comm/cnet   17K  39+Capture the flag PFile v1.2 for CNet v3.
+st_grv10.lha       comm/cnet    2K  43+Stat-Graph v1.0 for CNet
+sugbox12.lha       comm/cnet    7K  43+Suggestion box v1.2 for CNet
+suggbox.lzh        comm/cnet    3K  43+Suggestion Box for CNet 
+suprafaxsettin.lzh comm/cnet    4K 127+SupraFax modem settings for CNet
+sysoppag.lha       comm/cnet   81K  43+Chat function for CNet
+timebank19a.lzh    comm/cnet    5K  43+CNet Timebank v1.9
+top1_1.lha         comm/cnet   12K  43+Top 10 utility for CNet
+topmsg.lzh         comm/cnet    8K  43+Top message writer for CNet
+topuddl.lzh        comm/cnet    8K  43+CNet Top U/L-D/L util
+TossReport.lha     comm/cnet   10K  25+Turns a CNetToss-log into a toss-report
+tquote70a.lha      comm/cnet   13K  43+CNet Quote Wall
+tradewars2_0.lzh   comm/cnet   78K  43+Tradewars v2.0 for CNet 
+tu10.lha           comm/cnet   14K  43+Top User util for CNet
+tucfgii_v17b.lha   comm/cnet   34K  43+CNet filelist generator
+uned62.lha         comm/cnet   29K  43+User Editor for CNet
+unilist_22.lha     comm/cnet   19K  25+Uni-UserList - a configurable user-liste
+userdata_v1.lzh    comm/cnet    4K  43+Userdata program for CNet 
+userlist10.lha     comm/cnet    8K  43+Userlist program for CNet 
+userudstats.lha    comm/cnet    5K  43+User U/L-D/L stats for CNET
+UUCPNet.lha        comm/cnet    8K  36+Networking CNet BBS via UUCP
+viewlog40.lzh      comm/cnet   17K  43+ViewLog for CNet
+wallwriter2_1.lha  comm/cnet    2K  43+WallWriter for CNet
+warbotz.lha        comm/cnet   15K  43+WarBotz for CNet
+wareslister.lha    comm/cnet    1K  43+Wares Lister for CNet 
+WOF_v6_0b.lha      comm/cnet  121K  54+Wheel of Fortune for CNet BBS
+xscripts.lha       comm/cnet  133K  43+Archiver scripts for CNet
+yourstats.lha      comm/cnet    3K  43+Detects terminal type for CNet
+zreg_v4.lha        comm/cnet   10K  43+ZRegistry for CNet

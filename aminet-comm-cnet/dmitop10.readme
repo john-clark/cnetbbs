@@ -1,0 +1,12 @@
+Short:        An ordinary Top10-user tool
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Generates Top10-user lists for:
+
+Top10 Callers,writers, downloader in bytes, downloader
+in files, uploader in bytes and uploader in files.
+
+     

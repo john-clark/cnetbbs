@@ -1,0 +1,29 @@
+Short:        1oo% Wall V1.4 - Nice wall for Cnet/3
+Author:       neurodancer@highvolt.gun.de
+Uploader:     pete rhein-neckar netsurf de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                 _____.  __________.  __________. __ _____
+                /     |_/   ___    |_/   ___    | \//    /
+                |     ||     \/    ||     \/    |  /    /
+                |     ||     /     ||     /     | /    /__
+                |____/~|__________/~|__________/~ \___/ \/
+               --------------------------------------------
+                  1oo% WALL version 1.4 by ND/ABYSS/1oo%
+                 (new version with added features & fixes)
+
+
+                                 Features
+                                 --------
+o Automagically =) adapts to the callers terminal height! No short walls
+  with only 8 entries if caller has a big terminal screen!
+o Configurable maximum storage capacity of the wall
+o Filters MCI- & ESC-Codes from the users entry! No hacking!
+o OK prompts for all important entries
+o Optionally adds writers handle
+o Maximum input length, checks length of the handle if to be added.
+o Fantastic :) selfmade 8- & 16-color ANSIs included!
+o Easy include of own Wall-ANSIs
+o Auto-recognizes height of ANSI.
+o Exits immediately if carrier lost

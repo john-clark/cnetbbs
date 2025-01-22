@@ -1,0 +1,112 @@
+Short: Scripts + Configs to use JAM-MAIL w/CNet
+Type: comm/cnet
+Uploader: marlin@cnet577.cts.com
+
+Long:
+
+This archive contains scripts, files and modifications I have come up with to
+make life for ME a little bit easier when using Jam-Mail as my front-end
+mailer package with the CNet Amiga BBS Software, v3.05c.
+
+It should be noted that I have included NONE of the actual JamMail files, and
+that it is expected that you have the latest version of Jam-Mail up and
+running on your systems BEFORE attempting to use these files.
+
+The version of Jam-Mail I am using, as of this writing is:
+
+        JAMMAIL :  JamMail 0.98.421 Jun 28 1994 (20:48:31)
+
+It should ALSO be NOTED that ALL of these files are working perfectly for me
+at the time of this writing, so problems which may occur are more probably
+problems on YOUR end, instead of a problem with one of these scripts.  Your
+problems could range from a bad setting value to specific hardware problems.
+
+I do NOT make this guarantee concerning the "JamCall.rexx" file, as I am
+still making additions and changes to this file as I learn more and more
+about how to use this Jam-Mail software.  If you are using a dialer script
+for YOUR JamMail setup, PLEASE forward a copy of it to me, so I can learn
+even MORE.  I will note your additions in a future release if I include them
+in my dialer script.
+
+Each directory in this archive has a "!Dir_Contents!" file located inside of
+it.  This file will tell you about all included files within that directory,
+as well as some instructions on their usages.
+
+Most of the actual scripts and Arexx files have comments in them which should
+further aid you in figuring out what each file does.
+
+I have made sure that the directory structure of this archive MATCHES that
+used on my system, as the scripts and files included here use this structure
+in locating the files to be launched.  If you use a different structure on
+your system, you will have to rewrite portions of some of the files to
+reflect where YOU have those files stored.
+
+There are three types of files included in this archive:
+
+    Poll-Script1
+    Poll-Script2 - are both DOS scripts.
+
+    Files ending in ".rexx" are written in straight ARexx.
+
+    Files in the "pfiles:fido/" directory are written in CNet-ARexx.
+
+Keep this in mind if you should edit any of these files.  It is very
+important that you not tell one of these files to do something it doesn't
+know how to do.  This may cause you more grief than you wanted.
+
+If you have ANY questions pertaining to these files, please feel free to drop
+me some mail, but don't expect a "quick fix" or a "quick reply", as I am
+being swamped with different projects lately, but I'll try and get a reply
+back to you as soon as I can.
+                                                                   - Dotoran
+                                                                     7/2/94
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     356     234 34.2% 03-Jul-94 14:06:40  cnet/mail/bin/!Dir_Contents!
+     216     147 31.9% 03-Jul-94 14:08:08  cnet/mail/dupetables/!Dir_Contents!
+    1960     859 56.1% 03-Jul-94 14:20:24  cnet/mail/fido/!Dir_Contents!
+    1852    1001 45.9% 17-Jan-92 04:24:22  cnet/mail/fido/ClearAcct
+    1357     636 53.1% 03-Jul-94 13:23:52  cnet/mail/JamCall.rexx
+     128     117  8.5% 01-Jul-94 20:46:50  cnet/mail/Poll-Script1
+    1587     449 71.7% 01-Jul-94 20:36:28  cnet/mail/Poll-Script2
+    3189    1339 58.0% 01-Jul-94 19:34:36  cnet/mail/fido/DoTick.rexx
+    1940    1044 46.1% 17-Jan-92 04:24:22  cnet/mail/fido/ENumNet
+    2356    1351 42.6% 17-Jan-92 04:24:24  cnet/mail/fido/GetNode
+    2212    1198 45.8% 17-Jan-92 04:24:24  cnet/mail/fido/ListAcct
+    1872     663 64.5% 01-Jul-94 19:36:38  cnet/mail/fido/NodeDiff.rexx
+     236     175 25.8% 01-Jul-94 20:29:50  cnet/mail/fido/Poll.rexx
+     146     115 21.2% 03-Jul-94 14:26:34  cnet/mail/jammail/!Dir_Contents!
+     209     150 28.2% 03-Jul-94 14:21:58  cnet/mail/freqmate/!Dir_Contents!
+     100      88 12.0% 03-Jul-94 14:23:32  cnet/mail/inbound/!Dir_Contents!
+     207     160 22.7% 03-Jul-94 14:28:02  cnet/mail/jammail/docs/!Dir_Contents!
+     238     176 26.0% 03-Jul-94 14:30:00  cnet/mail/jammail/text/!Dir_Contents!
+     227     163 28.1% 03-Jul-94 14:31:36  cnet/mail/netmail/!Dir_Contents!
+     429     266 37.9% 03-Jul-94 14:34:48  cnet/mail/outbound/!Dir_Contents!
+     144     113 21.5% 03-Jul-94 14:35:52  cnet/mail/outbound/packets/!Dir_Contents!
+     104      84 19.2% 03-Jul-94 14:37:04  cnet/mail/queue/!Dir_Contents!
+     438     252 42.4% 03-Jul-94 14:39:50  cnet/mail/temp/!Dir_Contents!
+     108      86 20.3% 03-Jul-94 14:40:38  cnet/mail/temp/inbound/!Dir_Contents!
+    1474     741 49.7% 03-Jul-94 14:03:16  cnet/mail/!Dir_Contents!
+       0       0  0.0% 03-Jul-94 13:48:46  cnet/mail/nodelist/!Untitled
+     108      86 20.3% 03-Jul-94 14:40:38  cnet/mail/temp/netmail/!Dir_Contents!
+     108      86 20.3% 03-Jul-94 14:40:38  cnet/mail/temp/outbound/!Dir_Contents!
+     179     129 27.9% 03-Jul-94 14:42:22  cnet/mail/users/!Dir_Contents!
+     677     338 50.0% 01-Jul-94 20:11:36  cnet/pfiles/fido/Call_Jam
+     185     150 18.9% 03-Jul-94 14:45:46  cnet/pfiles/!Dir_Contents!
+    3636    1484 59.1% 03-Jul-94 15:13:14  cnet/pfiles/fido/!Dir_Contents!
+    1201     524 56.3% 21-Nov-93 09:28:22  cnet/pfiles/fido/FidoBusyMessage
+    1485     703 52.6% 06-Jun-94 10:13:28  cnet/pfiles/fido/NetLogViewer
+    1809     773 57.2% 08-Nov-93 21:03:46  cnet/pfiles/fido/NetUtils
+    1111     602 45.8% 03-Jul-94 15:27:00  s/!Dir_Contents!
+    3268    1628 50.1% 03-Jul-94 13:39:14  s/JamMail.cfg
+     569     242 57.4% 03-Jul-94 15:15:40  s/user-startup
+    2850    1320 53.6% 03-Jul-94 16:10:04  !READ_ME_FIRST!
+   44527    9910 77.7% 03-Jul-94 13:39:14  s/JamMail.Wpl
+     663     361 45.5% 03-Jul-94 13:39:16  s/setup
+     175     143 18.2% 26-Feb-94 14:38:08  s/setup.cli
+-------- ------- ----- --------- --------
+   85636   30086 64.8% 10-Jul-94 12:41:58   42 files

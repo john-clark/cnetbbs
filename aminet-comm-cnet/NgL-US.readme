@@ -1,0 +1,67 @@
+Short:        Very nice UserStatus V1.0 for CNet 3.5+
+Author:       nigel@post3.tele.dk (Rolf Arnesen)
+Uploader:     nigel post3 tele dk (Rolf Arnesen)
+Type:         comm/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+
+           .-----------------------------------------------------.
+           | UserStatus Version 1.0 - Copyright © 1997 By Nigel! |
+           `-----------------------------------------------------'
+
+What is it?
+~~~~~~~~~~~
+UserStatus is....  a script for CNet 3.5+ which allows the user to see his
+current status on your BBS.
+
+
+How do i install it?
+~~~~~~~~~~~~~~~~~~~~
+It's very simple. Just copy the UserStatus.rexx file anywhere you like (you
+would probably prefer to put in PFiles: but it doesn't matter).
+
+Now find this line:
+	STatus
+in your BBSMENU under 2; Available everywhere, and change it to eg.:
+	¹¹STatus
+        ^
+        `-- ALT+1
+
+Now if you've put the file in PFiles:, you would add this line at the end of
+2;Available everywhere:
+	STatus		|#0PFiles:UserStatus.rexx}
+
+NOTE: UserStatus scans the BBSMENU file for the right Computertype. This
+slows down the scripts a bit, so if you can live without the user knowing
+what computer he has, just add the argument NOCOM to the line, like this:
+	STatus		|#0PFiles:UserStatus.rexx NOCOM}
+
+If this installation information is not enough, you should NOT run a BBS!!!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+What does it cost me to register?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+NOTHING AT ALL!!!
+UserStatus is FreeWare, so go ahead and enjoy it! :-)
+
+
+Who made it?
+~~~~~~~~~~~~
+I did! :-)
+Well, if you wanna report any bugs, have suggestions, threats or just a small
+oppinion about this program, please don't hesitate to contact me in one of
+the following ways:
+
+E-Mail:		nigel@post3.tele.dk (Rolf Arnesen)
+
+FidoNet:	2:236/29.0
+AmigaNet:	39:141/29.0
+
+SouthSide BBS:  +45-43533828  .oOo. 33.6 V34+ 24Hrs .oOo.
+
+Snailmail:	Rolf Arnesen
+		Resenlund 4, 2.th.
+		DK-2660 Brøndby Strand
+		Denmark

@@ -1,0 +1,20 @@
+Short:        Cnet Membership Door
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Here is great program that will make it easy for users to join your
+CNet BBS.
+
+Simply run the program, and of course you can change this program to
+how much you give your users (time, downloads) at each level. Has a
+biult in edit feature so users can tell you credit card numbers, ask
+other questions about joining or to tell you they wish to join.
+Simply make it a new main menu command, and change BBSTEXT lines so
+when it says "you do not have access to that command." add some text
+after it saysing "type ME from the main menu to find out how to get
+access." Works great for me.
+
+Any questions or concerns of this software may be directed to
+Ivan Wheelwright
+UUCP EMail - ivanw@attic.apana.org.au
+The Attic BBS ++61 8 384 4762 (Adelaide, Australia)

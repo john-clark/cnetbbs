@@ -1,0 +1,15 @@
+Short:        1oo% ChaTop - logs top 1o chatters
+Author:       90191@novell1.rz.fht-mannheim.de
+Uploader:     fiver aix01 rz fht mannheim de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+             - -- --- --------------------------------- --- -- -
+                      ChaTop by 1oo% CNet-Innovation :)
+             - -- --- --------------------------------- --- -- -
+
+This  little  tool  is just a small (absolutely senseless, but rather nice)
+chart, which records the longest Sysop/User chats.
+
+Including a small bonus for all ANSI-Lovers... :)

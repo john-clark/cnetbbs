@@ -1,0 +1,8 @@
+Short:        OrgSub V0.1 Quick hack reorganizing subboards3
+Author:       flohoff@dataland.owl.de
+Uploader:     dirkw uni-paderborn de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+ OrgSub reorganizes the "sysdata:subboards3" file + all "_buser3" files to
+ correctly reflect these changes. This is only a quick hack.

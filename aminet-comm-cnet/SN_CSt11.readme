@@ -1,0 +1,11 @@
+Short:        SN CallStats v1.1 - Informative call stats for users!
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Phil Beazley (beazleyp mqg-smtp3 usmc mil)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+A small utility designed to run during the sys.welcome phase, but could be
+used anywhere.  It shows what # caller they are, what the average # of calls
+for that day of the week, what percentage the current number is of that
+average, the highest number of calls and percentage of average recorded for
+that weekday AND shows the statistics for the last seven days.  Whew!

@@ -1,0 +1,26 @@
+Short:        Send users form letters with ease!
+Uploader:     gatb vax1 bemidji msus edu
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+If you find yourself sending the same "Form-Letter" to users, again
+and again, this pfile is for you.
+
+> Send to acct #, real-name, handle: 182
+>
+> Acct John Doe (#182 Johnny) has been sent Letter #D 5 times.
+> Acct John Doe (#182 Johnny) has been sent Letter #B 3 times.
+>
+> [A] Welcome mail
+> [B] Account about to expire
+> [C] U/Ling to wrong area
+> [D] FileNote short/vague
+> [E] FileNote missing
+> [F] Inappropriate msg post
+> [G] System problem
+> [H] Thanks for the suggestion
+>
+> Send which letter: B
+>
+> Acct #182 sent form-letter regarding "Acct about to expire".

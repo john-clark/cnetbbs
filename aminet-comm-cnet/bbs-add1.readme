@@ -1,0 +1,8 @@
+Short:        Add BBS's to the logout-txt
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Well...Let a user add a BBS to the systems
+logout-txt. Cnet 2.63+

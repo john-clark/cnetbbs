@@ -1,0 +1,17 @@
+Short:        A nice BBS lister for CNet v3.05c and 4.69+.
+Author:       croldan@visitus.net (Carlos Roldan)
+Uploader:     croldan visitus net (Carlos Roldan)
+Type:         comm/cnet
+Version:      2.1
+Replaces:     comm/cnet/compulist*
+Architecture: m68k-amigaos
+
+A BBS lister for  CNet v3.05c and 4.69+.  Features include:
+- Fast Execution.
+- Colorful display.
+- User Customizable head and tail banner.
+- Ablility to print list (Local Only).
+- Optional BBS ad for each entry.
+- Three archiving methods.
+- Optionally uses PMK's wait.rexx (animated "Hit Key")
+ ......

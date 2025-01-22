@@ -1,0 +1,69 @@
+Short:        FP Archive Viewer for CNet Amiga!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.26
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.24g+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/fpav.lha
+
+v2.26 updated for CNet 4.24g. Also fixes a bug and a quirk.
+
+v2.25 is the first "Dotoran" release of the widely acclaimed FPAV.
+
+Originally written by Peter M. Klein, this file allows users on your bbs to 
+go one step beyond the normal "E"xtract command. Not only can they view the 
+contents of an archive, but they can now choose to VIEW and/or DOWNLOAD 
+individual files from WITHIN the archive, without having to download the 
+whole thing.
+
+For SysOps, there are a plethora of additional features, including the 
+ability to VIEW PICTURES, WATCH ANIMATIONS, LISTEN to MODULES, VIEW IMAGINE 
+objects, Browse AMIGAGUIDE documents, etc. SysOps also have the additional 
+ability to ADD or DELETE files from within the archives.
+
+Full documentaion, as well as an external config file are all included, as 
+are many of the smaller utilities needed to use FPAV to it's FULLEST extent!
+
+New features since v2.23:
+
+-FPAV v2.25 (1st version authored under auspices of Dotoran of Frontiers!)
+  20 Aug 96 Numerous internal changes made to the code, so as to make it a
+            bit easier for ME to understand what was going on in there.
+
+            Config settings(variables) moved into an external file, so as
+            to make the main file's size a bit smaller, as well as giving
+            me the chance to more adequately describe what the different
+            options are for.
+
+            New options include the ability to view the FULL PATH of the
+            files contained within an archive, so one can get a sense of
+            the directory structure used within an archive.
+
+            Another new option allows you to specify the COLORS used in the
+            main display listing routines. The remainder of the file has new
+            "high intensity" colors hard-coded in as well.
+
+            The need for trailing SPACES in the various config variables is
+            no longer needed. So use "1 2 3 4", instead of " 1 2 3 4 ", etc.
+
+            The BBSAD and CRCAD(undocumented 2.23 command) were REMOVED, as
+            they were used to create a data file used with FP-Diz, which is
+            no longer being supported. (These commands MAY come back if Ray
+            decides to do something similar internally with CNet Amiga).
+
+            An IBM Graphic set was also implemented for those that can take
+            advantage of these graphics, while the standard ===='s will be
+            used for everyone else.
+
+            Newer error checking routine was implemented with better ability
+            of locating the exact line causing problems.
+
+            Filenames were slightly changed, so as to drop the ".rexx" from
+            the END of both the "FPAV" and "FPAView" files, as a ".rexx"
+            extension is really only to be used for "straight" ARexx, and
+            not "customized, program specific" ARexx, like that used with
+            the CNet Amiga Professional software.
+
+-- Written by Dotoran of Frontiers --

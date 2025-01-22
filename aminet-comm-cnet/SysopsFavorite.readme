@@ -1,0 +1,24 @@
+Short:        SysopsFavorite V1.02 Sysop favorite...
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.02
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Let the Sysop have FAVORITE file(s) that users can download
+from any prompt. (Personaly I had a picture of my girlfrend :-)
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/SysopsFavorite102.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     718     316 55.9% 29-Sep-96 02:54:28  sysopsfavorite/About.ANSI
+     501     223 55.4% 27-Jun-96 22:36:08  sysopsfavorite/Select.ANSI
+    4952    2176 56.0% 29-Sep-96 15:32:44  sysopsfavorite/SysopFavorite.Guide
+    3593    1383 61.5% 29-Sep-96 16:38:04  sysopsfavorite/SysopFavorite.Rexx
+-------- ------- ----- --------- --------
+    9764    4098 58.0% 29-Sep-96 17:52:06   4 files
+
+Operation successful.

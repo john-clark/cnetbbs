@@ -1,0 +1,12 @@
+Short:        A gambling door for CNet
+Author:       robin@te.xs4all.nl
+Uploader:     robin te xs4all nl
+Type:         comm/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+
+Scratch is a very simple gambling door for CNet. It's a conversion
+of the E! door ScratchE! written by me (Morpheus).
+
+The aim of the game is to find at least three equal symbols/numbers in
+a scratch-ticket that has six fields.

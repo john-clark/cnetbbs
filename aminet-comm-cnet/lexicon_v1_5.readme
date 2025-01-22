@@ -1,0 +1,11 @@
+Short:        Determines readiblity of your messages.
+Author:       Doctoran
+Uploader:     gatb vax1 bemidji msus edu
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+   This CNet addition makes use of a VERY POWERFUL little DOS program called
+LEX. Basically, what LEX does is to examine a text file, then churn out some
+information concerning number of words used, number of long words, sentences,
+the readability of the text, and even tells you who could understand your
+message.

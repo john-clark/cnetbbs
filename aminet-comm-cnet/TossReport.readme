@@ -1,0 +1,129 @@
+Short: Turns a CNetToss-log into a toss-report
+Type: comm/cnet
+Uploader: marlin@cnet577.cts.com
+
+Long:
+
+Turns a CNet-BBS CNetToss-log into a toss-report:
+
+      TagName     Toss |   In |  Out | In/Day | Out/Day | In/Toss | Out/Toss
+ 1 AMIGA_BBS         2 |    5 |    0 |      0 |       0 |       2 |        0
+ 2 AMIGA            15 |  230 |    0 |     28 |       0 |      15 |        0
+ 3 CNET             20 |   94 |    0 |     11 |       0 |       4 |        0
+ 4 NET2410_SYSOP    23 |   91 |    0 |     11 |       0 |       3 |        0
+ 5 CONSUMER_REPORT  22 |  522 |    0 |     65 |       0 |      23 |        0
+ 6 AMIGA_TECH       42 |  165 |    0 |     20 |       0 |       3 |        0
+ 7 AMIGA_PDREVIEW   10 |   32 |    0 |      4 |       0 |       3 |        0
+ 8 FS               12 |   40 |    0 |      5 |       0 |       3 |        0
+ 9 FILM             16 | 1056 |    0 |    132 |       0 |      66 |        0
+10 ZYXEL            13 |  130 |    0 |     16 |       0 |      10 |        0
+
+Shows how many times each Fidonet echo:
+1) Gets tossed.
+2) # of msgs inbound.
+3) # of msgs outbound.
+4) # of msgs in per day.
+5) # of msgs out per day.
+6) # of msgs in per toss run.
+7) # of msgs out per toss run.
+
+Installation:
+   1) Copy TossReport.rexx TO Rexx:
+
+   2) Modify CNet:BBSMENU adding the following line as
+      "Available Everywhere":
+      > TOSSReport | {#0 Rexx:TossReport.rexx "TOSS INBOUND OUTBOUND"}
+
+   3) Edit the variables below marked as "user-settable".
+
+========================================================
+
+Options...      (All options can be abbreviated to just the 1st 4 chars.)
+   LISTFILE=FileName : Only display this list of tagnames. (Not yet supported)
+   SKIPFILE=FileName : Skip this list of tagnames.         (Not yet supported)
+   TAGNAME=TagName   : Only display this one (1) tagname.
+
+   DAYS=n            : Only display tosses made within the last n days.
+                       (0=none, 1=today, 2=yesterday, etc...)
+
+   SORT=n            : Sort the display, based on values in column #n.
+                       (The default is "no sorting", "display as logged".)
+   SORT=-n           : Reverse-sort the display, based on values in column #n.
+                       (Not yet supported)
+
+   TOSSES            : Display number of tosses for each sub.
+   INBOUND           : Display number of inbound msgs.
+   OUTBOUND          : Display number of outbound msgs.
+   INDAY             : Display number of inbound msgs per day.
+   INTOSS            : Display number of outbound msgs per toss.
+   OUTDAY            : Display number of outbound msgs per day.
+   OUTTOSS           : Display number of outbound msgs per toss.
+   SHOWALL           : Display all seven (7) of the above items.
+
+   LOG=FileName.LOG  : Name of CNetToss log for input. (Default=SysData:Log/Toss)
+   PROMPT            : Prompt user for addition options.  (Not yet supported)
+   HELP              : See help text.
+   TEST              : Display additional debugging code. (Not yet supported)
+   NONUMBER          : Don't number the list of tagnames.
+   NOHEADER          : Don't display the header-line.
+   NOTOTALS          : Don't display the totals-line.
+   NONAME            : Don't diplay author credits or prg name.
+   DATE              : Display date before each line of output.
+
+A typical CLI usage would be:
+   CLI> rx Rexx:TossReport.rexx TOSS INBOUND OUTBOUND
+   CLI> Alias Report  rx Rexx:TossReport.rexx TOSS INBOUND OUTBOUND
+
+A typical online usage would be:
+   BBSMENU> TOSSReport | {#4 rx Rexx:TossReport.rexx "INBOUND OUTBOUND"}
+
+Other possible online uses:
+   BBSMENU> TOSSReport | {#4 rx Rexx:TossReport.rexx SHOWALL}
+(If you wish to have the screen-cleared first, add "\f1" right after the "|".)
+
+Similar uses from the CLI:
+   CLI> Alias TossReport    rx Rexx:TossReport.rexx SHOWALL
+   CLI> Alias TossCalls     rx Rexx:TossReport.rexx INBOUND OUTBOUND
+
+You must be using CNet's own CNetToss prg (NOT TrapToss or other tosser).
+You must be running "Toss VERBOSITY 2"    (level 2 or 3).
+
+=========================================================
+
+Bill Beogelein
+Box 530441
+Livonia, MI 48153
+BBS 810-473-2020, Fido 1:2410/207
+
+History:
+$VER: TossReport v0.2 Saturday 11-Jun-94 21:14:21
+   First release.
+   Beta-copy sent to "Michael Rudolph" #432 for testing.
+
+$VER: TossReport v0.1 Thu 12-May-94 16:10:20
+   Written and tested for CNet-BBS v3.05c.
+
+====================================================================
+
+Future Plans:
+   Please report all bugs and offer any suggestions.
+   Add "?" at PROMPT for help-text.
+   Tally MATRIX too.
+   Show Tosses/Second in totals-line.
+   Rewrite in 'C' for speed.
+
+Ignore:
+   lz u CNet3:TossReport.LHA CNet:rexx/TossReport.rexx Help:BB_CMDS a:zzzBBSad
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1659     619 62.6% 24-Jun-94 00:01:30  zzzBBSad
+: Amiga BBS 810-473-2020
+    9798    4032 58.8% 23-Jun-94 15:33:34  BB_CMDS
+: List of cmds added to CNet by the SysOp.  Copy BB_CMDS SysText:Help/BB_CMDS
+   17281    5559 67.8% 25-Jun-94 21:18:36  TossReport.rexx
+-------- ------- ----- --------- --------
+   28738   10210 64.4% 10-Jul-94 12:42:26   3 files

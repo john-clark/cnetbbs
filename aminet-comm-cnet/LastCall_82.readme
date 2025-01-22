@@ -1,0 +1,26 @@
+Short: LastCallers - Tracks last x callers and sys stats
+Type: comm/cnet
+Uploader: cloutie@server.uwindsor.ca
+Author: Ray Akey
+
+This is a _very_ configurable Last Callers utilitt for CNet Amiga.  It
+is not only configurable in COLORS but also in what you wish displayed
+and how it is to be displayed.  Very nice!
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     630     259 58.8% 25-Mar-94 23:46:36  Callthis!
+      98      94  4.0% 25-Mar-94 23:32:32  FILE_ID.DIZ
+     630     260 58.7% 25-Mar-94 23:46:36  LastCall_82.doc
+   26820   14951 44.2% 25-Mar-94 23:04:28  LastCallers
+   15024    5020 66.5% 25-Mar-94 23:37:24  LastCallers.doc
+   19180   11668 39.1% 25-Mar-94 23:04:42  LastCallersUpdate
+    2281     952 58.2% 24-Mar-94 06:27:04  SYSDATA/last10.cfg
+     155      90 41.9% 17-Mar-94 14:49:02  SYSTEXT/LastCallers.msg
+     177      98 44.6% 26-Oct-93 12:10:34  SYSTEXT/LastCallers.msg.40
+    2952     587 80.1% 23-Mar-94 01:05:04  SYSTEXT/LastCallersTEXT2
+-------- ------- ----- --------- --------
+   67947   33979 49.9% 05-Jul-94 11:43:38   10 files

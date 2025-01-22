@@ -1,0 +1,34 @@
+Short:        Displays CPS Rates for UL/DL in BIG #'s.
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.72
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3xx/4xx!
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/big_cps_speed.lha
+
+v2.72 updated to run under CNet Amiga 4.24g!
+
+When a call to this file is placed within your BBSTEXT file, a neat graphical
+screen is displayed to the user whenever they complete a download or upload. 
+Looking at all the files sent/received, the one with the HIGHEST CPS Rate is 
+used to display the best obtained CPS rate in BIG NUMBERS.
+
+High score files can also be kept on file for all baud rates. You can choose 
+to use one file for BOTH uploads and downloads, or choose to use separate 
+files for each process.
+
+You can specify the colors used, as well as the style of graphics used. A 
+limit can also be set as to how many days the current record holder can keep 
+their record, as well as the minimum size a file sent/received must be(in KB) 
+before it can be considered for the high cps rate.
+
+I'd like to also note that the CPS Rate that this file displays MAY or MAY 
+NOT match the rate Cnet displays. If only ONE file was sent/received, then 
+these values should MATCH, however if multiple files are involved, CNet uses 
+the AVERAGE cps rate, while this file uses the HIGHEST rate involved.
+
+Enjoy!
+
+-- Written by Dotoran of Frontiers --

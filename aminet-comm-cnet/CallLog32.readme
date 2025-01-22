@@ -1,0 +1,21 @@
+Short: Call_Logger
+Type: comm/cnet
+Uploader: marlin@cnet577.cts.com
+
+Long: This is a "Last 10 Callers" type of program, but gives the Sysop a lot
+more flexibility in the customization of the finished output file.  The out-
+put file is suitable for use as a GFile on your system, or for inclusion into
+your "sys.welcome" file.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     934     410 56.1% 19-Feb-94 23:36:46  Call_Log1/!FRONTIERS!
+   12915    3950 69.4% 21-Jun-94 18:35:52  Call_Log1/Call_Logger
+    3016    1306 56.6% 21-Jun-94 18:31:22  Call_Log1/Call_Logger_HISTORY!
+   17374    6026 65.3% 21-Jun-94 18:29:20  Call_Log1/Call_Logger_READ_ME!
+: READ THIS FILE FOR VALUABLE SETUP INSTRUCTIONS!
+-------- ------- ----- --------- --------
+   34239   11692 65.8% 10-Jul-94 12:46:52   4 files

@@ -1,0 +1,11 @@
+Short:        A Front-End for C-Net V3.05+/- written in C.
+Author:       fxmts204@rz.uni-frankfurt.de (Michael Heep)
+Uploader:     fxmts204 rz uni-frankfurt de (Michael Heep)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+C-Net FE V1.0
+This program displays the activities on all ports when a user logs on.
+It tell whether someone is on the port or not, it won't show the
+handles and other stuff, so it is no who-replacement !!!

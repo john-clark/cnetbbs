@@ -1,0 +1,25 @@
+Short:        Update to CNet's Local Upload utility
+Author:       fxmts205@rz.uni-frankfurt.de (Pieter Hollants)
+Uploader:     fxmts205 rz uni-frankfurt de (Pieter Hollants)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                 _____.  __________.  __________. __ _____
+                /     |_/   ___    |_/   ___    | \//    /
+                |     ||     \/    ||     \/    |  /    /
+                |     ||     /     ||     /     | /    /__
+                |____/~|__________/~|__________/~ \___/ \/                 
+                ------------------------------------------
+                    Galledis v1.31 (03-Oct-96) by Fate
+
+This is an update to the quite popular Local Upload utility for CNet
+called Galledis. You need the old archive (lgc-g130.lha) in order for
+the program to properly work.
+
+New are some bugfixes and new auto-adopt options. Also the program is
+now released under the 1oo% label.
+
+CNet/4 users: yes, this door should work without problems :)
+
+Fate's homepage: http://www.rz.uni-frankfurt.de/~fxmts205
+1oo%'s homepage: http://rummelplatz.uni-mannheim.de/~mics/100.html

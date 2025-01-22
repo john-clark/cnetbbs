@@ -1,0 +1,41 @@
+Short:        MAStripper V1.1, strips MCI&ANSI-Codes from files.
+Author:       tinic@tinic.mayn.sub.de
+Uploader:     tinic tinic mayn sub de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+TITLE
+        MAStripper,  MCI-ANSI-Stripper
+
+VERSION
+        V1.1
+
+AUTHOR
+        Tinic Urou
+
+        Steinriesstr. 13
+        88348 Saulgau
+        - Germany -
+
+        +49-(0)-7581-3028
+
+        UUCP:   tinic@tinic.mayn.sub.de
+
+DESCRIPTION
+        MCI-ANSI-Stripper is a very simple program to  remove  all  MCI-
+        and ANSI-sequences (used by CNet3+) in files.
+
+        I think it should be very  fast,  because  the  main  converting
+        routine is in assembler.
+
+        Normally MAStripper uses twice as memory as the filesize of  the
+        desired  file.  The BUF/N option makes it possible to reduce the
+        memoryusage manually.
+
+        NOTE: The files to process  on  should  have  COMPLETED  MCI-  &
+        ANSI-Codes!!!  If  f.ex. MCI command looks like this "{*0systex"
+        MCI-ANSI-Stripper will strip all data till end of file.
+
+        I use this program to strip my FileIDs when files are  uploaded.
+        It could also be used to strip QWK-Pakets. Many QWK-Readers have
+        problems ecspecially when MCI-codes are in the subboards names.

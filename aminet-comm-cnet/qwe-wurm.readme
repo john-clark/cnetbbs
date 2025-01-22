@@ -1,0 +1,9 @@
+Short:        Turbowurm - a Snakelike game for CNet 3.05
+Author:       Qwert (no e-mail)
+Uploader:     juergen sokrates franken de
+Type:         comm/cnet
+Version:      v1.1 (16.08.95)
+Architecture: m68k-amigaos
+
+Features: - 9 editable Levels
+          - hiscores for every Level

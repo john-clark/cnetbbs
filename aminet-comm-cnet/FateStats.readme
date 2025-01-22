@@ -1,0 +1,20 @@
+Short:        Time bank, also with exchange of credits
+Author:       Fate/Logic (fxmts205@uni-frankfurt.de)
+Uploader:     Fate/Logic (fxmts205 uni-frankfurt de)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+[This is one of my older utils, just put on AmiNet for completition.]
+
+tRiflEX, CNet's No.1 is back with FAtEStAtS, the coolest User Status
+and System Status Doors on CNet! With a little bit Inspiration of some /X
+Doors I thought the usual Status Command is simply BORING, we need more
+Infos, more and more... well, then I got limited by the Screen Height :)
+Anyway check out "FateUStat.pic" and "FateSStat.pic" which should accompany
+this Archive, or better install FAtEStAtS immediately :)
+
+[Forget the part about CNet's No.1...]
+
+V1.0  23 Mar 1994  First Release.
+
+Written by Fate/Logic CNet Innovation.

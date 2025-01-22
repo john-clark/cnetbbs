@@ -1,0 +1,27 @@
+Short:        Easier uploading for CNet/4
+Author:       neurodancer@gmx.de
+Uploader:     neurodancer gmx de
+Type:         comm/cnet
+Version:      1.0
+Requires:     ARexx, CNet/4 BBS
+Architecture: m68k-amigaos
+
+"UllaGulla" v1.0 by Neurodancer/1oo%
+
+In CNet, if one tries an upload in a subboard where he/she has no
+upload access, CNet will only tell the caller indeed has no upload
+access, and leave him/her alone with that.
+
+If the above happens with my tool installed, the caller will get a
+message to which subboard the upload should go to instead (guess what,
+you should have some "upload" subboard for that), and a prompt asking
+if he/she wishes to directly go there and start the upload. OR the
+tool will take the caller to the correct subboard automatically,
+without any prompt, and invoke the "U" command for him.
+
+UllaGulla is a very "quiet" tool, it won't output much except a small
+message and, if configured, the prompt. Its just there to make
+uploading easier. Oh, and the name is just a gaga variation of
+"UpLoads GO"... :)
+
+Please read the included documentation for detailed information.

@@ -1,0 +1,718 @@
+/*===========================================================================
+                  ___  __ _  ___  _    _     __ __  ___  _  
+                 | _ ||  | || __|| |   \)   |  |  ||  _|| |
+   >-------------|   ||    ||__ || |   /\,  |     || |_ | | -------------<
+                 |_|_||_|__||___||_|  (_/\  |_|_|_||___||_|    v2.00
+         an AberDeen Foxx release:  "MCI<ANSI" & "ANSI<MCI" combined
+
+================================== (\(\ =====================================
+ complete merge by:  SideWinder   (OO ") __          September 15, 1993
+                                =('-=  )/~_)        <MISC> Entertainment
+                         +---oOO-----OOo---+       voice:  (805) 399-1500
+                         |  AberDeen Foxx  |   Missing Links:  (805) 399-3500
+======================== +-----------------+ ================================
+      þ An ANSI to MCI text file conversion program for CNet Amiga files.
+      þ Converts many ANSI commands, the rest have no MCI equivalent.
+      þ An MCI to ANSI text file conversion program for CNet Amiga files.
+      þ Converts many MCI commands, the rest have no ANSI equivalent.
+      þ Simple viewer for MCI or ANSI, on CNet BBS or in CLI.
+      þ Will strip/add carriage returns and/or strip all ANSI and MCI codes.
+      þ Freely distributable software, no shareware fee!
+      þ Works either from CNet command, Pfiles, Gfiles, or CLI/Shell.
+      þ Full help in file, hit ? at prompts or use ? as an argument.
+===========================================================================*/
+
+options results
+signal on error
+signal on syntax
+call pragma('W','N')
+cr="0d0a"x;COLORD=15 /*** Set COLORD to your default CNet color (0-15) ***/
+
+getuser 70
+cnet=1
+wrdin=""
+input=""
+addkeys cr||cr
+do until wrdin=""
+  input=input||wrdin
+  wrdin=gt("")" "
+end
+bufferflush
+
+choice:
+
+   backd=0;defset="0000"b /* bright, underline, bold, reverse */
+   atoz="ABCDEFGHIJKLMNOPQRSTUVWXYZ";ztoz="0123456789abcdefghijklmnopqrstuvwxyz"
+   errors="";overwr=0;silent=0;nostat=0;linefd=0;viewer=0;from="";two=""
+
+   if index("-/\:=+|><",left(word(input,1),1))~=0 then do
+      switch=upper(substr(word(input,1),2))
+      input=delword(input,1,1)
+      if (index(switch,"{")~=0|index(switch,"M")~=0) & from="" then do;from="ANSI";two="MCI";leader="[";erase=2;end
+      if (index(switch,"[")~=0|index(switch,"A")~=0) & from="" then do;from="MCI";two="ANSI";leader="";erase=1;end
+      if (index(switch,":")~=0|index(switch,"S")~=0) & from="" then do;from="STRIP";two="ASCII";leader="[";erase=2;end
+      if (index(switch,"^")~=0|index(switch,"N")~=0) & from="" then do;from="NULL";if two~="CRS" then two="NCR";leader="";erase=0;end
+      if index(switch,"!")~=0|index(switch,"O")~=0 then overwr=1
+      if index(switch,"@")~=0|index(switch,"L")~=0 then do;if two="NCR"|two="" then two="CRS";linefd=1;end
+      if index(switch,"#")~=0|index(switch,"R")~=0 then nostat=1
+      if index(switch,"$")~=0|index(switch,"Q")~=0 then silent=1
+      if index(switch,"%")~=0|index(switch,"V")~=0 then viewer=1
+   end
+
+   call tr()
+
+   if word(input,1)="?" | word(input,1)="HELP" then call arghelp
+
+   do while from=""
+      do until index("AMSVRP?",temp)~=0
+         call tr(cr"[32mPlease select correct conversion method."cr"[33mM=ANSItoMCI, A=MCItoANSI, S=Strip, V=View, R=Remove, P=Put, ?=Help, RETURN=Exit")
+         temp=upper(left(gt("[31mMETHOD: [32m"),1))
+         if temp="" then signal exiter
+      end
+      select
+         when temp="M" then do;from="ANSI";two="MCI";leader="[";erase=2;end
+         when temp="A" then do;from="MCI";two="ANSI";leader="";erase=1;end
+         when temp="S" then do;from="STRIP";two="ASCII";nostat=1;leader="[";erase=2;end
+         when temp="V" then do;from="NULL";two="VIEW";viewer=1;nostat=1;end
+         when temp="R" then do;from="NULL";two="NCR";linefd=0;end
+         when temp="P" then do;from="NULL";two="CRS";linefd=1;end
+         when temp="?" then call selecthelp
+      otherwise signal exiter
+      end
+      drop temp
+      call tr()
+   end
+
+   if colord>7 then do
+      dolord=colord-8
+      defset=bitset(defset,3)
+   end
+   color=999;back=999;mainset="1111"x
+   colort=colord;backt=backd;tempset=defset
+
+   number=words(input)
+
+   if number<1 then filein=gt(cr"[32mEnter name of "from" text file for input.  Enter '?' for help."cr"[31mFROM: [32m")
+   else filein=word(input,1)
+   if filein="" then signal exiter
+   do while ~exists(filein)
+      if filein="?" | upper(filein)="HELP" then filein=help()
+      else filein=tr(cr"[32mThe file '[31m"upper(filein)"[32m' does not exist, check for correct spelling and path. (?=help)")gt("[31mFROM: [32m")
+   end
+   if filein="" then signal exiter
+   if viewer=0 then do
+      if number>1 then fileout=word(input,2)
+      else do
+         choice=filein||"."||left(two,3)
+         fileout=tr(cr"[32mChoose output file.  [32m[Hit [31mRETURN[32m for '[31m"choice"[32m']")gt("[31mTO  : [32m")
+         if fileout="" then fileout=choice
+      end
+      choice=fileout
+      do while exists(choice)
+         if overwr=1 | choice2="!" then do
+            if choice=filein then call tr("[31mYou can't overwrite the INPUT file!")
+            else do
+               choice2="!"
+               leave
+            end
+         end
+         call tr(cr"[32mThe output file '[31m"upper(choice)"[32m' already exists!")
+         choice2=tr("[32mEnter new output file, or type '[31m![32m' to overwrite.")gt("[31mTO  : [32m")
+         if choice2="" then signal exiter
+         if choice2~="!" then choice=choice2
+      end
+      fileout=choice
+      if choice2="!" then choice=choice||" [32m(overwriting)"
+      call tr("[32mConverting:  [31m"filein"[32m --> [31m"choice"[37m")
+      if cnet=0 & silent=0 then call tr("[33mWarning: Colors & Font may not LOOK correct when run from CLI, but they are.[37m")
+      drop choice number
+      if ~open(out,fileout,"W") then signal error
+   end
+
+   if ~open(in,filein,"R") then signal error
+   line=readln(in)
+   do n=1 until eof(in)
+      remb=line
+      call search()
+      if linefd=1 then line=line||"0d"x
+      if viewer=0 then call writeln(out, line)
+      if cnet=0 & two="MCI" then line=remb
+      if silent=0 then call tr(line)
+      line=readln(in)
+   end
+   if viewer=0 then call tr(cr"[0;32mConversion Complete...")
+   if nostat=0 then do
+      if errors~="" then do
+         call tr(cr"[32mConversion was NOT completely successful...  Picture distortion may result."cr"[31m")
+         call tr(errors)
+      end
+      else call tr(cr"[32mNo conversion errors detected.")
+   end
+   signal exiter
+
+search:
+
+   where=1
+   if from~="NULL" then do
+      if from="MCI" | from="STRIP" then do until where=0
+         where=index(line,"",where)
+         if where~=0 then do
+            line=overlay("",line,where)
+            line=insert("}",line,where+2,1)
+         end
+      end
+      where=1
+      if from="STRIP" then do until where=0
+         where=index(line,"",where)
+         if where~=0 then do
+            test=substr(line,where+1,1)
+            if test=">" then do
+               end=index(line,"}",where)
+               if end~=0 then do
+                  test=substr(line,where+2,end-where-2)
+                  test=let2num(test)
+                  line=insert("["test"C",line,end)
+               end
+            end
+            end=index(line,"}",where)
+            if end~=0 then line=delstr(line,where,end-where+1)
+         end
+      end
+      where=1
+      do until where=0
+         where=index(line,leader,where)
+         if where~=0 then do
+            line=delstr(line,where,erase)
+            temp=convert(substr(line,where))
+            line=delstr(line,where)||temp
+         end
+      end
+   end
+   if line ~="" then where=index(line,"0d"x,length(line))
+   if where ~=0 then line=delstr(line,where,1)
+   return ""
+
+convert:
+
+   parse arg work
+   found=0
+   if two="ANSI" then do
+      do x=1 until found~=0
+         work2=substr(work,x,1)
+         if work2="}" then found=1
+         if found=0 & (work2="" | x>length(work)) then do
+            if nostat=0 then errors=errors||"Line "n".  Could not locate end of MCI command, skipped, may cause garbage."cr
+            return work
+         end
+      end
+      command=left(work,1)
+      work2=substr(work,2,x-2)
+      work=substr(work,x+1)
+      found=index("BCFHNOQRUZ^!><-*P:@AGIJKLMSTVWX#$?=n",upper(command))
+      if found=0 then do
+         if command~<"0" & command~>"9" then found=36
+         else do
+            if nostat=0 then errors=errors||"Line "n".  Undetermined MCI command, skipped, may cause garbage."cr
+            return work
+         end
+      end
+   end
+   else do
+      problem=1
+      do x=1 until found~=0
+         work2=substr(work,x,1)
+         found=index("mFAEBCD@JLMKPtSTxyfHsu",work2)
+         if found=0 & two~="ASCII" then problem=index("0123456789 ;",work2)
+         if problem=0 | x>length(work) then do
+            if nostat=0 then errors=errors||"Line "n".  Undetermined ANSI command, skipped, may cause garbage."cr
+            return work
+         end
+      end
+      work2=left(work,x-1)
+      if work2>0 then work2=translate(work2," ",";")
+      work=substr(work,x+1)
+   end
+   if two="ASCII" then do
+      space=""
+      if found=6 then do
+         if work2="" then space=" "
+         else do for work2
+            space=space||" "
+         end
+      end
+      return space||work
+   end
+   signal value two||found
+
+ansi1:  /* B - Bells             */
+
+   work2=let2num(work2)
+   count=""
+   if work2=0 then return work
+   do for work2
+      count=count||"07"x
+   end
+   return count||work
+
+ansi2:  /* C - Foreground Color  */
+
+   work2=let2num(work2)
+   if work2~<0 & work2~>15 then do
+      if work2<8 then tempset=bitclr(tempset,3)
+      else do
+         tempset=bitset(tempset,3)
+         work2=work2-8
+      end
+      colort=work2
+      signal attributes
+   end
+   if nostat=0 then errors=errors||"Line "n".  {Cn} On foreground color 'n' was not within range of 0-15."cr
+   return work
+
+ansi3:  /* F - Home & Clear      */
+
+   select
+      when work2=0 then return "[H"||work
+      when work2=1 then return "[2J"||work
+   otherwise
+      if nostat=0 then errors=errors||"Line "n".  {Fn} On Home & Clear 'n' was not within range of 0-1."cr
+   end
+   return work
+
+ansi4:  /* H - Backspaces        */
+
+   work2=let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return "[D[P"work
+   return "["work2"D["work2"P"work
+
+ansi5:  /* N - New Lines (CR)    */
+
+   work2=let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return cr||work
+   return "["work2"E"work
+
+ansi6:  /* O - Bold/Flashing     */
+
+   if work2=0 then tempset=bitclr(tempset,1)
+   else tempset=bitset(tempset,1)
+   signal attributes
+
+ansi7:  /* Q - ANSI Settings     */
+
+   if work2=1 then do
+      tempset="0000"x;colort=7;backt=0
+   end
+   else do
+      if color~=999 then do;tempset=mainset;colort=color;backt=back;end
+      force=1
+   end
+   signal attributes
+
+ansi8:  /* R - Reverse           */
+
+   if work2=0 then tempset=bitclr(tempset,0)
+   else tempset=bitset(tempset,0)
+   signal attributes
+
+ansi9:  /* U - Underline Mode    */
+
+   if work2=0 then tempset=bitclr(tempset,2)
+   else tempset=bitset(tempset,2)
+   signal attributes
+
+ansi10: /* Z - Background Color  */
+
+   if work2~<"0" & work2~>"7" then do
+      backt=work2
+      signal attributes
+   end
+   if nostat=0 then errors=errors||"Line "n".  {Zn} On background color 'n' was not within range of 0-7."cr
+   return work
+
+ansi11: /* ^ - Cursor Up         */
+
+   work2=let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return "[A"work
+   return "["work2"A"work
+
+ansi12: /* ! - Cursor Down       */
+
+   work2=let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return "[B"work
+   return "["work2"B"work
+
+ansi13: /* > - Cursur Right      */
+
+   work2=let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return "[C"work
+   return "["work2"C"work
+
+ansi14: /* < - Cursor Left       */
+
+   work2=let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return "[D"work
+   return "["work2"D"work
+
+ansi15: /* - - Insert Characters */
+
+   work2-let2num(work2)
+   if work2=0 then return work
+   if work2=1 then return "[@"work
+   return "["work2"@"work
+
+ansi16: /* * - Display File      */
+ansi17: /* P - Print Mode        */
+ansi18: /* : - Auto indention    */
+ansi19: /* @ - MCI variable      */
+ansi20: /* A - Message Abortion  */
+ansi21: /* G - Get a key         */
+ansi22: /* I - Input a line      */
+ansi23: /* J - Jump to label     */
+ansi24: /* K - Kolorific         */
+ansi25: /* L - Load variable     */
+ansi26: /* M - Math Function     */
+ansi27: /* S - Slow              */
+ansi28: /* T - Test Variable     */
+ansi29: /* V - System Variable   */
+ansi30: /* W - Pause             */
+ansi31: /* X - Replace           */
+ansi32: /* # - Run ARexx         */
+ansi33: /* $ - Send AmigDOS      */
+ansi34: /* ? - Wait For Yes/No   */
+ansi35: /* = - Set to Yes/No     */
+ansi36: /* n - Label             */
+
+   if nostat=0 then errors=errors||"Line "n".  No ANSI substitute for MCI's {"substr('*P:@AGIJKLMSTVWX#$?=n',found-15,1)||work2"}."cr
+   return work
+
+attributes:
+
+   work2=""
+   do step=0 to 3
+      if (bittst(mainset,step) & bittst(tempset,step) ~= bittst(mainset,step)) | force=1 then do
+         mainset="0000"x;color=7;back=0
+         work2="0;"
+         leave
+      end
+   end
+   force=0
+   if bittst(tempset,3)=1 & bittst(mainset,3)=0 then work2=work2||"1;"
+   if bittst(tempset,2)=1 & bittst(mainset,2)=0 then work2=work2||"4;"
+   if bittst(tempset,1)=1 & bittst(mainset,1)=0 then work2=work2||"5;"
+   if bittst(tempset,0)=1 & bittst(mainset,0)=0 then work2=work2||"7;"
+   if colort~=color then work2=work2||"3"||colort||";"
+   if backt~=back then work2=work2||"4"||backt||";"
+   color=colort;back=backt;mainset=tempset
+   if right(work2,1)=";" then work2=left(work2,length(work2)-1)
+   if work2="" then return work
+   work2="["||work2||"m"
+   return work2||work
+
+
+mci1:  /* m - Screen Display    */
+
+   number=words(work2)
+   if number>0 then do count=1 to number
+      work3=word(work2,count)
+      select
+         when work3=0 then do
+            colort=7;backt=0
+            tempset="0000"b
+         end
+         when work3=1 then tempset=bitset(tempset,3)
+         when work3=4 then tempset=bitset(tempset,2)
+         when work3=5 then tempset=bitset(tempset,1)
+         when work3=7 then tempset=bitset(tempset,0)
+      otherwise
+         forb=left(work3,1)
+         select
+            when forb=3 then colort=right(work3,1)
+            when forb=4 then backt=right(work3,1)
+            when forb=6 then backt=right(work3,1)
+         otherwise if nostat=0 then errors=errors||"Line "n".  Unknown Screen Display Mode:  Skipped."cr
+         end
+      end
+   end
+   work2=""
+   if colort=colord & backt=backd & tempset=defset then do
+      if colort=color & backt=back & tempset=mainset then work2=""
+      else work2="q1"
+   end
+   else do
+      if colort+(bittst(tempset,3)*8)~=color+(bittst(mainset,3)*8) then work2="c"||substr(ztoz,1+colort+(bittst(tempset,3)*8),1)
+      if backt~=back then work2=work2||"z"||substr(ztoz,1+backt,1)
+      if bittst(tempset,2)~=bittst(mainset,2) then work2=work2||"u"||bittst(tempset,2)
+      if bittst(tempset,1)~=bittst(mainset,1) then work2=work2||"o"||bittst(tempset,1)
+      if bittst(tempset,0)~=bittst(mainset,0) then work2=work2||"r"||bittst(tempset,0)
+   end
+   color=colort;back=backt;mainset=tempset
+   return work2||work
+
+mci2:  /* F - Cursor Up & LF    */
+
+   if work2="" then work2="^2n1"
+   else do
+      if work2>34 then work2="^"||work2+1||"}n1"
+      else work2="^"||substr(ztoz,2+work2,1)||"n1"
+   end
+   return work2||work
+
+mci3:  /* A - Cursor Up         */
+
+   if work2="" then work2="^1"
+   else do
+      if work2>35 then work2="^"||work2||"}"
+      else work2="^"||substr(ztoz,1+work2,1)
+   end
+   return work2||work
+
+mci4:  /* E - Cursor Down & LF  */
+
+   if work2="" | work2=1 then work2="n1"
+   else do
+      if work2>35 then work2="n"||work2||"}"
+      else work2="n"||substr(ztoz,1+work2,1)
+   end
+   return work2||work
+
+mci5:  /* B - Cursor Down       */
+
+   if work2="" then work2="!1"
+   else do
+      if work2>35 then work2="!"||work2||"}"
+      else work2="!"||substr(ztoz,1+work2,1)
+   end
+   return work2||work
+
+mci6:  /* C - Cursor Right      */
+
+   if work2="" then work2=">1"
+   else do
+      if work2>35 then work2=">"||work2||"}"
+      else work2=">"||substr(ztoz,1+work2,1)
+   end
+   return work2||work
+
+mci7:  /* D - Cursor Left       */
+
+   if work2="" then work2="<1"
+   else do
+      if work2>35 then work2="<"||work2||"}"
+      else work2="<"||substr(ztoz,1+work2,1)
+   end
+   return work2||work
+
+mci8: /* @ - Insert Characters */
+
+   if work2="" | work2=1 then work2="-1"
+   else do
+      if work2>35 then work2="-"||work2||"}"
+      else work2="-"||substr(ztoz,1+work2,1)
+   end
+   return work2||work
+
+mci9:  /* J - Erase  Screen     */
+
+   if work2~=2 & nostat=0 then do
+      if work2>0 then work2=translate(work2,";"," ")
+      errors=errors||"Line "n".  Substituted esc[2J (\f1) for esc["work2"J."cr
+   end
+   return "f1"||work
+
+mci10: /* L - Insert Lines      */
+mci11: /* M - Delete Lines      */
+mci12: /* K - Erase  Lines      */
+mci13: /* P - Delete Characters */
+mci14: /* t - Set Bottom Border */
+mci15: /* S - Slide  Up         */
+mci16: /* T - Slide  Down       */
+mci17: /* x - Pixels Right      */
+mci18: /* y - Pixels Down       */
+mci19: /* f - Vector Row & Col  */
+mci20: /* H - Vector Row & Col  */
+mci21: /* s - Save   Row & Col  */
+mci22: /* u - Use    Row & Col  */
+
+   if work2>0 then work2=translate(work2,";"," ")
+   if nostat=0 then errors=errors||"Line "n".  No MCI substitute for ANSI's esc["work2||substr('LMKPtSTxyfHsu',found-9,1)"."cr
+   return work
+
+gt:
+
+   if cnet=0 then do
+      options prompt arg(1)
+      parse pull z
+      options prompt
+   end
+   else do
+      prompt 40 normal arg(1)
+      z=result
+      if z="###PANIC" then signal exiter
+   end
+   return z
+
+tr:
+
+   parse arg string
+   if cnet=0 then say string
+   else transmit string
+   return ""
+
+let2num:
+
+   parse arg what
+   if length(what)>1 then return what
+   if what~<"0" & what~>"9" then return what
+   num=index(atoz,upper(what))+9
+   if num>9 then return num
+   return what
+
+help:
+   call tr(cr'[33mANSI-and-MCI v2.0 (completely written and merged by AberDeen Foxx, 9-93)')
+   call tr(cr'[32m   You will need to enter a file name to be used as an input file.  The file')
+   call tr('should specify the correct path to locate the file in.  It is possible to run')
+   call tr('this "A&M" program from CLI in the directory where you will be converting; in')
+   call tr('this situation you would NOT have to enter the path.')
+   call tr(cr'[32m   You will then need to enter a file name to be used as an output file, IF')
+   call tr('you are converting.  If you are NOT converting, no filename will be asked for a')
+   call tr('destination.  The only time this will be true is when you are VIEWing a text file.')
+   call tr(cr'[31m   If you are interested in learning more tricks to A&M, exit the program')
+   call tr('and enter "RX A&M ?" and an argument help file will be displayed.')
+   call bothhelp
+   call helptag
+   return gt(cr"[32mEnter name of "from" text file for input.  [31mRETURN [32mto abort."cr"[31mFROM: [32m")
+
+arghelp:
+   call tr(cr'[33mANSI-and-MCI v2.0 (completely written and merged by AberDeen Foxx, 9-93)')
+   call tr('[31mYou may select arguments from either CNET or CLI as follows:')
+   call tr('[32mCLI [31m:[32m  RX A&M [-{AMSOLRQVN}] [path:input.file] [path:output.file]')tr('[31m    :')
+   call tr("    :[] optional, METHOD, FROM & TO will be asked if you don't enter args.")
+   call tr("    :Switches: M or { -Selects ANSI-to-MCI conversion process.")
+   call tr("    :          A or [ -Selects MCI-to-ANSI conversion process.")
+   call tr("    :          S or : -Will Strip out all ANSI and MCI codes, save as ASCII.")
+   call tr("    :          N or ^ -Null, no convertion, except for carriage returns.")
+   call tr("    :        / O or ! -Forces it to overwrite output.file, it won't ask.")
+   call tr('    : in    /  L or @ -Append a carriage return character to end of lines.')
+   call tr("    : any  <   R or # -Turn off error recording, won't tell what went wrong.")
+   call tr('    : order \  Q or $ -Force quiet operation, does not show conversion.')
+   call tr("    :        \ V or % -View file only...  Will not save to a destination.")
+   call tr('[32mExamples[31m: [32mRX A&M -A@!$ ram:mcipic ram:ansiout')
+   call tr('[32m        [31m: [32mRX A&M ram:mcipic ram:ansiout')
+   call tr('[32m        [31m: [32mRX A&M -$M ram:ansipic')
+   call tr('[32m        [31m: [32mRX A&M ram:mcipic')
+   call tr('[32m        [31m: [32mRX A&M -!V#')
+   call tr('[32m        [31m: [32mRX A&M')
+   call gt(cr'[31m<more> hit return: ')
+   call tr(cr'[32mCNET[31m:[32m  RUNA;A&M;[-{AMSOLRQVN}];[path:input.file];[path:output.file]')tr('[31m    :')
+   call tr('    :    "RUNA;A&M" could be another command to envoke the rexx program A&M.')
+   call tr('    :    It could be either in a new bbsmenu command, or Pfiles/Gfiles.')
+   call tr('[32mExamples[31m: [32mRUNA;A&M;-A@!$;ram:mcipic;ram:ansiout [31m{with RunArexx Command}')
+   call tr('[32m        [31m: [32mCONVERT;ram:mcipic;ram:ansiout        [31m{using new BBS Command}')
+   call tr('[32m        [31m: [32m5;-$M;ram:ansipic                     [31m{from Pfiles or Gfiles}')
+   call tr('[32m        [31m: [32mRUNA;A&M;ram:mcipic                   [31m{with RunArexx Command}')
+   call tr('[32m        [31m: [32mCONVERT;-!V#                          [31m{using new BBS Command}')
+   call tr('[32m        [31m: [32m5                                     [31m{from Pfiles or Gfiles}')
+   call tr(cr'[31m   A quick word about argument switches...  [32mSwitches "M, A, S, and N" are')
+   call tr('overriding in that order.  If an "M" is given it will override all others,')
+   call tr('"A, S, and N."  Entering a "A" would override the "S" and "N" but not the')
+   call tr('"M".  For reasons of clarity, you should only use one of these switches at')
+   call tr('a time; it won''t help to use more.  The other switches, "O, L, R, Q, and V"')
+   call tr('are able to be used in any order and as many as wanted.  These rules also')
+   call tr('apply to their counterparts, "{, [, :, ^, !, @, #, $, and %"')
+   call bothhelp
+   call helptag
+   exit
+
+bothhelp:
+   call gt(cr'[31m<more> hit return: ')
+   call tr(cr'[32m   Switches have been added to speed up conversion, a little, and also add')
+   call tr('utilities to view without making a new file, strip all MCI and ANSI codes for')
+   call tr('ASCII, and add or remove carriage returns to the end of every line in a file.')
+   call tr('   The Rexx program A&M should be in your Arexx directory so paths will')
+   call tr('not have to be specified.  However, if you are using the RunArexx program')
+   call tr("(RUNA) then you will need to specify REXX: as the path.")
+   call tr('   Another nice feature of WorkBench is ALIASing...  If you use this program')
+   call tr('a lot from CLI/Shell, put lines like these in the s:shell-startup.  These')
+   call tr("will allow you to just enter 'a2m' or 'm2a' instead of 'rx a&m -???'.")
+   call tr('[31m     ALIAS a2m "rx a&m -M"')
+   call tr('     ALIAS m2a "rx a&m -A"')
+   call tr('     ALIAS viewtext "rx a&m -NV"')
+   call tr('     ALIAS addcr "rx a&m -NL"')
+   call tr("   [31mNote:  [32mWhen using 'A&M' on CNet, the conversion output is a true converted")
+   call tr('output.  This means that you are seeing the file as it will look when')
+   call tr('converted.  When run on CLI/Shell the output will always be ANSI, if you')
+   call tr('are converting to MCI from CLI/Shell then output will be the original ANSI.')
+   call tr('ANSI will view correctly, excepting the Workbench Colors and Fonts.  Final')
+   call tr('output into file will be correct, however.')
+   return
+
+helptag:
+   call gt(cr'[31m<more> hit return: ')
+   call tr(cr'[32m   This program is fully distributable public domain.  I do ask that')
+   call tr('you register use of this program by writing your name, address, phone and')
+   call tr("any comments about 'A&M' by sending it to me at one of the places below.")
+   call tr('This is also where you can send BUG reports...')
+   call tr(cr'[31m   MISSING LINKS BBS, (805) 399-3500, 399-2500 V.FC, OWNER: AberDeen Foxx.')
+   call tr('   FUTURE WORLD BBS,  (313) 255-2464, 2465, or 2466,  USER: AberDeen Foxx.')
+   call tr(cr'[32m   Or if you would like to be sent information about updates or other')
+   call tr('programs then send one dollar (US currency, no check or money order, even')
+   call tr('though the Post Office may say differently) to:')
+   call tr('                                                           (\(\')
+   call tr('[31m   <MISC> Entertainment                                   [32m(OO ") __')
+   call tr("[31m   Attn:  AberDeen Foxx                                 [32m=(' -= )/~_)")
+   call tr('                                                 [32m+----oOO---OOo----+')
+   call tr('[31m   120 Washington Ave. #1                        [32m|  AberDeen Foxx  |')
+   call tr('[31m   Bakersfield, Ca  93308-3459                   [32m+-----------------+'cr)
+   return
+
+selecthelp:
+   call tr(cr'[33mANSI-and-MCI v2.0 (completely written and merged by AberDeen Foxx, 9-93)')
+   call tr(cr'[32m   You may choose one of the following responses from the [31mMETHOD: [32mprompt.')
+   call tr(cr'[31m      A =  [32mMCI to ANSI - to convert a text file with MCI codes in it to')
+   call tr('                         an ANSI coded text file.')
+   call tr('[31m      M =  [32mANSI to MCI - to convert a text file with ANSI codes in it to')
+   call tr('                         an CNet MCI coded text file.')
+   call tr('[31m      S =  [32mSTRIP FILE  - will remove all MCI or ANSI codes, thereby')
+   call tr('                         creating plain monochrome ASCII.')
+   call tr('[31m      V =  [32mVIEW FILE   - only view file given, will not convert and')
+   call tr('                         will not create another destination file.')
+   call tr('[31m      R =  [32mREMOVE      - Remove Carriage Returns from the end of each line')
+   call tr('                         in the text file named, saves as a different file.')
+   call tr('[31m      P =  [32mPUT         - Opposite of REMOVE, this will add Carriage Returns')
+   call tr('                         to the end of every line in a file, with save.')
+   call gt(cr'[31m<more> hit return: ')
+   call tr(cr'[32m   Another way to choose is to use arguments when you run A&M.  Like so:')
+   call tr(cr'[31m  RX A&M -A (or -[)[32m    - Select convert MCI to ANSI.')
+   call tr('[31m  RX A&M -M (or -{)[32m    - Select convert ANSI to MCI.')
+   call tr('[31m  RX A&M -S (or -:)[32m    - Select Strip all to ASCII.')
+   call tr('[31m  RX A&M -O (or -!)[32m    - Force overwrite on output file.')
+   call tr('[31m  RX A&M -L (or -@)[32m    - Append carriage return to end of lines.')
+   call tr('[31m  RX A&M -R (or -#)[32m    - Turn off error recording.')
+   call tr("[31m  RX A&M -Q (or -$)[32m    - Quiet mode, don't show conversion on screen.")
+   call tr('[31m  RX A&M -V (or -%)[32m    - View file only.  No save to destination.')
+   call tr("[31m  RX A&M -N (or -^)[32m    - Null, don't change anything, except CR's. (Null")
+   call tr('[31m                   [32m        must be used to remove or append carriage')
+   call tr('[31m                   [32m        returns only.  Otherwise it will convert.)')
+   call tr(cr'[32mFor furthur info about ARGUMENTS, exit program and enter "RX A&M ?".')
+   call helptag
+   return
+
+exiter:
+   call tr("[31m")close(in)close(out)
+   exit
+
+syntax:
+error:
+   if rc=5 & cnet="CNET" then do
+      parse arg input
+      cnet=0
+      signal choice
+   end
+   call tr("LINE : "sigl||cr||sourceline(sigl)||cr||'ERROR: 'rc', 'errortext(rc))
+   signal exiter

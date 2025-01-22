@@ -1,0 +1,53 @@
+Short:        ANSI/cursor Logoff Matrix for CNet BBS
+Author:       add@pacbell.net
+Uploader:     add pacbell net
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                   _____.  __________.  __________. __ _____
+                  /     |_/   ___    |_/   ___    | \//    /
+                  |     ||     \/    ||     \/    |  /    /
+                  |     ||     /     ||     /     | /    /__
+                  |____/~|__________/~|__________/~ \___/ \/
+                  ------------------------------------------
+                  1oo% C/OFF,v1.0b (20-Feb-97) by Adolescent
+                    ANSI/cursor LogOFF Matrix for CNet BBS
+
+
+
+Info:
+            ANSi/cursor Logoff Matrix for CNet/3                      
+            (displays a configurable menu of pre-logoff activities...)
+
+
+Note:       This program should work on CNet/4 but hasn't been tested. If
+            you have _ANY_ problems with it please let me know and I will
+            fix it ASAP and send it to you...  (I took out a high getuser
+            that has been known to 'shift' in the beta versions.)
+
+
+Features:
+            -  ONline CONFIG ED (see below for needed instructions...)
+            -  Configable COLORS/APPEARANCE
+            -  ANSI/COLOR/CURSOR/etc...
+            -  Replaces _ALL_ Off, O!, Relogon, Quit, etc. functions.
+
+
+
+   Check out the other excellent 1oo% releases on the 1oo% HOMEPAGE:
+
+          http://rummelplatz.uni-mannheim.de/~mics/100.html
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1106     332 69.9% 13-Feb-97 00:51:30  sys.logoff
+    1518     468 69.1% 13-Feb-97 00:51:32  tt2.logoff
+    1389     455 67.2% 13-Feb-97 00:51:32  tt3.logoff
+    5306    2091 60.5% 20-Feb-97 19:55:00  1oo_cOFF.doc
+     340     155 54.4% 20-Feb-97 19:55:06  File_ID.diz
+    5990    2548 57.4% 20-Feb-97 19:55:10  LOGOFF.rexx
+-------- ------- ----- --------- --------
+   15649    6049 61.3% 24-Feb-97 19:56:38   6 files

@@ -1,0 +1,8 @@
+Short:        MegaWho v1.1 - A continuous WHO-scan for multi-line systems.
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Nico van Royen (nico room109 xs4all nl)
+Type:         comm/cnet
+Replaces:     sn_megawho.lha
+Architecture: m68k-amigaos
+
+

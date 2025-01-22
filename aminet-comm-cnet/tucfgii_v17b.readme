@@ -1,0 +1,24 @@
+Short: CNet filelist generator
+Type: comm/bbs 
+Uploader: professor@thgtwy.biloxi.ms.us
+Author: Shawn McNeece
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+   22212   13318 40.0% 29-Nov-92 14:21:00  TUCFGII.big
+: The Ultimate CNet Filelist Generator v1.6b (for larger CNet systems)
+     770     331 57.0% 22-Nov-92 17:45:34  TUCFGII.cfg
+: Sample Config For The Ultimate CNet Filelist Generator
+   16040    6813 57.5% 29-Nov-92 14:16:18  TUCFGII.doc
+: Documentation for TUCFGII By Shawn McNeece
+     396     214 45.9% 28-Nov-92 12:12:16  TUCFGII.exe
+: AMIGA-DOS execute me script. Run from bbsevent.
+   22212   13323 40.0% 29-Nov-92 14:20:38  TUCFGII.sml
+: The Ultimate CNet Filelist Generator v1.6b (for smaller CNet systems)
+     333     164 50.7% 20-Sep-92 11:54:24  ac.displayme
+    1247     440 64.7% 02-Mar-94 17:04:22  TGBBS.displayme
+-------- ------- ----- --------- --------
+   63210   34603 45.2% 02-Mar-94 07:00:00   7 files

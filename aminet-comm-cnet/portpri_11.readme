@@ -1,0 +1,20 @@
+Short: PortPri - change CNet port priorities
+Type: comm/cnet
+Uploader: cloutie@server.uwindsor.ca
+Author: Ray Akey
+
+PortPri allows you to change the task priority of any CNet port, by port
+number.  Pri ranges are -100 to 100.  For CNet/3 only.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+      57      57  0.0% 08-Jul-94 22:26:22  FILE_ID.DIZ
+   10704    6822 36.2% 08-Jul-94 22:26:04  PortPri
+    2705    1349 50.1% 08-Jul-94 22:26:12  PortPri.doc
+    3803     557 85.3% 08-Jul-94 22:30:40  PortPri_11.doc
+    3803     557 85.3% 08-Jul-94 22:30:40  WARES!.displayme
+-------- ------- ----- --------- --------
+   21072    9342 55.6% 09-Jul-94 12:12:36   5 files

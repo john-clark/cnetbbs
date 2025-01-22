@@ -1,0 +1,27 @@
+Short:        FPSAG (Subboard Activity Graph) for CNet!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.00
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4.xx
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/fpsag.lha aminet/comm/cnet/fpsag02.lha
+
+What Is It?
+~~~~~~~~~~
+    This mod creates a bar graph showing the usage of the different subboards
+on your bbs. The user can specify if they wish to view the usage of the Base
+subboards(Message Bases), the UDBase subboards(File Bases), or a Mixture of
+both.
+
+    The graph will show a percentage usage in each area, as well as the total
+number of NEW items placed in that subboard, since FPSAG's last reset. The
+bars will be labeled B or U if the user chooses Mixture, so they'll know if
+the base in question is a Message or File subboard.
+
+    The SysOp (or any user with the "System Operator" priviledge flag set)
+will also see an option to RESET the FPSAG, upon which the reset date will
+be updated to the current date, and all data files will be deleted.
+
+-- Written by Dotoran of Frontiers --

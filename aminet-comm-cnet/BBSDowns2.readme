@@ -1,0 +1,26 @@
+Short: Arexx horse racing game for CNet BBS.
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: 
+
+Imagine you are at a horse track.  You have money in your pocket and feel the 
+urge to gamble.  When you "Go to the Track!" you will be shown a screen 
+containing the horse names for the race and the odds for each to win, place 
+or show.
+
+You will be allowed to bet on a horse to win, place and to show but need not 
+bet on all three.  Once you have placed all your bets the race will begin.  
+The horses will be shown racing across the screen from the starting position 
+to the finish line.  As each horse crosses the finish line the win, place and 
+show horses will be recorded and your bets will be paid off if you have won.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+   23498    6449 72.5% 18-Nov-90 00:17:32  bbsdowns
+    1097     555 49.4% 16-Nov-90 18:44:56  dinstruct
+     256     119 53.5% 25-May-92 13:56:00  Z_MC.Displayme
+-------- ------- ----- --------- --------
+   24851    7123 71.3% 18-Nov-92 07:00:00   3 files

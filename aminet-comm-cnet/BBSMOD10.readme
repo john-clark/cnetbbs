@@ -1,0 +1,24 @@
+Short: Auto upgrade BBSTEXT files for CNET.
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Ken Rastin
+
+
+Have you ever gotten sick of always modifying your BBSTEXT file whenever a new 
+version of Cnet is released? (or a minor upgrade)  This is a program thrown 
+together to help save some of those headaches.
+
+BBS Modifier v1.0 will modify your new BBSTEXT file according to what your 
+old one was from the old version of Cnet.  This will save many hours of work 
+and make you more willing to make those minor updates that are released.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     333     164 50.7% 20-Sep-92 11:54:24  ac.displayme
+    9896    5877 40.6% 16-Jul-92 13:56:18  bbsmod
+    2865    1303 54.5% 16-Jul-92 13:46:10  bbsmod.readme
+-------- ------- ----- --------- --------
+   13094    7344 43.9% 20-Sep-92 06:00:00   3 files

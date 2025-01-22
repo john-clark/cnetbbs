@@ -1,0 +1,20 @@
+Short: A list of CNet's AREXX commands
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Le Chat
+
+
+The Unauthorized CNet Arexx Command List is compiled from Perspective 
+Software's CNet SysOp Manual and Beta Release update notes.  The data 
+contained in  this text file is intended for registered CNet SysOps only.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     696     256 63.2% 06-Dec-92 21:25:58  ac.displayme
+   24588    8039 67.3% 21-Dec-92 18:55:22  CNet_ARexx_List.TXT
+: A complete list of CNet 2.42e Arexx commands/funcs, with good explanations
+-------- ------- ----- --------- --------
+   25284    8295 67.1% 21-Dec-92 07:00:00   2 files

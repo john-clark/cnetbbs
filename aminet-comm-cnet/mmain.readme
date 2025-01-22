@@ -1,0 +1,9 @@
+Short:        Mainmenue changing with Userlevel/Helplevel
+Author:       chaos@link-ba.cl.sub.de (Jonas)
+Uploader:     chaos link-ba cl sub de (Jonas)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Get it.
+This little ARexx-PFile allows you to create different Menues for
+every User/Helplevel your System has.

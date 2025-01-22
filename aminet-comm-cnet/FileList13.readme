@@ -1,0 +1,7 @@
+Short:        A filelister for Cnet 2.63+
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Major upgrade + bugfixes from v1.2.

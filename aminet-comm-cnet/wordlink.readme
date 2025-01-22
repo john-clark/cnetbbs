@@ -1,0 +1,12 @@
+Short:        A Scrabble (tm) like game.
+Author:       seeker@mindgames.com
+Uploader:     seeker mindgames com  (Bill)
+Type:         cnet bbs
+Architecture: m68k-amigaos
+
+Wordlink is an exciting Scrabble (tm) like game for Cnet BBSs.  
+It is a feature packed implementation that will be the most
+popular game on your BBS!  Very easy setup :)
+
+This upload fixes some the problems in the initial upload in
+which the archive did not extract as it was supposed to!

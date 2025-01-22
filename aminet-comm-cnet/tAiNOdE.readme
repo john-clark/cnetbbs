@@ -1,0 +1,13 @@
+Short:        Shows the nodes at the login-sequence!
+Author:       rdc@outside.sb.sub.de
+Uploader:     rdc outside sb sub de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Nodeinfo shows :
+- your nodes
+- infos about your nodes
+- who's online
+- port speed
+
+You can use it at the login sequence or somewhere else!

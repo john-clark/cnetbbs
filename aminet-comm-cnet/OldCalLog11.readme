@@ -1,0 +1,22 @@
+Short:        OldCalLog V1.1 - 14 Separate CalLogs
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.1
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Copy, rename and saves separate CalLogs for Cnet every day up to 14 days.
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/OldCalLog11.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    5020    2221 55.7% 29-Sep-96 17:50:08  oldcallog/OldCalLog.Guide
+    2506     993 60.3% 29-Sep-96 17:43:10  oldcallog/OldCalLog.rexx
+    2342     607 74.0% 29-Sep-96 17:42:14  oldcallog/OldCalLog.Script
+-------- ------- ----- --------- --------
+    9868    3821 61.2% 29-Sep-96 17:53:30   3 files
+
+Operation successful.

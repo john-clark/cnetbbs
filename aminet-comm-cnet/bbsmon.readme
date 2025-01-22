@@ -1,0 +1,49 @@
+Short:        Monitor all User & System Activity!
+Author:       panther@gate.net (Josef Faulkner)
+Uploader:     panther gate net (Josef Faulkner)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+C-Net BBS Monitor
+  Allows a user to monitor all important user activities on the BBS as they
+happen.  Such things as Where, Time Online, Time Left, Olm Waiting, Who
+Hiding Muffling & Chatting, and last command are monitored, and updated
+quickly by only modifiying on-screen text that represents data that has
+changed.  Here is a sample Ascii-Only screen grab:
+
+BBSMonitor v1.0a Help About Restart CmdShell ViewOLM SendOLM Quit + - Scroll
+0*Handle               Where           H*U M*U CU Logon Idle Left  Baud  Cmd
+0-Panther              BBS Monitor     --- --- -- 6.4   0    UNLIM 57600 BBS M
+1                      Idle
+2-Sysop                Conference      --- --- -- 5.9   0.5  UNLIM 14400 j
+3-Guest                Conference      --- --- -- 5.5   0    15.2  14400 j
+4                      Idle
+5-Blah                 Main            --- --- -- 4.3   1.2  25.7  2400  et   
+6                      Idle
+7                      Idle
+8                      Idle
+9                      Idle
+TotalPfiles: 3     Total Calls: 69282  Olm Waiting: No     New Users  : 5
+Time Left  : UNLIM Time Online: 6.4    Time Today : 6.4    Time In Mon: 3.2
+CurrentTime: Fri 31-Mar-1995  6:52p    Last Logoff: Kibo
+
+Features:
+- Supports up to 17 ports on a 24-line screen (more if you set your ET higher)
+- Will allow user to scroll through the list up and down
+- Expand and Shrink monitor window
+- Send & Receive OLM's while in the monitor as well as execute bbs commands
+- Monitors 18 aspects of each user online
+- Monitors 10 aspects of your current status
+- Warns you if you are low on time (less than 10 minutes)
+- Status information for other users color coded for easy recognition
+  for example, Time Left is green when >30 mins, yellow when 30-10 mins, and
+  red when less than 10 minutes.
+- Optimized for speed, and will not take over the processor
+- Includes a standard "WH" type program along with the monitor for users
+  that want just to list the information without entering the monitor
+- Fully 100% safe (will not crash your bbs)
+- Author is available on the internet directly, for quick question answers
+  and support.
+
+If you have any suggestions for C-Net utilities, mail me, and will see
+what I can do

@@ -1,0 +1,43 @@
+Short:    Eases AO like /X's Local Upload, v1.30
+Author:   fate@flory.rhein-main.de (Pieter Hollants)
+Uploader: marlin@cnet577.cts.com (Marlin Schwanke)
+Type:     comm/cnet
+
+Long: Galledis was created to ease putting Files online. It is a CNet
+Implementation of AmiExpress' Local Upload, but with many more
+Features.
+
+A MUST for every Sysop!
+
+New since the last public Release:
+
+v1.22          21 September 1994 - Internal Release
+               Added "Override Port Restriction" Feature.
+
+v1.23          24 September 1994 - Internal Release
+               Added Display of current Configuration.
+
+v1.30          3 October 1994 - Public Release
+               Added Posibility to auto-adopt the first File
+               Added German Documentation.
+
+Written by Fate/Logic CNet Innovation.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     339     177 47.7% 03-Oct-94 12:01:52  FILE_ID.DIZ
+    7615    2644 65.2% 03-Oct-94 12:07:48  Galledis
+   16013    6363 60.2% 03-Oct-94 12:04:14  Galledis.doc
+   18175    7089 60.9% 03-Oct-94 12:03:26  Galledis.dok
+     736     410 44.2% 02-Oct-94 22:38:02  Galledis.readme
+    1053     360 65.8% 02-Oct-94 22:37:18  InstallGalledis
+    5468    2965 45.7% 03-Oct-94 12:00:12  Move
+    6160    2673 56.6% 03-Oct-94 12:00:12  Move.doc
+   39588   25991 34.3% 03-Oct-94 12:00:14  reqtools.library
+   10416    5940 42.9% 03-Oct-94 12:00:14  rexxreqtools.library
+     680     183 73.0% 24-Aug-94 22:14:36  Planet.Displayme
+-------- ------- ----- --------- --------
+  106243   54795 48.4% 10-Oct-94 10:54:20   11 files

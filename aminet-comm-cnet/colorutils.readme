@@ -1,0 +1,42 @@
+Short:        MCI Color Utilities for CNet Amiga BBS's
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v1.2 Color Utilities
+
+   Offers ten different utilities which allow the SysOps/CoSysOps of CNet Amiga BBS's to work with MCI Color codes within files. The following conversions are possible:
+
+    - Change old style Slash Commands to new style Control-Y Commands.
+
+    - Change from the old MCI color order to the new MCI color order.
+
+    - Change from Control-Y MCI Codes to Control-Q MCI Codes.
+
+    - Change from Control-Q MCI Codes to Control-Y MCI Codes.
+
+    - Convert to using ONLY the HIGH INTENSITY MCI Colors(2nd Eight).
+
+    - Convert to using ONLY the LOW  INTENSITY MCI Colors(1st Eight).
+
+    - Change 2nd eight into 1st eight, and 1st eight into 2nd eight.
+
+    - Change one or more MCI Colors to other MCI Colors.
+
+    - Swap two or more MCI Colors within a file.
+
+    - Strip ALL 3 character Control-Y MCI codes from a file.
+
+   New to version 1.2 is the ability to specify just a PATH to convert from, wherein ALL files located within that path will be converted!
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1029     463 55.0% 29-Sep-95 22:27:32  !Frontiers
+   42501    9663 77.2% 07-Oct-95 08:09:20  ColorUtils
+   14684    4386 70.1% 07-Oct-95 08:17:40  ColorUtils.README!
+-------- ------- ----- --------- --------
+   58214   14512 75.0% 07-Oct-95 08:18:50   3 files
+
+--- from dotoran

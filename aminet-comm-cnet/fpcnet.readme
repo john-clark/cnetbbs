@@ -1,0 +1,31 @@
+Short:        FPCNet (BBSText/BBSMenu Downloader)
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.00
+Requires:     AmigaOS 2/3.x, CNet Amiga, v4.23+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/fpcnet.lha
+
+What Is It:
+~~~~~~~~~~
+    This is a little mod for those SysOps who don't mind sharing their
+BBSTEXT and BBSMENU files with other SysOps.
+
+    The program has the ability of being used as a command on your bbs, or
+only from within a "SysOp Chat" session(in which case the SysOp would KNOW
+the files were going to be downloaded, and by whom).
+
+    The program will first check your config values to see if you are set
+to use multiple text sets, and if so, a menu of these sets will be shown to
+the user allowing them to pick one from the list. If you are only using one
+set of text files, the menu is not displayed.
+
+    Once chosen, the files are packed together using LHA, and the newly
+created archive is placed in the user's Select Buffer.
+
+    Another variable allows you to specify the "Download Byte Cost" that
+downloading the file would incur upon the user.
+
+-- Written by Dotoran of Frontiers --

@@ -1,0 +1,26 @@
+Short:        Wall Street Blues, stock market game v2.0
+Author:       Charles VanTuyl
+Uploader:     johnw kvnet org (John Wells)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+	4 December 1994: v2.0 Well, finally an update! What to improve on
+this fine game? Well, I started by expanding the company biographies
+(Renamed to Company Prospectus). Seems you always have one of these before
+you get into any investing anyway. It now gives you a history of the stocks
+performance and an average gain percentage. Any of your users try to keep
+this on paper? I also added the menu items for the screens you see when you
+first get into the game. Seems I was always getting out of the game and
+going back in to see them again. I added the Dow Jones index and the Dow
+Jones percentage of gain. This works like a users account owning 1 share of
+each stock. When splits occur then it adds a share so the index keeps
+rising. When a stock goes bankrupt then it resets the shares in the Dow
+Jones to 1. I haven't heard from anybody on suggestions for changes so the
+resulting product is from my own imagination from the basic game. I do
+appreciate the few people who have called to inform me of the bugs they
+found. It helps alot in getting out a quality game.
+
+That's it! This Pfile is from The Gold City User's Group BBS (502)942-3660
+Located on Ft. Knox, Kentucky  Programming by Charles A. Van Tuyl
+AUGNet node 222:5000/2    C-Link! node 911:6300/4
+Plenty of free Cnet Pfiles and Utilities Online!

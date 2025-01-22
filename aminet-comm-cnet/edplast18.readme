@@ -1,0 +1,25 @@
+Short:        EDPLast18.lha : LastCallers program, and editing utility for CNET BBS
+Author:       Edward D. Peyton
+Uploader:     edp pen net
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This program combines a macro, automessage, wall, whobanners, and last
+callers program! I followed the pattern of Who banners, except instead of
+for the WHO program, it is for the last Callers.
+
+The user gets to define his own banner to place into the string that all
+users will see when they log on.  A default banner is chosen to start,
+but with the EDITLAST.REXX program, they can edit it themselves. I
+would have liked to make it longer than 40 characters, but, alas, my
+users and I like to have some information on each caller, too. :-)  I have
+abbreviated where possible, and managed to come out with a 78 character
+display!
+
+Edward D. Peyton
+Atlantis BBS: (904) 479-3133 | 479-4080
+WebSite: http://www.pen.net/~atlantis
+email : edp@pen.net  Edward Peyton@1:3612/369.0
+snailmail:
+5100 N 9th Ave F-601
+Pensacola, FL 32504

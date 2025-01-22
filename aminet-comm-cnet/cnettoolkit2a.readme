@@ -1,0 +1,159 @@
+Short:        Numerous ARexx & MCI Routines for Cnet!!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v2.0 has even MORE great finds for CNet! In this offering, PMK, myself and others bring you over 80 different tidbits written in both ARexx and MCI!
+
+ARexx Routines:
+        [01] : From "Expanded" date to "Sorted" or "Internal" date format.
+        [02] : From x5xxxxx GU Value to "Sorted" or "Internal" date format.
+        [03] : From "Sorted" or "Internal" date to "Expanded" date format.
+        [04] : "Signed" Numeric Format into "UnSigned" Numeric Format.
+        [05] : "UnSigned" Numeric Format into "Signed" Numeric Format.
+        [06] : Numeric Range Parser: [ -2 19- 4 7-9 11.13.15,17 ]
+        [07] : CNet-like input routine, using MCI.
+        [08] : Find and return BBSTEXT/BBSMENU line entry.
+        [09] : Check if a user is Suboperator in current subboard.
+        [10] : Checks if MCI is enabled in current subboard.
+        [11] : Convert from 12/24 hour time format to 12/24/min format.
+        [12] : External Library Loader
+        [13] : View, Enable, Disable or Toggle "Priviledge" Flags.
+        [14] : Get "Arguments" from last command.
+        [15] : Read "Cursor Key" / "Return/Enter" Keyboard Input.
+        [16] : Convert "UPPERCASE" to "lowercase" text.
+        [17] : Pauses output for "x" number of seconds the RIGHT way!
+        [18] : Checks for "Loss of Carrier" in your Pfiles!
+        [19] : An informative "Error Checking" routine.
+        [20] : Positions cursor for printing anywhere on the screen.
+        [21] : Horizontal Text Scroller Number 1.
+        [22] : Horizontal Text Scroller Number 2.
+        [23] : Read the joystick(s) and firebutton(s).
+        [24] : First attempt at MOUSE capability. (95% Complete!)
+        [25] : Disable or Enable the MORE? prompt, regardless of setting!
+        [26] : Muffle ALL ports, regardless of setting!
+        [27] : Extended SelectFile Routine.
+        [28] : Add line of text to specified LOG file.
+        [29] : Check Port Menu(s) Checkmark Status.
+        [30] : Send Text File as CNet MAIL to specified User.
+        [31] : Send SystemOLM to current user.
+        [32] : Add keystrokes to other ports from present port.
+        [33] : A QUICK "Who" for SysOps, listing Access Group Number.
+        [34] : View "port" log of specified port. (Pre "calls" log).
+        [35] : Send Line Noise to a port (Ability to kick them off too!)
+        [36] : UnLock User Accounts (That May NOT Have Been Previously!)
+        [37] : Replace <input> with <output> within string of <text>.
+        [38] : Find and return BBSMENU section line(s).
+        [39] : Clears a specific port, by dumping the user.
+        [40] : EnCode & DeCode text strings, using a Numeric Key.
+
+MCI/Text Routines:
+
+   THE BBSMENU ENHANCEMENTS:
+
+       [M01] : "Reverse NSal" - Show New Messages, THEN the New Files.
+       [M02] : Disable use of the "SuperUser" help level.
+       [M03] : Quick Upload Mode for ZModem users.
+       [M04] : Some quick aliases for Menu # 2; Available Everywhere.
+       [M05] : Some quick aliases for Menu's 4; UD/Base and 6; G/P/News.
+       [M06] : Here are 32 computer types you could use for Menu # 30.
+
+   THE BBSTEXT ENHANCEMENTS:
+
+       [T01] : Split the GFiles/PFiles/News display into 2 columns.
+       [T02] : Split the G/P/N display into 2 columns with BOXES.
+       [T03] : Colorize the +/-/!/v/p flag in the file descriptions.
+       [T04] : Colorize the +/-/* area flag, shown when listing subboards.
+       [T05] : "Sent By: <handle>/<real name>" in the file desciptions.
+       [T06] : Display banner before Uploading, Downloading or QWK Uploading.
+       [T07] : Force ALL users into IBM-ANSI at logon.
+       [T08] : Display filenames in UDBase as <NAME>.<SUFFIX>
+       [T09] : Help-Header for Mail Read. - Shown when reading Private mail.
+       [T10] : Display download count, instead of responses in UDBase.
+       [T11] : Decrease "dead space" size in Base/UDBase LIST command.
+       [T12] : USE the "dead space" above, so it's NOT "dead space"!
+
+   OTHER MCI ENHANCEMENTS:
+
+       [O01] : Guideline Entry-text for Mail (and File) Subboards.
+       [O02] : How to test for Infinite File/Byte Credit using MCI.
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+   25148    4595 81.7% 04-Oct-94 12:11:46  ExamplePictures/Color_FFlag.PIC
+   15242    3310 78.2% 04-Oct-94 12:50:56  ExamplePictures/Color_SFlag.PIC
+    7250    2089 71.1% 04-Oct-94 12:14:02  ExamplePictures/GuideLines_ANSI.PIC
+    7368    2692 63.4% 04-Oct-94 12:12:54  ExamplePictures/GuideLines_Bevel2.PIC
+   15494    4277 72.3% 04-Oct-94 12:22:16  ExamplePictures/Reverse_NSAL.PIC
+   10800    2366 78.0% 04-Oct-94 12:00:22  ExamplePictures/2Columns_ANSI.PIC
+   10276    2285 77.7% 04-Oct-94 12:01:12  ExamplePictures/2Columns_ASCII.PIC
+    6656    2276 65.8% 04-Oct-94 12:13:14  ExamplePictures/GuideLines_Bevel.PIC
+   21834    7138 67.3% 04-Oct-94 16:06:40  ExamplePictures/MailHeader.PIC
+   17818    5067 71.5% 04-Oct-94 12:12:26  ExamplePictures/SentBy.PIC
+   10980    2329 78.7% 04-Oct-94 12:01:38  ExamplePictures/2Columns.PIC
+    6868    2107 69.3% 04-Oct-94 12:13:36  ExamplePictures/GuideLines_ASCII.PIC
+     120      99 17.5% 16-Dec-94 09:58:04  Routines/DECODE
+     120      99 17.5% 16-Dec-94 09:57:48  Routines/ENCODE
+     159     133 16.3% 13-Dec-94 19:04:52  Routines/LOG
+     540     285 47.2% 13-Dec-94 19:14:24  Routines/PARSE_NOSORT
+     108     105  2.7% 13-Dec-94 19:05:10  Routines/PMENU
+     294     227 22.7% 13-Dec-94 19:13:16  Routines/SCROLL
+     355     245 30.9% 13-Dec-94 19:13:02  Routines/SCROLLER
+      99      93  6.0% 13-Dec-94 19:05:58  Routines/ADDEM
+     423     254 39.9% 13-Dec-94 19:07:42  Routines/BMTXT
+     232     183 21.1% 13-Dec-94 19:07:58  Routines/DUMPUSER
+     993     746 24.8% 13-Dec-94 19:06:50  Routines/LNOISE
+     137     104 24.0% 13-Dec-94 19:06:32  Routines/LOGPO
+     200     147 26.5% 13-Dec-94 19:05:26  Routines/MAIL
+     128     109 14.8% 13-Dec-94 19:07:24  Routines/REPLACE
+     199     152 23.6% 13-Dec-94 18:55:42  Routines/SDATE
+     274     202 26.2% 13-Dec-94 19:05:40  Routines/SYSOLM
+     208     156 25.0% 13-Dec-94 19:07:10  Routines/UNLOCK
+     434     252 41.9% 13-Dec-94 19:06:12  Routines/WHO
+     155     130 16.1% 13-Dec-94 18:58:06  Routines/BBSLINE
+     160     123 23.1% 13-Dec-94 18:56:26  Routines/EDATE
+     220     169 23.1% 13-Dec-94 18:56:06  Routines/GDATE
+      93      87  6.4% 13-Dec-94 18:57:44  Routines/INPUT
+     157     130 17.1% 13-Dec-94 18:59:38  Routines/LOADLIB
+     120     109  9.1% 13-Dec-94 18:58:54  Routines/MCIENA
+     822     388 52.7% 13-Dec-94 19:14:00  Routines/PARSE_SORT
+      53      53  0.0% 13-Dec-94 18:56:46  Routines/SIGNED
+     196     151 22.9% 13-Dec-94 18:58:24  Routines/SUBOP
+     350     197 43.7% 13-Dec-94 18:59:18  Routines/TIM
+      73      67  8.2% 13-Dec-94 18:57:04  Routines/UNSIGNED
+     125     103 17.6% 13-Dec-94 19:00:24  Routines/ARGS
+      34      34  0.0% 13-Dec-94 19:02:12  Routines/AT
+     254     181 28.7% 13-Dec-94 19:01:34  Routines/CHECK
+     311     155 50.1% 13-Dec-94 19:00:40  Routines/GETCURSOR
+     196     150 23.4% 13-Dec-94 19:02:56  Routines/JOY
+      64      64  0.0% 13-Dec-94 19:00:58  Routines/LOWER
+      40      40  0.0% 13-Dec-94 19:03:42  Routines/MORE
+     172     135 21.5% 13-Dec-94 19:03:10  Routines/MOUSE
+      42      42  0.0% 13-Dec-94 19:03:30  Routines/NOMORE
+      33      33  0.0% 13-Dec-94 19:01:16  Routines/PAUSE
+    1093     435 60.2% 13-Dec-94 19:00:06  Routines/PRIV
+     468     291 37.8% 13-Dec-94 19:12:04  Routines/SYNTAX
+    2138     974 54.4% 16-Dec-94 01:40:52  !!!READ_ME_FIRST!
+    1956     587 69.9% 16-Dec-94 09:59:06  !!Archive.List
+    1018     453 55.5% 11-Nov-94 17:06:10  !FRONTIERS!
+    1386     663 52.1% 15-Nov-94 16:37:40  !The_Authors
+    4631    1435 69.0% 13-Dec-94 18:09:00  CNet_BBSTEXT.Lines!
+    2803    1281 54.2% 16-Dec-94 08:27:52  CNet_ToolKit.HISTORY!
+    8054    3749 53.4% 16-Dec-94 08:53:58  CNet_ToolKit.INTRO
+   61746   18647 69.8% 16-Dec-94 09:49:16  CNet_ToolKit.REXX!
+      50      50  0.0% 13-Dec-94 19:04:12  Routines/MUFFLE
+     517     306 40.8% 13-Dec-94 19:04:36  Routines/SELFILE
+   31096    8631 72.2% 16-Dec-94 01:51:42  CNet_ToolKit.TEXT!
+    1345     380 71.7% 24-Feb-94 22:45:52  Flux_Point.txt
+    5653    2128 62.3% 16-Dec-94 00:20:56  FPButton
+    4120    1596 61.2% 16-Dec-94 00:20:36  FPButton.README!
+     651     282 56.6% 16-Dec-94 01:13:40  Menu30
+     941     470 50.0% 13-Dec-94 10:08:42  NewPfile
+    1632     712 56.3% 13-Dec-94 10:57:44  RunALL
+    2535    1062 58.1% 13-Dec-94 11:14:26  RunALL.README!
+-------- ------- ----- --------- --------
+  298260   90795 69.5% 16-Dec-94 10:00:48   71 files
+
+--- from dotoran

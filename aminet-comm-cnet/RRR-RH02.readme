@@ -1,0 +1,27 @@
+Short:        Rainbow Hydra v0.2 - CNet Hydra daemon
+Author:       rrr@klinja.fipnet.fi (Reijo Raiskale)
+Uploader:     rrr klinja fipnet fi (Reijo Raiskale)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                 Rainbow Hydra v0.2 for CNet/3 by RRR
+
+          Named after the famous Rainbow Dragon which is truly
+                          awesome dwarf eater.
+
+                           Released 26-apr-95
+
+
+ Rainbow Hydra is a CNet Hydra daemon which uses Olaf Barthel's
+ HydraCom rev 5 for operation. In case you don't know, Hydra is
+ a bi-directional chat protocol allowing user to upload and
+ download at the same time.
+
+ Features include for example file-descriptions, intelligent
+ select-list parsing (takes a note of possible free-download
+ access and daily credits) and it will modify user statistics
+ after transfer (total UL, DL, credits etc)...
+
+ v0.2 has several bugs fixed, it understands freedownload-files
+ and has upload time rewarding option. And of course some other
+ bells & whistles. Keep mailing those update suggestions. :)

@@ -1,0 +1,20 @@
+Short:        CList V0.82 The ultimate CNet3 filelister
+Author:       flohoff@dataland.owl.de
+Uploader:     dirkw uni-paderborn de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+ CList is a CNet V3.05c+ Filelister tool. You another ? Yes it is another
+ tool. But i tested lots and i didn`t find what i searched.
+
+ Features:
+
+  - Multiple filelists in one config file
+  - Pattern matching for selecting subdirs
+  - Automatic Header/Footer adding
+  - List variable number of days in past. (NewFiles)
+
+ I had a long discussion with Jens Boenisch about his MBLister. I proved
+ him lots of bugs but he always stood on the point that his MBLister (V2.3)
+ was Bug free. So i decided to write my own.
+ (Look into the SHOWPATH option MB2.2 trashes MB2.3 crashes)

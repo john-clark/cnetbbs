@@ -1,0 +1,28 @@
+Short:        FPEX (Exchange Byte to File Credits)!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.10
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4.xx
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/fpex.lha aminet/comm/cnet/fpex101.lha
+
+Introduction:
+~~~~~~~~~~~~
+  On my BBS I keep a 1:5 byte and file ratio, plus I give 10% bonus bytes to
+the Uploader, each time his upload is downloaded! (Using CNet's built-in
+features.) - However several of my good users sometimes run out of file
+credits, but still have lot's of byte credits! - Here's the solution!
+
+  FPExchange! - It allows the user to 'Exchange' some of their Byte Credits
+into File Credits! - The 'price' of a file credit is based on the average
+byte size the user has uploaded! (Uploaded Bytes / Uploaded Files = PRICE)
+
+  The user has to have uploaded a minimum of 512K, called the board at least
+10 times, and be really low on credits, as it will not allow a user to have/
+buy more than 10 file credits! - These values can be changed by editing the
+"FPEXchange" program, and change the four variables at the start of the
+program.
+
+-- Written by Dotoran of Frontiers --

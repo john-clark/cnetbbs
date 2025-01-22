@@ -1,0 +1,37 @@
+Short:        A Word Search Game for CNet Amiga 3/4!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.01
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.38+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_searcher.lha
+
+v2.01 of my Word Searcher. This program comes with 56 lists of words the user 
+can choose from. They can then choose a grid size from 14x14 to 18x35 to hide 
+the words in. They can even specify which directions could be used to hide the 
+words(so if you hate the diagonals, for instance, you can turn them off).
+
+Armed with this info, the file flies through hiding the words, then presents 
+the users with a neat ANSI screen. Using ansi cursor keys and the numeric 
+keypad, the user moves around the grid finding the words. If they're having 
+trouble, they can opt to get 1 of four types of HINTS. The game can tell them 
+the next UNFOUND word, it can highlight all occurrances of a specific letter,
+it can list ALL the words which could have been hidden, with those found and
+those skipped color coded, or it can actually show you an Answer Grid!
+
+If the user stays with it and completes the entire game, they'll be added to 
+the CHAMPS file for that puzzle. 15 entries exist in each Champs file, which 
+lists the user's handle, the puzzle's dimensions, how many directions could 
+have been used to hide the words, as well as how LONG it took them to complete 
+the puzzle, in hours, minutes, and seconds! (If the Answers Hint is used, you
+won't be eligible for a High Score!)
+
+There are even commands to let you create your OWN puzzle word lists, or to
+take an existing list and create a FILE for DOWNLOAD of a Puzzle, with Word
+List and accompanying Answer Grid!
+
+Instructions on how to add puzzles of your OWN are also included!
+
+-- Written by Dotoran of Frontiers --

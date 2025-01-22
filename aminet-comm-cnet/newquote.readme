@@ -1,0 +1,10 @@
+Short:        A replacement for the std CNet quotedoor.
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
++ A little fatser than the standard one 
+  No limit of the length of the quotes
+
+- Written in AREXX , yuak! :)

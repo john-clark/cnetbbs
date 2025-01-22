@@ -1,0 +1,13 @@
+Short:        Frees CNet ports from hanging doors, v1.0
+Author:       fxmts205@rz.uni-frankfurt.de (Pieter Hollants)
+Uploader:     fxmts205 rz uni-frankfurt de (Pieter Hollants)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+KillPFile is a hack to free CNet ports from hanging if a door forgot to run
+through  the  Shutdown()  routine.   It  manually  asks  the port specified
+through arguments to shut down(), which would have normally been the job of
+the door.
+
+KillPFile was born on suggestions by Shaun Gamble (Verbal Verbatim BBS,
+Australia) and help from Ray Akey, the new CNet/4 owner and developer.

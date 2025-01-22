@@ -1,0 +1,296 @@
+Short: Battlelands game pfile for CNet
+Type: comm/cnet
+Uploader: marlin@cnet577.cts.com
+
+Long:
+
+DATE: JULY 8TH, 1994
+VERSION: BATTLE LANDS 0.51
+
+	* Added the continuous combat for those of you who know you are
+		gonna win the fight.
+
+	* Added critical hit for natural rolls of 20 for both man and
+		monster so even if you can't hit an armor class there is a
+		1 in 20 chance that you might anyway.
+
+	* If offline an Assassin will do his natural critical hits if
+		attacked by another player in the arena.
+
+
+SETUP:
+
+	1. Adopt Battle Lands (BL.PD) as an Arexx pfile.
+	2. Turn off the MORE prompt.
+	3. Run BLMAINT nightly.
+
+	That's it.
+
+	The registered version 2.0 is currently being tested as I have added
+	head to head battling in the arena between two players online.
+
+TO REGISTER:
+
+	Send $15.00 to the following address. If you want it mailed to you
+	then send $17.00. Otherwise send the 15 bucks and call the BBS listed
+	at the bottom to get the registered version.
+
+
+SEND MONEY TO:
+
+Wayne Stewart
+8337 Washington Village Drive
+Centerville, Ohio
+45458
+
+
+DOWNLOAD REGISTERED VERSION AFTER FEE PAYMENT:
+
+The Doctor's Office
+Dayton, Ohio
+(513)256-3809
+
+
+WHAT IS IN IT:
+
+	It is about 3 times bigger as far as data and what you can do as
+	well as having all the computer networks, skills and it is winnable.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     616     315 48.8% 11-Dec-80 12:11:38  BattleLands/Armor/ARM1
+     573     342 40.3% 01-Jan-80 01:40:02  BattleLands/Docs/alien
+     221     155 29.8% 03-Jan-94 22:35:26  BattleLands/Docs/bank15
+     220     153 30.4% 03-Jan-94 22:37:12  BattleLands/Docs/bank16
+     223     154 30.9% 03-Jan-94 22:44:48  BattleLands/Docs/bank17
+     221     153 30.7% 03-Jan-94 22:48:24  BattleLands/Docs/bank18
+     220     153 30.4% 03-Jan-94 22:47:26  BattleLands/Docs/bank19
+     217     154 29.0% 03-Jan-94 22:49:48  BattleLands/Docs/bank20
+     220     162 26.3% 03-Jan-94 22:57:34  BattleLands/Docs/bank21
+     211     150 28.9% 03-Jan-94 22:57:06  BattleLands/Docs/bank22
+     178     141 20.7% 03-Jan-94 18:38:24  BattleLands/Docs/bank23
+     184     140 23.9% 03-Jan-94 18:41:12  BattleLands/Docs/bank24
+     221     147 33.4% 03-Jan-94 22:56:06  BattleLands/Docs/bank25
+     185     138 25.4% 01-Jan-80 02:19:06  BattleLands/Docs/bank26
+     184     139 24.4% 01-Jan-80 02:23:24  BattleLands/Docs/bank27
+     183     138 24.5% 01-Jan-80 02:24:34  BattleLands/Docs/bank28
+     568     325 42.7% 01-Jan-80 00:28:10  BattleLands/Docs/class1
+     727     419 42.3% 01-Jan-80 00:36:22  BattleLands/Docs/class2
+     656     373 43.1% 01-Jan-80 00:40:50  BattleLands/Docs/class3
+     523     314 39.9% 01-Jan-80 00:44:08  BattleLands/Docs/class4
+     504     316 37.3% 01-Jan-80 00:55:16  BattleLands/Docs/class5
+     494     301 39.0% 01-Jan-80 00:58:20  BattleLands/Docs/class6
+     590     357 39.4% 01-Jan-80 05:07:42  BattleLands/Docs/end
+     324     208 35.8% 01-Jan-80 05:03:04  BattleLands/Docs/gate
+     953     564 40.8% 01-Jan-80 07:59:54  BattleLands/Docs/gov1
+     302     206 31.7% 01-Jan-80 08:31:32  BattleLands/Docs/gov10
+     399     263 34.0% 01-Jan-80 08:39:08  BattleLands/Docs/gov11
+     555     343 38.1% 01-Jan-80 08:38:34  BattleLands/Docs/gov12
+     922     541 41.3% 01-Jan-80 08:48:02  BattleLands/Docs/gov13
+    2788    1404 49.6% 01-Jan-80 09:06:44  BattleLands/Docs/gov14
+     648     398 38.5% 01-Jan-80 09:13:06  BattleLands/Docs/gov15
+     829     502 39.4% 01-Jan-80 07:53:14  BattleLands/Docs/gov2
+     886     535 39.6% 01-Jan-80 07:53:56  BattleLands/Docs/gov3
+     308     236 23.3% 01-Jan-80 07:54:10  BattleLands/Docs/gov4
+     639     414 35.2% 01-Jan-80 07:54:36  BattleLands/Docs/gov5
+     836     496 40.6% 01-Jan-80 07:54:48  BattleLands/Docs/gov6
+     380     263 30.7% 01-Jan-80 07:54:58  BattleLands/Docs/gov7
+     437     281 35.6% 01-Jan-80 07:55:12  BattleLands/Docs/gov8
+     749     434 42.0% 01-Jan-80 07:55:28  BattleLands/Docs/gov9
+     196     139 29.0% 01-Jan-80 03:14:02  BattleLands/Docs/hangar
+    2609    1392 46.6% 07-Mar-85 19:40:26  BattleLands/Docs/hints
+     782     459 41.3% 05-Jan-94 20:51:52  BattleLands/Docs/hist10
+    1254     681 45.6% 05-Jan-94 21:01:28  BattleLands/Docs/hist11
+     629     408 35.1% 05-Jan-94 21:07:12  BattleLands/Docs/hist12
+     584     380 34.9% 05-Jan-94 21:16:38  BattleLands/Docs/hist13
+     342     235 31.2% 05-Jan-94 21:33:40  BattleLands/Docs/hist14
+     884     503 43.0% 05-Jan-94 21:41:46  BattleLands/Docs/hist15
+    1242     658 47.0% 05-Jan-94 21:53:16  BattleLands/Docs/hist16
+     977     553 43.3% 05-Jan-94 22:01:30  BattleLands/Docs/hist17
+    1211     661 45.4% 05-Jan-94 22:20:24  BattleLands/Docs/hist18
+     755     436 42.2% 03-Jan-94 18:21:38  BattleLands/Docs/hos15
+     799     477 40.3% 03-Jan-94 18:21:54  BattleLands/Docs/hos16
+     599     368 38.5% 03-Jan-94 18:22:08  BattleLands/Docs/hos17
+     510     317 37.8% 03-Jan-94 18:22:22  BattleLands/Docs/hos18
+     758     441 41.8% 03-Jan-94 18:22:40  BattleLands/Docs/hos19
+     945     565 40.2% 03-Jan-94 18:29:52  BattleLands/Docs/hos20
+     311     217 30.2% 03-Jan-94 18:32:12  BattleLands/Docs/hos21
+     236     178 24.5% 03-Jan-94 22:27:08  BattleLands/Docs/hos22
+     312     222 28.8% 03-Jan-94 22:28:00  BattleLands/Docs/hos23
+     400     237 40.7% 01-Jan-80 03:45:18  BattleLands/Docs/info1
+     644     370 42.5% 01-Jan-80 03:52:06  BattleLands/Docs/info2
+    1203     636 47.1% 01-Jan-80 03:59:52  BattleLands/Docs/info3
+     838     451 46.1% 01-Jan-80 01:16:04  BattleLands/Docs/info4
+    1259     646 48.6% 01-Jan-80 04:13:04  BattleLands/Docs/info5
+     429     258 39.8% 01-Jan-80 07:55:40  BattleLands/Docs/magic11
+     306     185 39.5% 01-Jan-80 03:07:30  BattleLands/Docs/magic12
+     384     247 35.6% 01-Jan-80 03:10:42  BattleLands/Docs/magic13
+     309     203 34.3% 01-Jan-80 03:16:06  BattleLands/Docs/magic14
+     320     214 33.1% 01-Jan-80 03:15:34  BattleLands/Docs/magic15
+     323     212 34.3% 01-Jan-80 03:18:36  BattleLands/Docs/magic16
+     279     185 33.6% 01-Jan-80 03:20:50  BattleLands/Docs/magic17
+     284     195 31.3% 01-Jan-80 03:22:40  BattleLands/Docs/magic18
+     278     189 32.0% 01-Jan-80 03:24:46  BattleLands/Docs/magic19
+     320     216 32.5% 01-Jan-80 03:26:42  BattleLands/Docs/magic20
+     277     186 32.8% 01-Jan-80 03:28:30  BattleLands/Docs/magic21
+     318     207 34.9% 01-Jan-80 03:31:02  BattleLands/Docs/magic22
+     309     207 33.0% 01-Jan-80 03:32:44  BattleLands/Docs/magic23
+     405     270 33.3% 01-Jan-80 03:37:02  BattleLands/Docs/magic24
+     228     177 22.3% 03-Jan-94 20:30:24  BattleLands/Docs/magic25
+     153     120 21.5% 01-Jan-80 03:15:26  BattleLands/Docs/office
+    1174     646 44.9% 06-Jan-94 15:21:12  BattleLands/Docs/race1
+     635     377 40.6% 06-Jan-94 15:27:30  BattleLands/Docs/race2
+     550     319 42.0% 06-Jan-94 15:33:00  BattleLands/Docs/race3
+     716     417 41.7% 06-Jan-94 15:39:14  BattleLands/Docs/race4
+     647     387 40.1% 06-Jan-94 15:46:24  BattleLands/Docs/race5
+     950     517 45.5% 06-Jan-94 15:54:06  BattleLands/Docs/race6
+     906     563 37.8% 11-Dec-80 09:13:30  BattleLands/Docs/reli1
+    1091     389 64.3% 11-Dec-80 09:13:18  BattleLands/Docs/RELI2
+    1485     651 56.1% 11-Dec-80 11:33:16  BattleLands/Docs/RELI3
+    1467     663 54.8% 11-Dec-80 11:33:34  BattleLands/Docs/RELI4
+    1385     597 56.8% 11-Dec-80 11:33:54  BattleLands/Docs/RELI5
+    1030     514 50.0% 11-Dec-80 11:34:12  BattleLands/Docs/RELI6
+    1162     566 51.2% 11-Dec-80 11:34:26  BattleLands/Docs/RELI7
+    1040     504 51.5% 11-Dec-80 11:34:50  BattleLands/Docs/RELI8
+     769     457 40.5% 01-Jan-80 03:12:22  BattleLands/Docs/ruins
+     202     135 33.1% 03-Jan-94 20:32:22  BattleLands/Docs/scode3000
+     717     406 43.3% 01-Jan-80 03:07:36  BattleLands/Docs/temple
+     514     321 37.5% 01-Jan-80 01:43:58  BattleLands/Docs/wizard
+    2986     458 84.6% 21-May-94 10:48:32  BattleLands/Maps/1
+    1541     173 88.7% 22-May-94 06:52:44  BattleLands/Maps/2
+    1349     183 86.4% 22-May-94 06:54:14  BattleLands/Maps/3
+    2062     254 87.6% 22-May-94 06:54:28  BattleLands/Maps/4
+    1199     155 87.0% 22-May-94 06:54:40  BattleLands/Maps/5
+    2765     186 93.2% 22-May-94 05:27:28  BattleLands/Maps/6
+    1874     393 79.0% 06-Jan-94 12:12:30  BattleLands/Maps/map1.anstest
+    1239     194 84.3% 06-Jan-94 12:11:22  BattleLands/Maps/map2.anstest
+    1176     219 81.3% 01-Jan-80 02:01:26  BattleLands/Maps/map3.anstest
+    1227     260 78.8% 01-Jan-80 02:01:36  BattleLands/Maps/map4.anstest
+     905     184 79.6% 01-Jan-80 02:28:32  BattleLands/Maps/map5.anstest
+    1205     188 84.3% 01-Jan-80 02:29:42  BattleLands/Maps/map6.anstest
+    1464     274 81.2% 22-May-94 04:40:42  BattleLands/Maps/MAPBACK
+     992     342 65.5% 01-Jan-80 01:37:08  BattleLands/Menus/armor.ans
+    1519     517 65.9% 01-Jan-80 02:01:36  BattleLands/Menus/bmarket.ans
+    1641     399 75.6% 01-Jan-80 00:53:08  BattleLands/Menus/class.ans
+    1028     336 67.3% 01-Jan-80 01:11:08  BattleLands/Menus/comp.ans
+     561     232 58.6% 01-Jan-80 01:36:34  BattleLands/Menus/item.ans
+    1351     472 65.0% 01-Jan-80 00:53:50  BattleLands/Menus/menu1.ans
+    1289     469 63.6% 01-Jan-80 03:15:52  BattleLands/Menus/menu2.ans
+    2155     421 80.4% 01-Jan-80 04:24:28  BattleLands/Menus/race.ans
+     802     345 56.9% 01-Jan-80 01:37:44  BattleLands/Menus/school.ans
+     604     200 66.8% 01-Jan-80 01:03:50  BattleLands/Menus/shop.ans
+     913     378 58.5% 01-Jan-80 01:38:10  BattleLands/Menus/spell.ans
+    1378     447 67.5% 01-Jan-80 01:38:16  BattleLands/Menus/weapon.ans
+     106      88 16.9% 12-Dec-80 19:14:20  BattleLands/Monsters/Gate Guardian
+    1686     803 52.3% 15-Dec-80 19:33:50  BattleLands/Monsters/MON1
+    1354     645 52.3% 11-Dec-80 13:26:54  BattleLands/Monsters/MON10
+     642     332 48.2% 13-Dec-80 09:05:06  BattleLands/Monsters/MON11
+     397     232 41.5% 06-Feb-94 19:25:48  BattleLands/Monsters/MON12
+     492     270 45.1% 01-Jan-80 10:07:56  BattleLands/Monsters/MON13
+    1064     555 47.8% 15-Dec-80 13:57:54  BattleLands/Monsters/MON2
+    1144     587 48.6% 15-Dec-80 13:58:12  BattleLands/Monsters/MON3
+     908     457 49.6% 15-Dec-80 13:58:44  BattleLands/Monsters/MON4
+    1405     723 48.5% 15-Dec-80 12:30:34  BattleLands/Monsters/MON5
+    1517     704 53.5% 15-Dec-80 12:31:00  BattleLands/Monsters/MON6
+    1565     766 51.0% 15-Dec-80 12:31:24  BattleLands/Monsters/MON7
+    1339     618 53.8% 12-Dec-80 12:04:36  BattleLands/Monsters/MON8
+    1304     617 52.6% 11-Dec-80 13:18:40  BattleLands/Monsters/MON9
+      90      73 18.8% 06-Feb-94 19:29:08  BattleLands/Monsters/Udrellum
+     857     319 62.7% 12-Dec-80 16:02:52  BattleLands/Screens/alien.ans
+    1149     377 67.1% 12-Dec-80 23:06:48  BattleLands/Screens/arena.ans
+     929     291 68.6% 12-Dec-80 15:23:14  BattleLands/Screens/BASE.ANS
+    1218     311 74.4% 12-Dec-80 13:11:10  BattleLands/Screens/battle.ans
+    1462     414 71.6% 12-Dec-80 18:14:36  BattleLands/Screens/Castle.ans
+     773     270 65.0% 12-Dec-80 14:05:58  BattleLands/Screens/Cave.ans
+     651     248 61.9% 07-Jul-94 22:56:44  BattleLands/Screens/COMBAT
+     245     144 41.2% 12-Dec-80 12:52:18  BattleLands/Screens/dead.ans
+    2406     505 79.0% 14-Dec-80 15:37:00  BattleLands/Screens/HELP.ANS
+     998     244 75.5% 04-Jan-94 15:56:42  BattleLands/Screens/ILLIUN.ans
+     995     248 75.0% 12-Dec-80 13:16:28  BattleLands/Screens/kasad.ans
+    1139     318 72.0% 12-Dec-80 16:02:40  BattleLands/Screens/temple.ans
+     865     297 65.6% 07-Jul-94 22:56:06  BattleLands/Screens/Title.ans
+    1140     257 77.4% 13-Dec-80 08:57:34  BattleLands/Screens/win.ans
+      16      16  0.0% 01-Jan-80 05:59:56  BattleLands/Skills/assail
+      17      17  0.0% 01-Jan-80 05:50:06  BattleLands/Skills/comp
+      16      16  0.0% 01-Jan-80 05:59:32  BattleLands/Skills/defend
+      15      15  0.0% 01-Jan-80 06:00:14  BattleLands/Skills/disguy
+      16      16  0.0% 01-Jan-80 06:00:30  BattleLands/Skills/gambler
+      17      17  0.0% 01-Jan-80 05:57:50  BattleLands/Skills/gove
+      17      17  0.0% 01-Jan-80 05:57:04  BattleLands/Skills/hist
+      16      16  0.0% 01-Jan-80 05:58:08  BattleLands/Skills/medi
+      19      19  0.0% 01-Jan-80 05:49:44  BattleLands/Skills/mount
+      18      18  0.0% 01-Jan-80 05:59:08  BattleLands/Skills/racestud
+      16      16  0.0% 01-Jan-80 05:58:32  BattleLands/Skills/relig
+      16      16  0.0% 01-Jan-80 05:57:24  BattleLands/Skills/sales
+      24      24  0.0% 01-Jan-80 03:31:02  BattleLands/Thoughts/Besteela
+      18      18  0.0% 01-Jan-80 02:09:12  BattleLands/Thoughts/blast1a
+      20      20  0.0% 01-Jan-80 02:09:34  BattleLands/Thoughts/blast2a
+      21      21  0.0% 01-Jan-80 03:40:30  BattleLands/Thoughts/devasta
+      23      23  0.0% 01-Jan-80 02:09:50  BattleLands/Thoughts/elecstorma
+      17      17  0.0% 01-Jan-80 02:10:04  BattleLands/Thoughts/heal1a
+      19      19  0.0% 01-Jan-80 02:10:16  BattleLands/Thoughts/heal2a
+      19      19  0.0% 01-Jan-80 03:29:30  BattleLands/Thoughts/heal3a
+      19      19  0.0% 01-Jan-80 02:10:32  BattleLands/Thoughts/lightninga
+      21      21  0.0% 01-Jan-80 02:10:42  BattleLands/Thoughts/menpuncha
+      21      21  0.0% 01-Jan-80 00:43:02  BattleLands/Thoughts/mentalpuncha
+      22      22  0.0% 01-Jan-80 02:11:00  BattleLands/Thoughts/metalstorma
+      19      19  0.0% 01-Jan-80 02:11:18  BattleLands/Thoughts/missilea
+      16      16  0.0% 01-Jan-80 02:11:30  BattleLands/Thoughts/musclea
+      22      22  0.0% 01-Jan-80 03:29:58  BattleLands/Thoughts/nuke2a
+      16      16  0.0% 01-Jan-80 02:11:44  BattleLands/Thoughts/nukea
+      16      16  0.0% 01-Jan-80 03:30:32  BattleLands/Thoughts/ragea
+      20      20  0.0% 01-Jan-80 02:11:56  BattleLands/Thoughts/shield1a
+      22      22  0.0% 01-Jan-80 02:12:06  BattleLands/Thoughts/shield2a
+      27      27  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/123456782
+      20      20  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/123456787
+      26      26  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/1325643217
+      22      22  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/135798642
+      26      26  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/1965232123
+      24      24  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/1993569732
+      23      23  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/2255734561
+      25      25  0.0% 22-May-94 08:46:22  BattleLands/Users/bank/3214678904
+      28      28  0.0% 01-Jan-80 02:24:06  BattleLands/Users/bank/3357832135
+      24      24  0.0% 22-May-94 08:46:22  BattleLands/Users/bank/4651789432
+      23      23  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/6453421679
+      25      25  0.0% 22-May-94 08:46:20  BattleLands/Users/bank/7246863134
+      25      25  0.0% 22-May-94 08:46:22  BattleLands/Users/bank/9876352412
+     139      78 43.8% 01-Jan-80 02:25:04  BattleLands/Users/banklist
+      16      16  0.0% 22-May-94 08:07:16  BattleLands/Users/battlers
+       0       0  0.0% 07-Jul-94 22:39:10  BattleLands/Users/mail/
+     327     122 62.6% 22-May-94 08:48:02  BattleLands/Users/Stats/Stu2
+      24      24  0.0% 01-Jan-80 03:11:56  BattleLands/Weapons/asschipa
+      24      24  0.0% 01-Jan-80 03:12:52  BattleLands/Weapons/battlechipa
+       9       9  0.0% 01-Jan-80 02:28:58  BattleLands/Weapons/blamgun
+      25      25  0.0% 01-Jan-80 03:10:42  BattleLands/Weapons/compchipa
+      24      24  0.0% 01-Jan-80 03:12:24  BattleLands/Weapons/Defchipa
+       4       4  0.0% 01-Jan-80 17:29:52  BattleLands/Weapons/fist
+       9       9  0.0% 01-Jan-80 02:27:54  BattleLands/Weapons/flame pistol
+      25      25  0.0% 01-Jan-80 03:08:44  BattleLands/Weapons/fvka
+      11      11  0.0% 01-Jan-80 02:29:42  BattleLands/Weapons/grave pistol
+      27      27  0.0% 01-Jan-80 03:07:58  BattleLands/Weapons/infoha
+     195     114 41.5% 11-Dec-80 12:48:08  BattleLands/Weapons/ITEMS1
+      23      23  0.0% 01-Jan-80 03:13:16  BattleLands/Weapons/levelchipa
+      23      23  0.0% 01-Jan-80 03:09:34  BattleLands/Weapons/magnaga
+      22      22  0.0% 11-Dec-80 12:45:38  BattleLands/Weapons/medchipa
+      28      28  0.0% 01-Jan-80 03:11:38  BattleLands/Weapons/mountchipa
+       9       9  0.0% 01-Jan-80 02:28:18  BattleLands/Weapons/nova pistol
+      22      22  0.0% 01-Jan-80 03:09:56  BattleLands/Weapons/novga
+       9       9  0.0% 01-Jan-80 02:29:18  BattleLands/Weapons/peace keeper
+      11      11  0.0% 01-Jan-80 02:30:46  BattleLands/Weapons/quad cannon
+      12      12  0.0% 01-Jan-80 02:31:04  BattleLands/Weapons/quint cannon
+      25      25  0.0% 01-Jan-80 03:11:14  BattleLands/Weapons/salechipa
+       8       8  0.0% 01-Jan-80 02:27:18  BattleLands/Weapons/spiker
+      25      25  0.0% 01-Jan-80 03:07:14  BattleLands/Weapons/tpassa
+      11      11  0.0% 01-Jan-80 02:30:28  BattleLands/Weapons/udrak sling
+     511     257 49.7% 11-Dec-80 09:33:24  BattleLands/Weapons/WEP1
+  130957   33297 74.5% 07-Jul-94 22:54:10  BL.PD
+    1210     748 38.1% 07-Jul-94 23:07:28  BL_SETUP
+    8928    2820 68.4% 16-Feb-94 16:54:58  BLCEDIT
+    2517    1226 51.2% 16-Feb-94 17:15:04  BLCEDITREADME!!!!
+    2197     882 59.8% 14-Dec-80 10:19:46  BLmaint
+       0       0  0.0% 07-Jul-94 23:30:20  BATTLELANDS/Users/Stats/
+-------- ------- ----- --------- --------
+  275099   95811 65.1% 10-Jul-94 12:46:54   231 files

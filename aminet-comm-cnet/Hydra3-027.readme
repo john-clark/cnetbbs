@@ -1,0 +1,44 @@
+Short:        Hydra/3 0.27: Hydracom add-on for CNet/3
+Author:       90191@novell1.rz.fht-mannheim.de
+Uploader:     mic rhein-neckar netsurf de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+             - -- --- ------------------------------- --- -- -
+                      Hydra/3 by 1oo% CNet-Innovation
+             - -- --- ------------------------------- --- -- -
+
+
+Hydra/3  is  a confident solution for including the bi-directional HydraCom
+transfer  protocol  into  CNet/3.  HydraCom allows your users to upload and
+download at the same time; while as a bonus they can chat with you.
+
+
+Following is a list of features Hydra/3 offers:
+
+o  Reads CNet's selectlist and creates Hydra sendlist
+o  Transfers  run  over  a  temporary dir - no orphan files in any subboard
+   when transfer gets interrupted!
+o  Fully  aware of *ALL* influences on transfer, such as byte/file credits;
+   daily bytes/files; disabled ratios; etc.
+o  Analyses Hydra's result-log for filenames & sizes
+o  Adds uploaded files into CNet's dirlisting; files are online immediately
+   after successful transfer! 
+o  Describes uploaded files the normal way, thus you can use your preferred
+   File_ID.diz processor or whatever! 
+o  Sysop only must move files from tempdir to the final location 
+o  Gives correct upload credits depending on users ratio  
+o  Updates _Items3 datafile for correct file/credit manipulation 
+o  Writes CNet conform into the up/download logfile 
+o  Fully aware  of  carrier  losses  &  resumable files; writes automail &
+   prompts user for upload resume! 
+o  utterly  easy installation, needs very few configuration; only 2 changes
+   to  your  bbstext,  1  extra subboard, 1 change in the main program, and
+   you're ready to burn something! 
+o  Localized.  Multiple language output possible!   
+o  Fully  multiline aware, gets the devicename and unitnumber of the serial
+   from CNet's main configuration. 
+o  Optionally increases file's download counter 
+o  Can cope with read only media (CD-Temp aware) 
+o  deactives yet don't purges waiting OLM's during transfer

@@ -1,0 +1,15 @@
+Short:        Boxing Pfile for Cnet BBS
+Author:       Charles A. Van Tuyl
+Uploader:     vtcaesar mannheim-netz de
+Type:         bbs/cnet
+Architecture: m68k-amigaos
+
+Version:  3.0
+
+	This is a boxing pfile for cnet 3.05. It can be easily updated to
+the current Cnet version with a text editor redirecting the path assigns.
+
+	Allows users on the bbs to create boxers and try for the title.
+Great fighters are entered inot the hall of fame and statistical records
+are also kept. Boxers are rated in several different catagories. Highly
+addictive game!

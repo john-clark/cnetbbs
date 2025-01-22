@@ -1,0 +1,14 @@
+Short:        The Flux Point File_Id.DIZ processing utility.
+Author:       Peter Klein@2:235/202.0
+Uploader:     nico room109 xs4all nl (Nico Van Royen)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+FPDIZ v1.2 - (18-Jun-95) - The Flux Point
+File_Id.DIZ processing utility. - Extracts
+File_Id.DIZ from archives and use them as
+descriptions in CNet. - Adds CNet's
+description to archives that doesn't contain
+a File_Id.DIZ. - Adds CNet's description to
+archives as the File_Id.DIZ, if the
+description has been changed. (FULL ARCHIVE)

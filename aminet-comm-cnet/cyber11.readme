@@ -1,0 +1,9 @@
+Short:        A bit like hte CyberSysOp tool for XL
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Grants the user higher acc, if he/she have
+uploaded enough, written enough and called 
+enough times.

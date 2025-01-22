@@ -1,0 +1,14 @@
+Short:        Fixes UUCP hiwater bug in CNet/3! Bugfix.
+Author:       jyergaw@julian.uwo.ca (Dan J. Fraser)
+Uploader:     jyergaw julian uwo ca (Dan J  Fraser)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+HWUpdate is a quick-and-dirty utility I wrote to compensate for a major
+oversight on the part of CNet/3's programming team.  Because of a
+severely  silly  error in CNet's IUUNEWS program, the highwater marks of
+any UUCP areas with message numbers over 2^15 were screwed up everytime
+IUUNEWS was run.
+
+So, this program reads in your UUCP/NNTP "ACTIVE" file, and just updates
+CNet's hiwater marks.

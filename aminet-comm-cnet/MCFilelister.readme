@@ -1,0 +1,8 @@
+Short:        Creates filelists on requests from users
+Author:       michaels@hoa.ping.dk (Michael Salomonsen)
+Uploader:     michaels hoa ping dk (Michael Salomonsen)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Creates an up-to-date filelist for your users on request or as an event.
+Can create lists in text, AmigaGuide and HTML format.

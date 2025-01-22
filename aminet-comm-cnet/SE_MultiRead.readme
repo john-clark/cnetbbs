@@ -1,0 +1,27 @@
+Short:        New RF cmd. uses file requstors. Multiselect.
+Author:       fishb@gte.net    aka FishBone
+Uploader:     fishb gte net    aka FishBone
+Type:         comm/cnet
+Version:      1.0
+Replaces:     comm/cnet/SE_Read.lha
+Architecture: m68k-amigaos
+Distribution: OK
+
+
+                               ***What is It?***
+
+		A simple rexx script to replace the standard RF
+		Command.  Uses a file requestor, Allows Multiple
+		File selection.  Now allows a file name to be 
+		entered when the command is invoked!
+
+
+                               ***REQUIRMENTS***
+
+		Cnet V3.x (not yet tested with 4.x)
+		Reqtools.library,  Version  38.1436**  (NOT INCLUDED)
+		rexxreqtools.library,  Version  37.95**  (NOT INCLUDED)
+
+	      **  May Work with earlier versions of these libs.  These are 
+	          the versions I am using.  The Latest version of reqtools
+	          are available on aminet in util/libs/ReqToolsUsr.lha

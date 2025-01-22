@@ -1,0 +1,44 @@
+Short: Archiver scripts for CNet
+Type: comm/bbs 
+Uploader: professor@thgtwy.biloxi.ms.us
+Author: Powerslave
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    4512    4341  3.7% 13-Aug-92 06:07:12  c/hschk
+     928     779 16.0% 13-Aug-92 06:07:12  c/Protect
+: sets protect bits on files
+     968     757 21.7% 13-Aug-92 06:07:12  c/Rename
+: renames a file
+    1656    1604  3.1% 13-Aug-92 06:07:12  c/Stripper
+   12732   12425  2.4% 13-Aug-92 06:07:12  c/unarj
+   19120   18679  2.3% 13-Aug-92 06:07:14  c/unzip
+   38636   23876 38.2% 13-Aug-92 06:12:12  c/Virus_Checker
+    5684    5522  2.8% 13-Aug-92 06:07:14  c/warpck
+    6220    6047  2.7% 13-Aug-92 06:27:30  c/zipview
+   54608   30625 43.9% 13-Aug-92 06:27:30  c/zoo
+   41428   23431 43.4% 13-Aug-92 06:27:30  c/zoo_old
+     613     274 55.3% 13-Aug-92 06:08:00  cnet/bbsarc
+     770     457 40.6% 13-Aug-92 06:08:46  pfiles/vc
+    1026     537 47.6% 13-Aug-92 06:57:24  READFIRST!!
+   13325    3446 74.1% 13-Aug-92 06:10:24  s/hsc.txt
+     372     230 38.1% 13-Aug-92 06:03:02  s/xarc
+      94      90  4.2% 13-Aug-92 06:03:02  s/xdms
+     126     111 11.9% 13-Aug-92 06:03:02  s/xdoc
+     126     111 11.9% 13-Aug-92 06:03:02  s/xdox
+     192     150 21.8% 13-Aug-92 06:03:02  s/xgif
+     192     150 21.8% 13-Aug-92 06:03:02  s/xjpg
+     431     239 44.5% 13-Aug-92 06:03:02  s/xlha
+     358     224 37.4% 13-Aug-92 06:03:02  s/XLZH
+     351     226 35.6% 13-Aug-92 06:03:02  s/xpak
+     126     111 11.9% 13-Aug-92 06:03:04  s/xtxt
+      79      76  3.7% 13-Aug-92 06:03:04  s/xwrp
+     381     234 38.5% 13-Aug-92 06:03:04  s/xzip
+     376     233 38.0% 13-Aug-92 06:03:04  s/xzoo
+     696     256 63.2% 06-Dec-92 21:25:58  ac.displayme
+    1247     440 64.7% 02-Mar-94 17:04:22  TGBBS.displayme
+-------- ------- ----- --------- --------
+  207373  135681 34.5% 02-Mar-94 07:00:00   30 files

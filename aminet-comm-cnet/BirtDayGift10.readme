@@ -1,0 +1,21 @@
+Short:        BirtDayGift V1.0 Give user a gift...
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+Gives the user a gift at logon when user calls at his birtday.
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/BirtDayGift10.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    4827    2110 56.2% 29-Sep-96 15:14:40  birtdaygift/BirtDayGift.Guide
+    2362    1071 54.6% 29-Sep-96 03:21:58  birtdaygift/BirtDayGift.Rexx
+-------- ------- ----- --------- --------
+    7189    3181 55.7% 29-Sep-96 17:52:04   2 files
+
+Operation successful.

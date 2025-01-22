@@ -1,0 +1,13 @@
+Short:        C-net Amiga Pfile - Spin the Lottery Wheel to win online time.
+Author:       amiga@snet.net  Zonkerz from #amiclub undernet
+Uploader:     amiga snet net  http://pages cthome net/amiga
+Type:         comm/cnet
+Requires:     Cnet Amiga 3.05
+Architecture: m68k-amigaos
+
+best used when a user logons..that way they can't keep doing it.
+
+guess a number and spin the wheel of fortune to see if they win online time.
+
+
+Stop by my website for more Cnet Amiga Pfiles.

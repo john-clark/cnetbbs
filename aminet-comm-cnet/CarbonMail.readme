@@ -1,0 +1,18 @@
+Short: Cc. mail to other users on CNet BBS
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Ronald Kushner
+
+This program is a part of the SuperUtilities package. It allows anyone  
+with the FORWARD_FLAG set to send carbon copies of a letter to other users.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+   10232    6254 38.8% 15-Jan-91 10:52:06  CarbonMail
+    1731     874 49.5% 15-Jan-91 10:49:46  CarbonMail.DOC
+     256     119 53.5% 25-May-92 13:56:00  Z_MC.Displayme
+-------- ------- ----- --------- --------
+   12219    7247 40.6% 25-May-92 06:00:00   3 files

@@ -1,0 +1,101 @@
+Short: Capture the flag PFile v1.2 for CNet v3.05+
+Uploader: andrewt@caslon.cs.arizona.edu
+Author: andrewt@caslon.cs.arizona.edu
+
+
+
+                        Stratego a CNet C PFile Game
+                        ----------------------------
+
+                             Written by fAlken
+
+                Support BBS: The Dark Tower (310) 568-1518
+
+                          To register send $10 to:
+
+                              Drew Tennenbaum
+                         142 South Tucson Blvd. #30
+                              Tucson, Arizona
+                                   85716
+
+
+   This is a very simple game to setup as well as to play.  To setup you
+the sysop just need to un-arc the file into your PFiles: directory using
+the command:  lha x Stratego PFiles:.
+
+   Stratego is very similar to capture the flag and is based on the
+Milton Bradley (c) game, Stratego.
+
+   To setup the game after it has been un-arced just add it to your pfiles
+as a C file.
+
+Some notes about STRATEGO!
+--------------------------
+
+The sysop and the two players playing the game can delete their game at
+anytime.  When a game is completed one of the players or the sysop must
+clear the game.  Plans for the future include automatic clearing of a game
+after a game has remained idle for a period of time or after a game is
+completed.
+
+If you note any errors or bugs please report them to "fAlken" on
+The Dark Tower (310) 568-1518 or The Syko Ward (602) 323-7635.
+Please note where the error occured, how many players were playing, and
+any other information that may be pertinent to the de-bugging of the game.
+
+
+NOTE - The Dark Tower has FIDO, CLINK, and SWNET, so netmail me if possible.
+
+
+v1.0 - Release version.
+
+v1.1 - Fixed minor bugs.
+
+v1.2 - Added OLM to a player if they are online and their opponent just
+       finished their turn.
+
+       Added MAIL feature so players know what their opponents last move
+       was.  Sends mail @ end of turns to opponents.
+
+       More minor bugs fixed.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+      70      10 85.7% 04-Apr-94 20:52:54  Stratego/1/Blue.data
+      15      15  0.0% 04-Apr-94 20:52:54  Stratego/1/Game.dat
+      70      10 85.7% 04-Apr-94 20:52:54  Stratego/1/Red.data
+      70      10 85.7% 04-Apr-94 15:58:38  Stratego/2/Blue.data
+      15      15  0.0% 04-Apr-94 15:58:38  Stratego/2/Game.dat
+      70      10 85.7% 04-Apr-94 15:58:38  Stratego/2/Red.data
+      70      10 85.7% 27-Mar-94 13:28:18  Stratego/3/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:18  Stratego/3/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:18  Stratego/3/Red.data
+      70      10 85.7% 27-Mar-94 13:28:08  Stratego/4/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:08  Stratego/4/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:08  Stratego/4/Red.data
+      70      10 85.7% 27-Mar-94 13:28:08  Stratego/5/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:08  Stratego/5/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:08  Stratego/5/Red.data
+      70      10 85.7% 27-Mar-94 13:28:10  Stratego/6/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:10  Stratego/6/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:10  Stratego/6/Red.data
+      70      10 85.7% 27-Mar-94 13:28:12  Stratego/7/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:12  Stratego/7/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:12  Stratego/7/Red.data
+      70      10 85.7% 27-Mar-94 13:28:12  Stratego/8/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:12  Stratego/8/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:12  Stratego/8/Red.data
+      70      10 85.7% 27-Mar-94 13:28:14  Stratego/9/Blue.data
+      15      15  0.0% 27-Mar-94 13:28:14  Stratego/9/Game.dat
+      70      10 85.7% 27-Mar-94 13:28:14  Stratego/9/Red.data
+    2067     121 94.1% 27-Mar-94 13:30:58  Stratego/Board
+    2927    1242 57.5% 27-Mar-94 13:26:06  Stratego/Help
+     581     321 44.7% 27-Mar-94 13:26:02  Stratego/InitGame
+     590     210 64.4% 27-Mar-94 13:25:56  Stratego/Menu/Main
+   25920   13446 48.1% 04-Apr-94 20:53:18  Stratego/Stratego
+    1776     819 53.8% 04-Apr-94 20:09:32  Stratego/Stratego.DOCS
+-------- ------- ----- --------- --------
+   35256   16474 53.2% 05-Apr-94 10:44:00   33 files

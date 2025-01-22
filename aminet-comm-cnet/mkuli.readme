@@ -1,0 +1,12 @@
+Short:        German Datenschutz-Replacement BBSList
+Author:       chaos@link-ba.cl.sub.de (Jonas)
+Uploader:     chaos link-ba cl sub de (Jonas)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This nice little tool allows you to create and show your own predefined
+Userlist inside CNet. You could (4 example) leave out pseudo-users like
+root or postmaster or fulfill the wishes of your Users to stay Anonymous!
+German Dox! For English Dox wait for Version 2.0
+--<Endlich eine Datenschutzkonforme UL fuer CNet - kein User MUSS in der
+   Liste erscheinen>--

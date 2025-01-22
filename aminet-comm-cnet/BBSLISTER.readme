@@ -1,0 +1,20 @@
+Short: Improved BBSLister for CNet
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Carl Tashian
+
+The BBS lister that came with CNet is pretty good, but it doesn't go into 
+detail much about the BBS and it wouldnt let you have multiple BBS lists.  So 
+Carl decided to write one that did, and this is it. 
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     696     256 63.2% 06-Dec-92 21:56:30  ac.displayme
+   12424    4172 66.4% 19-Dec-92 22:00:26  bbslister
+     300     139 53.6% 17-Oct-92 19:57:04  execute.me
+     198     118 40.4% 17-Oct-92 19:57:16  mainmenu
+-------- ------- ----- --------- --------
+   13618    4685 65.5% 19-Dec-92 07:00:00   4 files

@@ -1,0 +1,20 @@
+Short:        Rebuilds only heavily fragmented CNet msg areas
+Author:       ag775@detroit.freenet.org (Bill Beogelein)
+Uploader:     ag775 detroit freenet org (Bill Beogelein)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Allows CNet-BBS SysOps to see which msg areas are using the most
+disk-space, or are very heavily fragmented.  It can then rebuild
+only those areas.  (Much quicker than trying to rebuild 100s of
+areas that don't even really need rebuilding in the first place.)
+
+This is v1.12 written 28-Feb-95 by:
+
+   Bill Beogelein
+   Box 530441
+   Livonia, MI 48153
+   Amiga ShareWare HeadQuarters BBS 1-810-473-2020
+   Fido: 1:2410/207,  UUCP: ag775@detroit.freenet.org
+
+--- EOF ---

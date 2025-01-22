@@ -1,0 +1,22 @@
+Short:        Digits Single Player Game for CNet Amiga
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.31
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/digits11.lha
+
+v1.31 updated to fix a bug in 1.30.
+
+v1.20 updated for CNet 4.28d and 3.05c.
+
+Given a grid of varied dimensions, one row and one column are highlighted. 
+You can pick any number in any of the highlighted spots. The number chosen 
+is added to your score and becomes the intersection for the next row and 
+column that become highlighted. The Amiga then picks a number and play 
+continues until there are no numbers left in any of the highlighted spaces, 
+at which time the person with the highest score wins!
+
+-- Written by Dotoran of Frontiers --

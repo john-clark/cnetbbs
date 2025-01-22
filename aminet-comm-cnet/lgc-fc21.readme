@@ -1,0 +1,26 @@
+Short:        Multi-Feedback with comments to the whole team
+Author:       Fate/Logic (fxmts205@uni-frankfurt.de)
+Uploader:     Fate/Logic (fxmts205 uni-frankfurt de)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+[This is one of my older utils, just put on AmiNet for completition.]
+
+Guess... it's a Replacement for the "F" Command, which allows you
+to leave Comments to one of the Sysops or Subops. The Advantage
+to the "MS" Command is that you don't have to remember their Names
+and you don't need to specify a Subject.
+
+Probably the biggest Advantage is that it makes it easier for
+new Users to send Mail to the Sysop Team.
+
++ Multi-Comment allows you to leave Comments to the whole Team.
++ 100% safe against Errors (see "ERROR-SAFETY").
++ Easy to use, especially for new Users.
++ Nice Design.
+
+V2.1      23.6.94   Bugfix
+                    Aborting the Editor would be ignored under v2.63
+                    due to a Change to the CALLEDITOR Command. Fixed.
+
+Written by Fate/Logic CNet Innovation.

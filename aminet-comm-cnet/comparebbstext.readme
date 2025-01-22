@@ -1,0 +1,40 @@
+Short:        BBSText Diff Process for CNet Amiga 4.xx
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.00
+Requires:     AmigaOS 2/3.x, CNet Amiga, v4.26b+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+    Basically, this is a file you'd run shortly after you upgraded to a NEW
+version of CNet Amiga. This file has the ability of comparing the OLD and
+NEW stock versions of the "bbstext" file and showing you the differences.
+
+    Beyond this simple premise, your current MODIFIED version bbstext file
+is also read in during the comparison. When the file finds a difference, it
+will show you the line in question as it appears in ALL THREE FILES.
+
+    You then have the ability of choosing from either the OLD, NEW, or your
+MODified version line, as to which will be written to the FOURTH file, which
+I refer to as the CONversion file.
+
+    Additionally, this release version has the ability of going one step
+further, that being the ability to EDIT one of the given lines BEFORE you
+write it to the CONversion file. This comes in extremely handy when you see
+a new line that has changed format, then also notice that it was a line you
+had previously customized(perhaps in color or formatting of your own). You
+could then choose to EDIT the NEW line, adding in whatever formatting you
+thought appropriate. When finished, you'll be shown the edited line and will
+be asked if it's OK to save the edited line. If you state NO, you'll be shown
+the same three lines and will be able to proceed along a different path if
+you so wish it.
+
+    Once the conversion is completed, the file will ask if you wish your
+existing bbstext file to be renamed(as it's assumed you called it bbstext).
+If you DO rename it, you'll additionally be asked if you wish the CONverted
+version file to be renamed to become the new "bbstext" file. Finally, if it's
+seen that your MODifid version file existed in your CNET: path, you'll be
+asked if you wish the file to automatically reload the bbstext file for you.
+
+-- Written by Dotoran of Frontiers --

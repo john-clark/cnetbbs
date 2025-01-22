@@ -1,0 +1,16 @@
+Short:        Craps Dice for CNet Amiga
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.2
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/craps_dice.lha
+
+The CRAPS Dice game for CNet Amiga.
+
+Roll 2 dice. If they add to 7, win double your bet, if not, try to roll the SAME number again BEFORE rolling a 7. If you can, win your bet, but if you roll a 7 first, then lose your bet. Includes Hig
+h Scores ability as well.
+
+-- Written by Dotoran of Frontiers --

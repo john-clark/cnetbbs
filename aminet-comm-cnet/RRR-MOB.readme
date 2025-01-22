@@ -1,0 +1,34 @@
+Short:        RRR: The MoneyBin v1.0 for CNet/3
+Author:       R.R.R. financial laboratories
+Uploader:     rrr klinja fipnet fi (Reijo Rypas)
+Architecture: m68k-amigaos
+Distribution: ok
+Drawer:       comm/cnet
+
+                             The MoneyBin v1.0
+
+               by Tailgunner / R.R.R. Business Division 1995
+
+                            All Rights Reserved
+
+                             Released 31-03-95
+
+
+        These horrors will follow you to a swimhall... and beyond!
+
+
+ 1. Legal
+ --------
+ This program is freeware. You can do almost whatever you want with it.
+ Modifications are not suggested as the process surely would take the
+ immortalizing glory from the original author. If you have some magnifient
+ ideas then mail 'em to us.
+
+
+ 2. Purpose
+ ----------
+ The ultimate in financial business, The MoneyBin demonstrates brand
+ new ways to calculate your CNet incomes. Mainly it tells you how much
+ money you have received from your dear (current) users. It also
+ calculates the imaginary price you're taking for every megabyte users
+ download. Upload/download-ratio determination is also available.

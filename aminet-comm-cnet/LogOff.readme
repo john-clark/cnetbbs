@@ -1,0 +1,22 @@
+Short:        Gives your users some options at logoff.
+Author:       Thomas_Newsom@f61.n2502.z2.fidonet.org
+Uploader:     Thomas_Newsom f61 n2502 z2 fidonet org
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Logoff!.rexx v2.0 is an update from V1.0.  
+
+LogOff!.rexx is a program that users see at log off. It allows them to have
+one of 4 options. Leave feedback, Check for waiting mail, Return to the BBS
+or Log off fully.
+
+V1.0 was a simple 'all in one' program.  Now you have the option off
+showing you're own ANSI screen.  LogOff!  also has a new 'return to BBS'
+option as well.
+
+v2.0 now allows the sysop to show there own Ansi/MCI created screens. This
+file can be specified in the main code of the program. This is shown in the
+porgram code itself. Also new in v2.0 is the user option to return to the
+main proper.
+
+Included is an Ansi screen created by Smidge (Sharron Kingdon).

@@ -1,0 +1,13 @@
+Short:        Auto-creates _sig0 (default) if non-existant
+Author:       neurodancer@gmx.de
+Uploader:     neurodancer gmx de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+1oo% AutoSig is a tool for CNet BBS (v3 or v4) that aims at the new user. I
+like to have 'em all have at least the default signature ("_sig0" in the
+users "uucp" directory), but users new to CNet most often don't know how to
+do it or that they can have signatures, at all. So, AutoSig checks if _sig0
+exists, if not, it will auto-create a little signature for the user. In
+that case, it also gives them the hint to use the EP command to change the
+signature, and a nice blinking wait prompt. :)

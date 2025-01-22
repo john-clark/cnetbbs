@@ -1,0 +1,14 @@
+Short:        CNet BBS Hack & Slash File Setup!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Version:      2.2
+Requires:     AmigaOS, 2.x/3.x & CNet Amiga, v3.05c
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_h&s.lha
+
+Includes all needed files to run the DOS game Hack & Slash, v2.2 on a CNet Amiga BBS. This archive also includes an ARexx loader written specifically for CNet Amiga BBS's. Also comes with step-by-ste
+p instructions for using this game on a CNet Amiga, v3.05c bulletin board system, written by Dotoran!
+
+-- Written by Dotoran of Frontiers --

@@ -1,0 +1,23 @@
+Short:        Edit Values in CNet's "bbs.sdata" file!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Version:      1.2
+Requires:     AmigaOS, 2.x/3.x & CNet Amiga, v3.05c
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/sdata_edit.lha
+
+ NEW: In this version, the values are placed back into CNet's Memory, as
+ in :   well as being saved to disk, so you NO LONGER HAVE TO REBOOT CNET
+v1.2:   after changing the values.
+    : A new option to "ReCalculate" the values was added. If you suspect
+    :   the validity of the values stored in this file, but are not sure of
+    :   what the CORRECT values SHOULD be, then try recalculating them. The
+    :   program will scan through all available information in an attempt
+    :   to calculate the correct values. You'll be asked if you wish to use
+    :   the calculated values, before being taken back to the main screen,
+    :   upon which you'd have to use the "S"ave command to officially use
+    :   these new values.
+
+-- Written by Dotoran of Frontiers --

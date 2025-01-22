@@ -1,0 +1,37 @@
+Short:        Time bank, also with exchange of credits
+Author:       Fate/Logic (fxmts205@uni-frankfurt.de)
+Uploader:     Fate/Logic (fxmts205 uni-frankfurt de)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+[This is one of my older utils, just put on AmiNet for completition.]
+
+I was asked to make a Program in which Users could save their Time
+into a sort of Bank. When they would need Time in the Future, e.g.
+to completely download a File, they just got it from the TimeBank.
+I was also asked to make a Program in which Users who needed just
+few KBytes to download Program could spend some Online Time for
+the missing Credits. Or some of his File Credits.
+
+FateBank combines this all into one Program. It handles the User's
+Time left, Time saved on FateBank's Account, the User's File and
+the User's Byte Credits. In fact FateBank allows you to:
+
+- store Time on your Account
+- withdraw Time from your Account
+- convert Time to File or Byte Credits
+- convert File or Byte Credits to Time
+- convert Byte to File Credits
+- convert File to Byte Credits
+
++ Multi-Purpose Utility
++ Exchange Ratios are configurable - without Configfile
++ Does not use any Datafile but stores Data in User Structure
++ While using FateBank the User's Timer is disabled
++ Cursor-Movement Routines
++ Backdoors :)
++ Easy to use
+
+v1.0      24.7.94   First Public Release
+
+Written by Fate/Logic CNet Innovation.

@@ -1,0 +1,19 @@
+Short:        CNet 4.2x Filelist Generator
+Author:       harischr@cadvision.com (Randal Harisch)
+Uploader:     harischr cadvision com (Randal Harisch)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+RHLister is a CNet 4.2x compatiable filelist generator.
+
+    If you are a sysop like myself, you already know the time spent managing
+your file bases is limited.  You probably wander your extensive directory tree
+looking for files to purge.
+
+    Back in the days of CNet3.05 there were lots of utilities to generate
+filelists, and most were fairly good.  Now you are running CNet4.2x and you
+reach for your trusted filelist generator program and run it.  Hrm, the results
+are less than positive right?
+
+    I eventually got fed up waiting for the authors of the other filelist
+generators to play catchup and re-compile their code, so I wrote my own.

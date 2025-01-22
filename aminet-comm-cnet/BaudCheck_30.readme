@@ -1,0 +1,9 @@
+Short:        Refer Low baud callers to another free port.
+Author:       Ray Akey
+Uploader:     cloutie server uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+   Ever get 2400 baud callers on your 28.8k (or lower) line when a 2400 baud
+port is free to accept their call?  Use BAUDCHECK to direct them to call
+another of your lines.

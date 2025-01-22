@@ -1,0 +1,22 @@
+Short:        CNet/3 multi-feedback w/ANSI,cursors,etc
+Author:       add123@netvoyage.net
+Uploader:     add123 netvoyage net
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+                 _____.  __________.  __________. __ _____
+                /     |_/   ___    |_/   ___    | \//    /
+                |     ||     \/    ||     \/    |  /    /
+                |     ||     /     ||     /     | /    /__
+                |____/~|__________/~|__________/~ \___/ \/
+               --------------------------------------------
+                  SuperFEEDBACK v2.0 by Adolescent/1oo%
+
+                                 Features
+                                 --------
+- 16/8/4/2 color ANSi/ASCii screens (ANSi by ME, ASCii by ND).
+- CURSOR CONTROL (all but ASCii terms).
+- Built in config editor.
+- Auto centers for number of users.
+- Seamlessly replaces all FEEDBACK prompts...

@@ -1,0 +1,22 @@
+Short:        ANI-Check V1.1 for Cnet 3.05
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.1
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+This program checks a file that holds the phone number of
+the user that are calling and prints it in the BBS or before logon. 
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/ANICheck11.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    5201    2289 55.9% 29-Sep-96 15:14:24  anicheck/ANICheck.Guide
+    2768    1138 58.8% 29-Sep-96 15:06:46  anicheck/ANICheck.Rexx
+-------- ------- ----- --------- --------
+    7969    3427 56.9% 29-Sep-96 17:52:04   2 files
+
+Operation successful.

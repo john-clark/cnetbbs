@@ -1,0 +1,13 @@
+Short:        FallOut single player game for CNet!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.20
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/bbs/fallout2.lha
+
+Given 9 numbers sitting atop nine sliding walls, each wall containing one hole, you must slide the walls left or right to align the holes and drop the numbers to the bottom of the nine walls.
+
+-- Written by Dotoran of Frontiers --

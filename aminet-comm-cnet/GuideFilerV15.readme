@@ -1,0 +1,53 @@
+Short:        GuideFiler V1.5, filelister for CNet3+, OS3.0
+Author:       tinic@tinic.mayn.sub.de
+Uploader:     tinic tinic mayn sub de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+TITLE
+        GuideFiler
+
+VERSION
+        V1.5
+
+AUTHOR
+        Tinic Urou
+
+        Steinriesstr. 13
+        88348 Saulgau
+        - Germany -
+
+        +49-(0)-7581-3028
+
+        UUCP:   tinic@tinic.mayn.sub.de
+
+DESCRIPTION
+
+        GuideFiler is a professional filelister for CNet3.05+.
+
+        Features:
+
+        - Includes FileIDs from nearly all FileID-processors I know.
+          No limitation of 8 lines anymore.
+          (f.ex. MaxDiz, q-diz etc.)
+
+        - GuideFiler works with a simple GUI for setting up and making
+          the filelists.
+
+        - It strips all MCI- and ANSI-Codes.
+
+        - Saves filelist as an AmigaGuide-file. Thats the most confortable
+          way for the users to read filelists.
+
+        - different sorter modes: alphabetical, Chronological etc.
+
+        - Displays FileFlags like the normal Browse or Scan command under
+          CNet.(Sysop favorite, Free download, Not validated)
+
+        - Uses Areas to make special filelist for every subject.
+
+REQUIREMENTS:
+
+        bgui.library (included)
+
+        OS3.0+ (could also work with OS2.0, didn't test it)

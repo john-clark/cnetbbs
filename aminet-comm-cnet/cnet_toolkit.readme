@@ -1,0 +1,103 @@
+Short:        Numerous ARexx, MCI, Text Enhancements!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      3.00
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.26b
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnettoolkit2a.lha,aminet/comm/cnet/cnettoolkit2f.lha
+
+v3.00 CNet Amiga ToolKit includes the following enhancements:
+
+   THE BBSMENU ENHANCEMENTS:
+
+       [M01] : "Reverse NSal" - Show New Messages, THEN the New Files.
+       [M02] : Disable use of the "SuperUser" help level.
+       [M03] : Quick Upload Mode for ZModem users.
+       [M04] : Here are 32 computer types you could use for Menu # 30.
+*      [M05] : The "EVents" and "ArexxSays" log read commands.
+*      [M06] : Add a "BUGS" command to update a "bugreport" text file.
+*      [M07] : Quick "TEST" your new ARexx snippit ideas.
+*      [M08] : Launch CNet Maintenance Files via COMMANDS.
+*      [M09] : Quick "UL" command with Menu # 39 DISABLED.
+
+* = New to this version of ToolKit!
+
+   THE BBSTEXT ENHANCEMENTS:
+
+       [T01] : Split the GFiles/PFiles/News display into 2 columns.
+       [T02] : Split the G/P/N display into 2 columns with BOXES.
+       [T03] : Colorize the +/-/!/v/p flag in the file descriptions.
+       [T04] : Colorize the +/-/* area flag, shown when listing subboards.
+*      [T05] : Display banner before Uploading, Downloading or QWK Uploading.
+       [T06] : Force ALL users into IBM-ANSI at logon.
+       [T07] : Display filenames in UDBase as <NAME>.<SUFFIX>
+E      [T08] : Help-Header for Mail Read. - Shown when reading Private mail.
+       [T09] : Display download count, instead of responses in UDBase.
+       [T10] : Decrease "dead space" size in Base/UDBase LIST command.
+       [T11] : USE the "dead space" above, so it's NOT "dead space"!
+F      [T12] : Show PRIVATE * Flag when using ST and FI commands!
+*      [T13] : Create 3 Columns for use with the new RL (ReadLog) Command!
+*      [T14] : Include Area Name In Post/Response Header Info.
+*      [T15] : Add Box Frames around CNet/4 dual-column List formats.
+
+* = New to this version of ToolKit!
+F = Fixed in this version of ToolKit!
+E = Expanded in this version ToolKit!
+
+   OTHER MCI ENHANCEMENTS:
+
+       [O01] : How to test for Infinite File/Byte Credit using MCI.
+
+   AREXX ENHANCEMENT ROUTINES:
+
+        [01] : From "Expanded" date to "Sorted" or "Internal" date format.
+        [02] : From x5xxxxx GU Value to "Sorted" or "Internal" date format.
+        [03] : From "Sorted" or "Internal" date to "Expanded" date format.
+        [04] : Numeric Range Parser: [ -2 19- 4 7-9 11.13.15,17 ]
+        [05] : CNet-like input routine, using MCI.
+        [06] : Find and return BBSTEXT/BBSMENU line entry.
+*       [07] : Check the CNet Amiga Version file is being run under.
+U       [08] : Check if a user is Suboperator in current subboard.
+U       [09] : Checks if MCI is enabled in current subboard.
+F       [10] : Convert from 12/24 hour time format to 12/24/min format.
+        [11] : External Library Loader
+U       [12] : View, Enable, Disable or Toggle "Priviledge" Flags.
+        [13] : Get "Arguments" from last command.
+        [14] : Read "Cursor Key" / "Return/Enter" Keyboard Input.
+        [15] : Convert "UPPERCASE" to "lowercase" text.
+        [16] : Pauses output for "x" number of seconds the RIGHT way!
+        [17] : Checks for "Loss of Carrier" in your Pfiles!
+        [18] : An informative "Error Checking" routine.
+        [19] : Positions cursor for printing anywhere on the screen.
+        [20] : Horizontal Text Scroller Number 1.
+        [21] : Horizontal Text Scroller Number 2.
+        [22] : Read the joystick(s) and firebutton(s).
+        [23] : First attempt at MOUSE capability. (95% Complete!)
+        [24] : Disable or Enable the MORE? prompt, regardless of setting!
+        [25] : Muffle ALL ports, regardless of setting!
+        [26] : Extended SelectFile Routine.
+        [27] : Add line of text to specified LOG file.
+U       [28] : Check Port Menu(s) Checkmark Status.
+U       [29] : Send Text File as CNet MAIL to specified User.
+*       [30] : Send a CNet/4 "File Attach" EMail Message to specified User.
+U       [31] : Send a System OLM (OnLine Message) to the current user.
+        [32] : Add keystrokes to other ports from present port.
+        [33] : A QUICK "Who" for SysOps, listing Access Group Number.
+        [34] : View "port" log of specified port. (Pre "calls" log).
+        [35] : Send Line Noise to a port (Ability to kick them off too!)
+        [36] : UnLock User Accounts (That May NOT Have Been Previously!)
+        [37] : Replace <input> with <output> within string of <text>.
+E       [38] : Find and Return or Verify BBSMENU section line(s).
+E       [39] : Clears a specific port, by dumping the user.
+        [40] : EnCode & DeCode text strings, using a Numeric Key.
+*       [41] : Guideline Entry-text for Mail (and File) Subboards.
+*       [42] : NewDoor starter framework for New ARexx Doors/Pfiles.
+
+* = New routines to this version of the CNet Amiga ToolKit, v3.00.
+F = Fixed routine since the last time.
+U = Updated routine since the last time.
+E = Expanded Ability & Updated since last time.
+
+-- Written by Dotoran of Frontiers --

@@ -1,0 +1,9 @@
+Short:        Phonetax calculator for CNet (german only)
+Author:       Matthias Bethke (postmaster@sweetdreams.lahn.de)
+Uploader:     Matthias Bethke (postmaster sweetdreams lahn de)
+Type:         comm/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+
+Programm zur Berechnung der Telefongebuehren auf einer CNet-Mailbox.
+Kennt die neuen Tarifzonen und Takte der '96er Telekom-Gebuehren.

@@ -1,0 +1,21 @@
+Short:        Arexx: Add BBSLink.Net doors to CNet
+Author:       james@ksshedbuilder.com (James Plotts)
+Uploader:     james ksshedbuilder com (James Plotts)
+Type:         comm/cnet
+Version:      1.1
+Requires:     comm/www/httpj200.lha
+Architecture: generic
+Distribution: Aminet
+
+                  CNet BBSLink Connect  Version 1.1                    
+    Written by Link of CheckSum Acknowledged BBS on 3 Feb 2018         
+    Used to seamlessly connect a CNet Amiga BBS to the BBSLink.Net     
+    door game server.
+	
+	An Arexx script that allows a CNet Sysop to add PFile (door) 
+	entries for each of the different BBSLink.Net doors (e.g.: LORD,
+	Usurper, Neuromancer).  This lets a user run these great IBM
+	doors on your CNet BBS.
+	
+********************************************************************
+************ CheckSum Acknowledged BBS telnet://24.225.22.26:2600 **  

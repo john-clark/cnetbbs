@@ -1,0 +1,173 @@
+Short:        Chat Pager Using RexxReqTools Requestors
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      5.20
+Requires:     AmigaOS 2/3.x, CNet, v3.05c or v4.45+ Only!
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_pager.lha
+
+v5.20 updated the getusers which changed in the 4.4x series.
+
+v5.13 updated the getusers which changed in the 4.26dR2 version, as well
+      as using a new hybrid ARexx SendOLM routine, which includes the new
+      Time Stamping used by CNet Amiga, v4.26e!
+
+v5.12 updated the getusers which changed in the 4.26a version, as well as
+      fixing two 3.05 getusers. The SendOLM routine was also fixed to rid
+      that "cnet version string" spillover.
+
+v5.11 fixed a bug that suppressed the requestor display. Also added in CNet
+      Amiga, v3.05c compatibility!
+
+v5.10 written to work under CNet Amiga, v4.25+
+
+    A NEW Chat command written specifically for CNet Amiga, v4.22. It will
+perform the same function as CNet's built-in chat function, however also
+gives the SysOp MANY, MANY more functions they can perform!
+
+    Version 5.00 allows for Multiple SysOps, so after the Pager has been set
+up, the user will be asked WHICH SysOp they wish to Page.
+
+    After the reason has been entered, a requestor will pop up on the FRONT
+MOST screen shortly after the specified SOUND file has been played, and
+the specified SPEECH has been orated. This requestor tells you which port
+requested the chat, the date and time the chat request was made, any SysOp
+Comment on file, the handle and real name of the user, and the reason why
+they wish to chat.
+
+    There is also the option to have CNet use the CC command to send a
+"Chat Request OLM" if a SysOp happens to be somewhere online, instead of
+being disturbed by an annoying requestor. This will ONLY be done if the
+requesting user has ACCESS to use the CC command. If they do NOT have
+access to use CC, then a regular page will be attempted.
+
+    If you are NOT available, Pager will display your custom "SysOp OUT"
+reason for that HOUR of that DAY. All 24 hours of all 7 days can receive a
+unique "SysOp OUT" reason. (Using MCI Commands, you could even have the
+reason display a TEXT file if you feel a more lengthy reason is needed at
+times.)
+
+    On the Chat Page Requestor are eight buttons, described below:
+
+"Chat" - [ Uses "C" as an alternative to the mouse! ]
+ ~~~~
+    - Will alert the user you are coming to chat with them by sending them
+      a "System OLM Message". (These messages interrupt into whatever the
+      user is currently doing, provided their current activity isn't set to
+      block these OLM's). System OLM Messages can NOT be responded to.
+
+
+"OLM" - [ Uses "O" as an alternative to the mouse! ]
+ ~~~
+    - Allows you to send a customized System OLM to the user, instead of
+      actually having to chat with them. After selecting this button, you'll
+      be given another requestor with three buttons: (Use the RAMIGA key in
+      conjunction with the alternative key to activate these buttons).
+
+          "Send" - [ Use RAMIGA - S as an alternative to the mouse! ]
+           ~~~~
+              - The text entered in the string gadget will be sent to the
+                user as a System OLM Message. Normally, you'd simply press
+                RETURN to send the text, but you CAN press SEND instead.
+
+              - Pressing RETURN with NO text in the string gadget will
+                activate the IGNORE button, which functions the EXACT same
+                way as the main IGNORE button, described below.
+
+          "Cancel" - [ Use RAMIGA - C as an alternative to the mouse! ]
+           ~~~~~~
+              - This will abort the sending of the OLM Message, and return
+                you to the main Pager Requestor, allowing you to make a
+                different choice on what you'd like to do for/to the user.
+
+          "Ignore" - [ Uses RAMIGA - I as an alternative to the mouse! ]
+           ~~~~~~
+              - Acts the same as the IGNORE button described below.
+
+              - This button will also be activated if you press RETURN
+                with NO text in the string gadget!
+
+    - While you're sitting in the String Gadget, you can activate any of
+      the buttons by pressing RAMIGA-Hot Key, as defined above.
+
+
+"FSend" - [Uses "F" as an alternative to the mouse! ]
+ ~~~~~
+    - Will give you a file requestor you can use to ADD files to the user's
+      Select Buffer.
+    - Use the MOUSE to select multiple files by holding down the SHIFT key,
+      then selecting those files you wish to add.
+    - Use the Up and Down arrows with RETURN if you'll only be adding ONE
+      file, as an alternative to using the mouse.
+    - Click the "Done" button(or press RAMIGA-D) to complete the procedure.
+    - As many of the files will be added to the user's Select Buffer as are
+      possible. This means if you have it set in your CNET CONFIG that users
+      can only select 10 files at a time, and you specify you wish to add 20
+      files to the user's Select Buffer, only the first 10 files would be
+      added(provided the user's Select Buffer was EMPTY to start with). If
+      this should ever occur, the OLM that is sent to the user will let them
+      know what has occurred.
+    - The user will be charged for the download, based on your setting in
+      the Pager CONFIG file. Certain config settings may also provide you
+      with additional requestors allowing you to select specific costs for
+      each individual file.
+    - The file will be killed after the download, also based on your
+      setting in the Pager CONFIG file. Again, additional requestors MAY be
+      provided for you to select specific kill settings for each file IF
+      you have it set that way in the config file.
+
+
+"Terminate" - [ Uses "T" as an alternative to the mouse! ]
+ ~~~~~~~~~
+    - Will immediately drop that user's time remaining to 0, then drop
+      carrier. (For those users who continually hound you to Chat!)
+
+    - This will happen for ANY user, INCLUDING those with INFINITE time,
+      and INCLUDING those with "System Operator" status!
+
+    - A System OLM message will be sent to the user, with a slight pause
+      after sending it, so that the user will be sure to SEE it before the
+      program terminates their connection.
+
+
+"Gone In 5" - [ Uses "G" as an alternative to the mouse! ]
+ ~~~~~~~~~
+    - Similar to the above, but will allow the user 5 minutes to finish up
+      anything they may have been doing(Posting, Responding, etc.)
+
+    - This will happen for ANY user, INCLUDING those with INFINITE time,
+      and INCLUDING those with "System Operator" status!
+
+
+"Unavailable" - [ Uses "U" as an alternative to the mouse! ]
+ ~~~~~~~~~~~
+    - Will inform the user you are no longer available to chat, and will
+      additionally disable the "Sysop is in" checkmark for that port. More
+      information on this below.
+
+
+"Busy" - [ Uses "B" as an alternative to the mouse! ]
+ ~~~~
+    - Similar to the above, but will simply tell the user you are too BUSY
+      to chat, while still maintaining your "Sysop is in" status.
+
+
+"Ignore" - [ Uses RETURN as an alternative to the mouse! ]
+ ~~~~~~
+    - Will deactivate the requestor, WITHOUT alerting the user you are
+      doing so. (If you simply do NOT want to be bothered).
+
+
+    Whenever any of the above buttons has been pressed, the requestor will
+be removed from the screen, and the appropriate action(s) will be performed,
+as well as the "Reason" for chatting being removed from CNet memory, which
+means it should stop flashing in the Control Panel window.
+
+    The user is "told" of the action you've taken in the form of a colorized
+System OLM that will be sent. When the "Ignore" option is used, NO OLM's are
+sent to the user. When the "OLM" button is used, the default bbstext colors
+will be used when sending the olm message.
+
+-- Written by Dotoran of Frontiers --

@@ -1,0 +1,24 @@
+Short:        1oo% AD_CPS v1.0 - CPS rater for Cnet/3
+Author:       add123@netvoyage.net
+Uploader:     add123 netvoyage net
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                 _____.  __________.  __________. __ _____
+                /     |_/   ___    |_/   ___    | \//    /
+                |     ||     \/    ||     \/    |  /    /
+                |     ||     /     ||     /     | /    /__
+                |____/~|__________/~|__________/~ \___/ \/
+               --------------------------------------------
+                1oo% AD_CPS version 1.0 by Adolescent/1oo%
+
+
+                                 Features
+                                 --------
+- Cool DIGITAL numbers.  (thanks to whomever made these for /X)
+- Saves high scores for 2400,4800,9600,14400,16800,19200,21600,26400,28800,
+  31200 and 33400 baud rates.  
+- Configurable messages.
+- Built in maintenence.
+- Very compact.
+- Uses CNet's CPS so the CPS is NEVER wrong!  (doesn't display CPS twice!)

@@ -1,0 +1,13 @@
+Short:        A thinking game for CNet
+Author:       robin@te.xs4all.nl
+Uploader:     robin te xs4all nl
+Type:         comm/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+
+Brain is a thinking game for CNet, based on the Logo-clone Brain
+(written by André Wichmann). It's a conversion of the E! door BrainE!
+written by me (Morpheus).
+
+The purpose of the game is to reproduce a randomly generated pattern
+by selecting the right squares in the right order.

@@ -1,0 +1,23 @@
+Short:        Online Time Display & User TIMERS tool!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.00
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.25+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/time_clock.lha
+
+Can be used as a REPLACEMENT for your CNet TIME command.
+
+   TimeClock uses the same BIG NUMBERS used in my BIG_CPS_Speed util to tell the users the current time, their logon time, and the number of minutes they've been online. Other time info is displayed 
+in colored text below the main display.
+
+   Included in v2.00, users are introduced to Online TIMERS in addition to the time display. Either used in conjunction with Time Clock, or launched on their own, these timers can be used by the user
+s to have a System OLM Message sent to their port when either a specified number of minutes have elapsed(the Count-Down Timer), or when a specific time of day has occurred(the Time-Of-Day Timer).
+
+   These timers will stay in effect even if the user drops carrier or logs off and then logs back on, EVEN if they log on to a different PORT.
+
+This is another MUST HAVE util! hehe ;-)
+
+-- Written by Dotoran of Frontiers --

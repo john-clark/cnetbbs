@@ -1,0 +1,11 @@
+Short:        C-net mod prints random suggestion line and Main> prompt
+Author:       spike@neonate.org
+Uploader:     spike neonate org
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: CD Welcome!
+
+C-net 3.05c Arexx mod (FreeWare).  Mod to bbstext, picks random "suggestion" line
+from sysop-defined file to be displayed when user arrives at Main> prompt, and
+replaces the "Main>" itself with text randomly chosen from another file.
+Works in all terminal modes.  (I HATE ANSI ONLY MODS!!)

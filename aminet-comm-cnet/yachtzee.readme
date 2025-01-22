@@ -1,0 +1,33 @@
+Short:        Yacht-Zee Dice Game for CNet Amiga BBS's
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v1.1 Yacht-Zee Dice!
+
+   This small update corrects a few bugs in the original version:
+
+        - The Bonus Award was not being given to those who exceeded the 63
+          point level in the top half of the score card, so were getting
+          lower total scores than they should have been given.
+
+        - The random seed generator was beeing seeded every time it was used,
+          which caused a predictable randomity when using the first method of
+          rolling the dice.
+
+        - Some better error checking was included.
+
+        - I did not include the high-scores file this time, so the users on
+          your bbs's can have a fair shot of becoming their own best scorers.
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1029     463 55.0% 29-Sep-95 22:27:32  !Frontiers
+   24282    5195 78.6% 07-Oct-95 13:22:50  Yacht-Zee
+    5328    2347 55.9% 07-Oct-95 13:42:38  Yacht-Zee.README!
+-------- ------- ----- --------- --------
+   30639    8005 73.8% 07-Oct-95 13:43:54   3 files
+
+--- from dotoran

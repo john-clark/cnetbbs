@@ -1,0 +1,15 @@
+Short:        Edits line shown When the sysop is out
+Author:       davep@tbag.org    aka FishBone
+Uploader:     davep tbag org    aka FishBone
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: OK
+
+
+                            ***What Is It?***
+
+	This is a little program I wrote on a request from a friend.  It allows
+the SysOp to change the line that appears when a user enters a chat request &
+the SysOp is unavailable.  It will save multiple lines to use, allowing you to 
+select any line at any time, or you can choose to have them all randomly 
+displayed.

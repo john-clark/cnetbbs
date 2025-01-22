@@ -1,0 +1,9 @@
+Short:        Awards users byte or pfile credits for posting/responding
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+MS-Credits, as well as awarding users for posting and responding, can
+be used to lock your UD/Base/P-Files until a user posts or responds
+or has a posts/responses:byte ratio better than what you specify.

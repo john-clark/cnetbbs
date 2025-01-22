@@ -1,0 +1,15 @@
+Short:        CNet Mod, Drops Carrier on user who drop carrier
+Author:       mrk@harborcom.net (Mark)
+Uploader:     mrk harborcom net (Mark)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+,------------------------------------.
+| CNet Mod - Drops carrier on users  |
+| after they drop carrier x amount   |
+| of times... Very Configurable      |
+| I may have gotten carried away !?  |
+|------------------------------------|
+|  Anouther MidNight BBS production  |
+|  Written By God Joker; version 2a  |
+`===================================='

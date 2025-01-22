@@ -1,0 +1,15 @@
+Short:        CNet 4.2x file Size/Postdate Updater
+Author:       harischr@cadvision.com (Randal Harisch)
+Uploader:     harischr cadvision com (Randal Harisch)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+    FileBaseUpdate is a CNet4.x dos based utility to update CNet's internal
+size and postdate of an item within a file subboard.
+
+    I run automated processes which update certian files on a regular basis.
+These include filelists, aminet indexes and a few other files.  Unfortunatly,
+CNet only knows the filesize and postdate from the origional adoption into
+the subboard.  I needed a way for my users to know if a list had been updated
+or not.... The result was FileBaseUpdate.

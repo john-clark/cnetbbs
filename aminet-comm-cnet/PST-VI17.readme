@@ -1,0 +1,167 @@
+Short:        CNet 3.x - 4.x door. Let validated users vote in new users
+Author:       cinzano@hem2.passagen.se (Urban Alho)
+Uploader:     cinzano hem2 passagen se (Urban Alho)
+Type:         comm/cnet
+Version:      1.7
+Architecture: m68k-amigaos
+
+
+
+
+                             pST-vOTEiN V1.7
+                             ~~~~~~~~~~~~~~~
+
+                              What is it?
+                              Requirements
+                              Installation
+                              "bugs"
+                              Who did it?
+
+                               1997-06-26
+
+
+
+
+                                  .
+                                  .
+                                  .
+                                  :
+                                  :
+                                  .
+                                  .
+                                  .
+
+                                  .
+
+
+What is it?
+~~~~~~~~~~~
+Short-       Its a very handy thing wich let your users easely VOTE
+             if new users should be granted access.
+
+Long-        Its very simple. They just use their arrowkeys and
+             vote what they whant. How long a user should whait 
+             until you should count the votes you decide yourself
+             in the config. If a user vote "negative" one day he
+             could always change next day and vote "positive" by
+             running the door again. A mail is sent to all the
+             new users. If they have been validated or not.
+             (You can rewrite the mail yourself) If a sysop is
+             logging on an let us say that he know a new user
+             he could always press the (V)alidate buttom for 
+             immidiate validation.
+
+
+
+
+
+Why choose this one?
+~~~~~~~~~~~~~~~~~~~~
+              1. Cause that one i tryed was so lame that my toes
+                 froze to ice.
+
+              2. You can use arrowkeys wich your users may prefere?
+
+              3. It has PC-8Bit(PC)/ISO-latin8(Amiga) compatible menus.
+
+
+
+
+
+
+Requirements
+~~~~~~~~~~~~
+             CNet Pro V4.27b (It dont work on older versions)
+             Arexx
+             CED is very userful to use when you configure inside the rexxcode
+             New users. :)
+             ( Thats all what i know so far )
+
+
+
+
+
+
+Installation:
+~~~~~~~~~~~~
+
+1. Copy all the files to pfiles:prospect/vote-in/  (or wherever you whant)
+
+2. Add this line to your systext:sys.welcome.
+
+   T15 #0}JE 2}#0CNet:PFiles/prospect/Vote-In/pST-vOTEiN.rexx}2}
+
+   (If you are using my great "edit login" door then add the door as usual
+    and set a minimum acess for using it.)
+
+3. Change line 1124 in your bbstext so it looks like thisone below here.
+
+   n1New user process completed.n1#0CNet:PFiles/prospect/Vote-In/pST-vOTEiN_REGIS.rexx}
+
+4. Add the pST-vOTEiN_MAINT.rexx script in your event program.
+   (Look at the CONFIG.IFF for help)
+
+5. Also take a look in all scrips if there is any configuration for
+   sysops. (But not necessery)
+
+
+
+
+
+
+
+"bugs"
+~~~~~~       V1.6
+             ~~~~
+             Now you can run the maint script how many times/day
+             you want. But it will only validate users the first
+             time you run it.
+
+             Now the maint script exit correct so it dont re-run
+             itself everytime you reboot your system.
+
+             You can now configure an minimum access wich should be
+             required for voting.
+
+             Your users can now chose between (Q)uick logon, (N)ormal,
+             (C)onfigure it, (PERSONAL) everytime they logon.
+
+             A lot of errormessages is implanted.
+
+             Dont write ANYTHING in the *.DAT file if you dont
+             know exactly what you are doing. Its not THAT hard
+             to figure out how to do, but dont blame me if
+             something whent wrong.
+
+             V1.7
+             ~~~~
+             The only bug if fixxed in this version is that it didnt
+             registrate any new users. Now it does. :)
+
+
+        Still have to do
+        ~~~~~~~~~~~~~~~~
+              -You tell me!
+
+
+
+
+Who did it?
+~~~~~~~~~~~
+             cINZAN0^pST spend 4 f*cking days for you to be happy.
+             So do something yourself and spread it.
+
+             Please send Bug reports to: cINZAN0^pROSPECT/sUPREMACY/oUTLAWS
+             (Or suggestions)            World trade center +46-(0)31-128704
+             (Or complimangs:)           World Trade Center +46-(0)31-128047
+                                         email: cinzano@hem2.passagen.se
+
+
+
+         Remember! this is an...
+  ___________ _______ _ ___  _______ _  ________________ _   _____  ___________
+ \\___      / _     ///_   \_\   __///__\__      / ____///_ /  __/__\_        /
+   | /_____/  /____/   /    \ \          //_____/_  /      |__ \      |__  __//
+   |__ __\|_____\  _ _______/___________/______\ /_________| /________|/____\
+                                
+                           [ p r o d u c t i o n ]

@@ -1,0 +1,70 @@
+Short:        Hack V1.0 Fake shell door for Cnet
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+When somone enters it will look like the program craches 
+and the user will have to write a Password.
+
+Any password is alowed, it dosen't matter what the user writes. 
+Only presing return wont do anything and the user will be asked 
+again to type a password. When the user has typed the PW one enters
+a "normal" shell process. BUT it's only a FAKE. 
+
+After that the user has typed the MAX numbers of commands the sysop
+brakes in and kick him back to the BBS. Next time the user reads his
+mail one will recive a message that contains ALOT of fun reading :-) 
+(read it AN weap!!) The Sysop ALSO recives a mess that contains the
+information about what the user did when he come out in shell.
+
+The messages that Sysop recive contains the password and all commands 
+used in the door.
+
+This is a nice way to check how friendly your users are! :-)
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/Hack10.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+      86      55 36.0% 20-Apr-96 16:09:06  hack/hackdirs/Hack.DirRam
+     232     111 52.1% 20-Apr-96 16:09:06  hack/hackdirs/Hack.DirRamENV
+     705     218 69.0% 20-Apr-96 16:09:02  hack/hackdirs/Hack.DirRamENVSys
+      17      17  0.0% 20-Apr-96 16:09:02  hack/hackdirs/Hack.DirRamT
+      36      26 27.7% 20-Apr-96 16:09:06  hack/hackdirs/Hack.DirSD0
+      36      26 27.7% 20-Apr-96 16:09:06  hack/hackdirs/Hack.DirSD1
+      43      25 41.8% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirExpansion
+     131      80 38.9% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirL
+     705     218 69.0% 20-Apr-96 16:09:02  hack/hackdirs/Hack.DirPrefsEnv-ArchiveSys
+     185      37 80.0% 20-Apr-96 16:09:02  hack/hackdirs/Hack.DirRamClipboards
+     409     138 66.2% 20-Apr-96 16:09:02  hack/hackdirs/Hack.DirSys
+     337     128 62.0% 20-Apr-96 16:09:02  hack/hackdirs/Hack.DirSystest
+     356     119 66.5% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirLibs
+      78      53 32.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirPrefs
+     147      62 57.8% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirS
+     324     104 67.9% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirSystem
+       0       0  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirT
+       0       0  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirTrashcan
+    1008     287 71.5% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirC
+     382     155 59.4% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirDevs
+      45      32 28.8% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirDevsDOSDrivers
+       0       0  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirDevsKeymaps
+     139      55 60.4% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirUtilities
+       0       0  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirWBStartup
+       0       0  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirDevsMonitors
+      48      32 33.3% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirDevsPrinters
+      49      39 20.4% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirLFileSystem_Trans
+      15      15  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirPrefsEnv-Archive
+       0       0  0.0% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirPrefsPresets
+     578     266 53.9% 28-Apr-96 01:17:00  hack/Hack.DevInfo
+    6175    2707 56.1% 29-Sep-96 16:23:42  hack/Hack.Guide
+   14666    3699 74.7% 29-Sep-96 13:29:28  hack/Hack.Rexx
+    2254     709 68.5% 19-May-96 21:00:22  hack/Hack.UserMail
+     203      63 68.9% 20-Apr-96 16:09:04  hack/hackdirs/Hack.DirRexxc
+-------- ------- ----- --------- --------
+   29389    9476 67.7% 29-Sep-96 17:52:04   34 files
+
+Operation successful.

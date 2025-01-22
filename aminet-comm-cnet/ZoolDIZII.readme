@@ -1,0 +1,362 @@
+Short:        ZoolDIZ II, The best describer ever made (v2.66)
+Author:       Lauri Ahonen (lauri.ahonen@pp.inet.fi)
+Uploader:     Lauri Ahonen (lauri ahonen pp inet fi)
+Type:         comm/cnet
+Version:      2.66
+Replaces:     comm/cnet/ZoolDIZII.lha
+Requires:     CNet BBS Software
+Architecture: m68k-amigaos
+
+ZoolDIZ II is a feature packed describer (advanced "dizzer") to CNet BBS
+software. Here's a incomplete featurelist:
+
+ - Full 3l173 (ELITE ;)) capability if necessary... 
+
+    * SentBy line with color values!
+    * upto 100 lines in description
+
+ - Q-Dizolve Compability
+
+    * >8 line descs will be stored at the same directory
+    * Possible signatures will be automatically converted to ZoolDIZ-Form!
+
+ - Compact mode
+
+    * Forces you to select lines to be used from description
+
+ - Automatic Mode
+
+    * If ZoolDIZ founds or creates a description, it's possible to fill out
+      the description without even one keypress!
+
+ - The best ModuleHandling routine ever seen / made
+
+    * Works with both unpacked as well as packed modules 
+
+      - Archived ones: LHA/LZX/ZIP
+      - XPK and PowerPacker packed
+
+    * Supports various formats:
+
+      - ProTracker modules (And compatibles)
+      - MultiChannel modules: S3M/XM/MTM/68Channel
+      - PlaySID modules
+
+ - 100% full support to mp1, mp2 & mp3 files!
+ 
+    * No more fuzzed up mpeg audio areas! All files will be in clean order
+      and have standard MPEG-AUDIO-TAG attached to them!
+
+ - Full support to PowerPacker & XPK packed files
+
+    * Every format can be packed with XPK or PowerPacker (Should be avoided)
+
+      - Even a XPK packed LHA archive with a module inside would work!
+      - Extremely handy to have around if you need to adopt your own modules
+
+ - Handles JPG/GIF/IFF pictures easily
+
+    * Creates description in: 320x256x24 form
+
+ - Has got Three (3) different editors to maximize easy usage:
+
+    * Normal Editor, Module Description editor & Picture Desc. editor
+
+ - Does not require FILE.ID.DIZ type description
+
+    * ZoolDIZ is capable to extract descriptions out from AMiNET-Files  [@{"SCREENSHOT " system "VT HI LA screenshots/ZoolDIZ_aminet.IFF"}]
+
+      - Perfect for CD-ROMS
+      - Ideal for Aminet exports
+      - Will scan the archive itself for the readme as well as the external one!
+
+    * Various internal scans for Modules / Textfiles!
+
+ - Full Aminetheader capabitilities
+
+    * "ZoolDIZ.AMiNETHEADERS" contains various headers which will be added
+      to a file which had a aminet-description
+
+      - You can use the sample ones or add your own!
+
+    * Isn't necessary, so it can be turned off too
+
+ - Does not allow MCI bombs...
+
+    * It will not bypass any MCI command characters
+
+ - Works 100% with multinode systems...
+
+    * Every port has got it's own directory that will be deleted after use!
+
+ - ZoolDIZ will allow packed TEXT-Files in LHA/LZX archives (if the archive
+   is less than 25kb)
+
+    * The biggest file will be handled just like unpacked file
+
+ - There's possibility to strip all unwanted lines from description
+   
+    * External file called ZoolDIZ.STRIP will be used
+
+ - Visual type Configuration editor to make configfile creation or editing
+   a piece of cake!
+
+    * Just like CNets own editors (Edit Account etc.)
+
+ - Full Virus Scanning option (Uses Virus Checker or VirusZ II)
+   
+    * All unpacked files & LHA/LZX packed files will be checked, WHEN the
+      uploader logs off... this way we and the user will save online time
+
+    * The VirusScanner is a normal ARexx-script, so you can add it to the
+      maintenance if you like
+
+Install this now, you won't regret it.
+
+History:
+========
+
+Version : 0.998b, 13.10.94: First public release
+
+Undocumented 0.998b-1.25a (Lot'sa bugfixes! thats for sure!)
+
+Version : 1.25a,  20.12.94: Added VirusChecking  in  LHA archives  & Bugfixes.
+
+Version : 1.30a,  28.12.94: Added nice DizLineCutter(R) & done  some Bugfixes.
+
+Version : 1.35a,  31.12.94: Added support  for ProTracker  modules & Bugfixes.
+
+Version : 1.50a,   3.01.95: Added Visual/Line-editor support & again BugFixes.
+                            Visual  editor did work  only with the first file!
+
+                                           Second public release!
+
+Version : 1.55b,  10.01.95: Done again some serious BugFixes (Back to beta :()
+                            Removed VirusChecking...
+
+
+Version : 1.65b,  20.01.95: BugFixes.
+
+
+               Completely (100%) ReWritten from 1.65b version.........
+------------------------------------------------------------------------------
+
+Version : 1.80b,  22.01.95: 100% ReWritten, begun to  add comments, bugs gone?
+
+Version : 1.82b,  26.01.95: ^^ Bugs Gone.. hah, hah, hah, hah & haaa, Bugfixs.
+
+Version : 1.85b,  28.01.95: Bugfixs
+
+Version : 1.87b,  06.02.95: Bugfixs, added  muffle and Offline file checking,
+                            DizLineCutter(R)  did  fuck up,  tried to fix, but
+                            not sure that it's 100% fixed.
+
+Version : 1.88b,  07.02.95: Bugfixs,  some modifications in interface & Otherz
+
+Version : 1.89b,  08.02.95: Bugfixs,  some modifications in interface & Otherz
+                            fuck, I'm lame!!... more stupid  bugs found, ARGH!
+
+Version : 1.90b,  20.02.95: more!, More!, MOre!, MORe!, MORE! bugs found, fix-
+                            xed, like that fucking MUFFLE!, also fixed picture
+                            desc problem, almost nobody noticed, strange??
+
+Version : 1.91b,  21.02.95: Little LZX support added (1st in the whole world?) 
+
+Version : 1.93b,  22.02.95: Visual editor finally WORKS 100%?!, yeah!, bugfixs
+
+Version : 1.94b,  25.02.95: Bugfixs, fixed everything, like the muffle problem  
+
+Version : 1.95b,  27.02.95: bugfixs
+
+Version : 1.97b,  31.03.95: Bugfixs, added support to Compiled PlaySID modules
+
+Version : 1.98b,  31.03.95: New External filesystem done.... much better!...
+
+Version : 1.99a,  12.04.95: PLSID support improved, author handling better and
+                            stripped  up description  lines by removing stupid
+                            lines. I think that the beta stage is over by now!
+
+Version : 1.999c, 19.06.95: Unwanted DIZline  stripping and NON automatic mode
+                            now available. (Even the ZUMBA can use this now :)
+
+Version : 1.999d, 22.06.95: Bugs left.. fixed the ones, I know....
+
+                            This might be the last version before the great
+                                         public ZoolDIZ II !
+
+                                          (Yeah, sure ;)!!)
+
+------------------------------------------------------------------------------
+                     DAMN: Slipped to next digit... grr...
+------------------------------------------------------------------------------
+
+Version : 2.0c    05.08.95: Second beta of II!... NOW WITH VISUAL CFG ED!!
+                            Cleared Config file a bit...
+
+Version : 2.0d    06.08.95: Third beta of II. made a new PT-Mod Handling thing
+                            Scans samples etc... Possible bugs left, dunno....
+
+Version : 2.0e    06.08.95: Arrgh. a fucking new beta. bugs left like I said!
+                            Bugs in StripLineCutter (R)?... checking it..
+
+Version : 2.0f    08.09.95: Some clearing done. Should work better. The Strip-
+                            ping  won't work.  Don't waste your time.  (Nobody
+                            uses it anyway.. who cares!).... also..I have been
+                            a complete idiot with ProTracker-handling routine!
+                            It was too fucking slow!... NOW ProTracker module-
+                            Scanning is 10* faster...
+                            Fixed problems with desc lines >44 chars... Whou...
+                            Why haven't I fixed it earlier *!?!?!*
+
+Version : 2.0g    14.09.95: Protracker module  handling is now 100% done by me.
+                            no  more stupid  ModCHECK. Only ZoolDIZ. This  even
+                            works better! Also added 6&8 channel module support
+
+Version : 2.0h    15.09.95: Modulehandling routine improved a lot... PLUS:
+
+                            IT IS NOW POSSIBLE  TO SEARCH AUTHOR etc. from Pro-
+                            Tracker & 6/8-Channel mods in LHA & LZX  archives!!
+
+Version : 2.0k    28.09.95: Found sum bugs in ProTracker routine, fixed... Will
+                            indentify more  authors now! Config fixed also, and
+                            removed stupid conversion  system! LHA/LZX scan for
+                            mods fixed...
+
+Version : 2.0m    30.09.95: All texts are now  in external file, so you can mo-
+                            dify them on your own and add support to languages!
+
+Version : 2.0p    04.10.95: Support  for SHORT: string in Aminet-Readme  files!
+
+Version : 2.0q    09.10.95: Aminet SHORT: support improved a lot!
+
+Version : 2.0r    21.10.95: Done  some bugfixes,  added support  for S3M  mods,
+                            soon MTM & XM support will arrive too! Modhandling
+                            routine again improved a  lot! (e.g. Chnl support)
+
+Version : 2.0s    25.10.95: Done  some bugfixes,  added support for MTM & XM!!
+                            bugfixes and modhandling  routines improved a lot!
+
+Version : 2.0u    02.11.95: Modified  multichannel  operations.. added Double-
+                            scanner... now ZoolDIZ  scans LHA/LZX archives for
+                            TXT/PLaySID modules too!! MCI killer stripping!
+
+Version : 2.0v    04.11.95: Bugfixs & Added external AMiNET-Description SCANS!
+
+Version : 2.0y    11.11.95: Bugfixs & InterFace changes.. (Editor, Line-Selec-
+                            tion, module-Editor etc.)
+
+Version : 2.0x    15.11.95: Bugfixs & Editor Interface changed a lot this time
+                            Also  made  a free  hard/ram disk space  scan when
+                            extracting modules!
+
+Version : 2.0x+   19.11.95: Done some bugfixs...
+
+Version : 2.0z    25.11.95: Error handling better & bugfixs
+
+Version : 2.1z    01.12.95: Sorry for the next digit ;(... BugFixes & REAL Vi-
+                            rusChecking (It works in background, so you won't
+                            even notice it) 
+
+Version : 2.1Pro  18.12.95: BugFixes.. added  BBSdescription support!!!  Whouu
+                            Why didn't  I do this earlier  [Thanks dMR!] Fixed
+                            AMiNET desc. system for unknown files..
+
+Version : 2.11Pro 09.01.96: Added moduleauthor stripping & modified some stuff
+                            Testing and cleaning up, it seems that we are rea-
+                            dy for public, camoon guyz!
+
+Version : 2.15Pro 03.02.96: Bugfixs,  improved modulename  & author  scanning!
+                            Started using keyfile!
+
+Version : 2.20Pro 10.02.96: Bugfixs  &  Added ZIP  support in module extract!!
+                            Again  improved  moduledata extracting  and  added
+                            possibility  to ignore modulesauthors  groupnames.
+                            Cleaned up the system a bit.
+
+Version : 2.23Pro 13.02.96: Great bugfix version, finally fixed ADDIZ problem
+                            and there shouldn't be anymore errors!
+                            The priorities of scantypes has also been changed!
+                            Now it's "DIZ-MOD-DUBBEL-BBS", before this it was:
+                            DIZ-BBS-MOD-DUBBEL and that caused problems!
+                            
+Version : 2.25Pro 15.02.96: Added VirusChecking support for VirusZ II!            
+
+Version : 2.30Pro 22.02.96: Made great  Compact mode  improvents, also fixed a
+                            bug in  >8  diz mode,  actually  the Mci-File  was
+                            created  even  when  diz  contained only 7 lines..
+                            Thanks Grand Zumba!! Fixed moddesc lowercase opt.
+                            Finally made Visual ed support better.. hmm
+
+Version : 2.33Pro 01.03.96: rewritten  VirusChecking system.. now it uses GUI!
+                            Fixed rest of the >8 bugs etc...                      
+
+Version : 2.37Pro 13.03.06: New PlaySID system [SID] Name.......(author) etc..
+
+Version : 2.38Pro 14.04.96: Fixed sum shit.. New K-file system
+
+Version : 2.40Pro 30.06.96: Fixed some ZIP-errors, and problems with the Mod-
+                            unpackdir handling...  shouldn't have so many er-
+                            rors anymore!
+
+Version : 2.45Pro 04.07.96: Fixed Compact Mode (bug), removed scanning of LHA/LZX
+                            archives without a suffix (.lha/.lzx)
+
+Version : 2.46Pro 20.01.97: Wow, there's been a while... changed some  archive
+			    identification methods! 
+
+Version : 2.47Pro 04.02.97: There was a bug which caused some errors when file-
+                            name was less than 4 characters long. (eg. C64)
+                            Jesus, that one must have been there for a while!!
+
+Version : 2.55Pro 07.02.97: Added full support for XPK & PowerPacked files. If
+                            some file is packed with either XPK or PP, it will
+                            be unpacked and processed like it was never packed
+                            (needed: c:xfdDecrunch, Libs: xfdmaster.library,
+                            Libs:xpkmaster.library & the XPK compressor libs!)
+                            [I think you'll never need this but if you do so,
+                            then it's kinda handy to have it around :)]
+                            Also fixed some sound-module name parser bugs. 
+                            Tried to clean up the code a bit, but I think that
+                            I should reorganize this baby a bit. Gee, I found
+                            a bug which caused ZoolDIZ fail to recognize .LZH!
+                            For safety reasons, _no diz_ will be added to EXE
+                            files. Changed all external command paths. They
+                            will be located in PFiles:ZoolDIZ/External_Comma-
+                            nds/ path. No C: nor SYS:C will be used. Therefore
+                            "Give names to External MODs" gadget in ZoolCON
+                            is obsolete!
+
+Version : 2.57Pro 11.02.97: Fixed some problems with the XPK system. Now xpk
+                            CRYPTED files will be ignored. I wrote completely
+                            new installation system for ZoolDIZ. Run it!
+
+Version : 2.58Pro 14.02.97: Fixed some PowerPacker support bugs. Optimized &
+                            cleaned up the code a lot=>Numerous little chan-
+                            ges, additions and bugfixes!
+
+Version : 2.59Pro 23.02.97: Some little fixes, PT-Modules changed to new form:
+                            [MOD] Name.........(Author)
+
+Version : 2.60Pro 06.03.97: Enchaced the Module-Authorname scanner a bit,
+                            Chanced [SID] to [PSID] & [MOD] to [PTMD]
+
+Version : 2.61Pro 25.03.97: Some internal changes, made a aminet-header/
+                            footer system. Finally fixed that MORE?-prompt!
+
+Version : 2.62Pro 16.05.97: Came across with a stupid missing ')' char bug.
+                            Could cause errors in modulescan. Fixed.
+
+Version : 2.65Pro 01.12.97: Haa, delays do rule :).. anyway I downloaded this
+                            mp3info program and decided to add Mp1-3 support
+                            to ZoolDIZ. It took 2 hours, but I think is cer-
+                            tainly is worth it. And I changed the [PSID] &
+                            [PTMD] tags back to [SID] & [MOD]. I tested only
+                            mp2 & mp3. The mp support is a complete addition
+                            with possibilities to edit & modify & save the
+                            new author/song/album/year datas. BTW: The
+                            mp3info program needs ixemul.library! Now I just
+                            need to add MED support. 
+
+Version : 2.66Pro 03.12.97: Made a simple ARJ support. Only plain File_id.diz.
+                            ZoolDIZ mainfile exceeds 100kb :)
+                            

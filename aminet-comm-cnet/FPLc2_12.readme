@@ -1,0 +1,13 @@
+Short:        The Flux Point Last Caller utility.
+Author:       Peter Klein@2:235/202.0
+Uploader:     nico room109 xs4all nl (Nico Van Royen)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+FPLC2.rexx v1.2 - (23-May-95) - Flux Point
+Last Caller utility. - Logs both normal BBS
+calls, and Trapdoor Sessions. (optional) Has
+an adaptive bulletin length. - The user will
+ALLWAYS see a full screen of info.
+(According to the CNet line-length settings)
+Fixes MAJOR bug found in version 1.1

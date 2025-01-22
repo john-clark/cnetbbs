@@ -1,0 +1,21 @@
+Short:        File lister for CNet v4
+Author:       sgamble@verbal.apana.org.au
+Uploader:     sgamble verbal apana org au
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+                           VegFL v1.0 by Veg
+                        -----------------------   
+
+The idea behind VegFL came from me using CList with CNet/3.  It was a great
+file  lister.   With  CNet/4  I  wanted  a file lister that was written for
+CNet/4.   Also, I have a lot of files and subboards and some of them are on
+partitions  which  are  actually NFS partitions.  So I needed a CNetC style
+program,  but  one  that took into account that not all of us have heaps of
+memory.   I  have on average 4MB free and VegFL barely touches any of this.
+Speed  is sacrificed, but then this is a file lister that is designed to be
+run  by as a cron event.  It will run through 850 subboards, work out which
+subboards are to have the files listed and then list about 11,000 files all
+in  about  3 and a half minutes on my A4000/040 (C= 040).  So it's not that
+slow.

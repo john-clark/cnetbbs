@@ -1,0 +1,11 @@
+Short:        MS-LastCallers - VERY configurable Last caller logger.
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This is about the most configurable Last X Callers program there is in
+existence for CNet Amiga!  All output is fully configurable.  Show only
+the CNet variables/statistics that YOU want shown about the last callers.
+Also, now logs network (FTS) calls.  Can be tricked into logging UseNet/
+uucico/getty calls.

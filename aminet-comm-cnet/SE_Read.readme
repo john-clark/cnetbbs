@@ -1,0 +1,29 @@
+Short:        New RF cmd. uses file requstors. Multiselect.
+Author:       fishb@gte.net    aka FishBone
+Uploader:     fishb gte net    aka FishBone
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: OK
+
+
+                            ***What Is It?***
+
+	This is a simple little rexx script I wrote to replace the standard
+        RF command.  The advantages are:
+		1:  It pops up a file requestor on the CNet Screen (Using 
+                    Rexxreqtools.library)
+		2:  It is able to select Multiple files at once.
+		3:  Uses requestors for local calls ONLY, otherwise it resorts
+                    back to the origanal RF.
+
+
+
+                               ***REQUIRMENTS***
+
+		Cnet V3.x (not yet tested with 4.x)
+		Reqtools.library,  Version  38.1436**  (NOT INCLUDED)
+		rexxreqtools.library,  Version  37.95**  (NOT INCLUDED)
+
+	      **  May Work with earlier versions of these libs.  These are 
+	          the versions I am using.  The Latest version of reqtools
+	          are available on aminet in util/libs/ReqToolsUsr.lha

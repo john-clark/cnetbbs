@@ -1,0 +1,12 @@
+Short:        C-net mod lets users edit custom login
+Author:       spike@neonate.org
+Uploader:     spike neonate org
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: CD Welcome!
+
+C-net 3.05c Arexx mod (FreeWare) adds ELO (Edit Login) command to let users edit
+their own custom choices of mods to be executed during their login sequence.
+ELO editor follows EP (Edit Prefs) editor VERY closely in appearance and usage.
+Very configurable, both per each user and by sysop.  Supports non-optional login
+mods, as well as different terminal types.  (I HATE ANSI ONLY MODS!!)

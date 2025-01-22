@@ -1,0 +1,16 @@
+Short: Bugfix for soaunreg12.lha.
+Type: comm/cnet
+Uploader: marlin@cnet577.cts.com (Marlin Schwanke)
+
+Long: This archive contains patch files _only_ for soaunreg12.lha.  The patches
+correct bugs detected after release of Spirit of Adventure v1.2.  Note that the
+original archive is still required.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+  303601   62739 79.3% 23-Jun-94 09:19:38  soa.unreg2
+-------- ------- ----- --------- --------
+  303601   62739 79.3% 02-Jul-94 10:30:32   1 files

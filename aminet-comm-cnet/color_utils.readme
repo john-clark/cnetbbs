@@ -1,0 +1,45 @@
+Short:        MCI Color Utilities for CNet Amiga Pro!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.30
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.11+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v1.30 of Color Utilities includes all the power of the original version, as well as a NEW module that can convert IBM "Pipe Color Codes" (which are found in many IBM BBS programs) into the standard C
+ontrol-Y equivalents.
+
+Here's a run down on what this program can do:
+
+    Included within this one file are ELEVEN(11) modules/utilities that will
+allow you to do the following to any TEXT file or ARexx PFILE (Standard, not
+Compiled) in a matter of seconds:
+
+    - Change old style Slash Commands to new style Control-Y Commands.
+
+    - Change from the old MCI color order to the new MCI color order.
+
+    - Change from Control-Y MCI Codes to Control-Q MCI Codes.
+
+    - Change from Control-Q MCI Codes to Control-Y MCI Codes.
+
+    - Convert to using ONLY the HIGH INTENSITY MCI Colors(2nd Eight).
+
+    - Convert to using ONLY the LOW  INTENSITY MCI Colors(1st Eight).
+
+    - Change 2nd eight into 1st eight, and 1st eight into 2nd eight.
+
+    - Change one or more MCI Colors to other MCI Colors.
+
+    - Swap two or more MCI Colors within a file.
+
+    - Change IBM "Pipe Color Codes" into Control-Y MCI Color Codes.
+
+    - Strip ALL 3 character Control-Y MCI codes from a file.
+
+NOTE: To convert ALL old style "slash" MCI codes, use Ken Pletzer's UP250
+      program. See the BOTTOM of this document for more information on how
+      to use this file.
+
+-- Written by Dotoran of Frontiers --

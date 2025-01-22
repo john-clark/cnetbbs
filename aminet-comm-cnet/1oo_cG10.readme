@@ -1,0 +1,56 @@
+Short:        ANSI Graffiti Wall for CNet BBS
+Author:       add@pacbell.net
+Uploader:     add pacbell net
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+                   _____.  __________.  __________. __ _____
+                  /     |_/   ___    |_/   ___    | \//    /
+                  |     ||     \/    ||     \/    |  /    /
+                  |     ||     /     ||     /     | /    /__
+                  |____/~|__________/~|__________/~ \___/ \/
+                  ------------------------------------------
+                   C/gWALL, v1.0e (20-Feb-97) by Adolescent 
+                    _THE_ ANSI Graffiti Wall for CNet BBS
+
+
+Info:
+            Graffiti Wall for CNet/3 with COLOR/ANSI/CURSORS/and more...    
+            (quite possible the best LOOKING wall for CNet/3!) <G>
+
+
+Note:       This program should work on CNet/4 but hasn't been tested. If
+            you have _ANY_ problems with it please let me know and I will
+            fix it ASAP and send it to you...  (I took out a high getuser
+            that has been known to 'shift' in the beta versions.)
+
+
+Features:
+            -  Auto SIZE/EMULATION 
+            -  Configable COLORS/APPEARANCE
+            -  CURSOR support
+            -  Uses CNet EDs
+            -  Translates BADWORDS into @#$%!
+            -  Online MAINT/EDITOR
+            -  ANSI/COLOR/SCROLLING/etc...
+
+
+
+   Check out the other excellent 1oo% releases on the 1oo% HOMEPAGE:
+
+          http://rummelplatz.uni-mannheim.de/~mics/100.html
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     399     136 65.9% 13-Feb-97 00:50:58  sys.graffiti
+     399     136 65.9% 13-Feb-97 00:51:06  tt0.graffiti
+    1027     252 75.4% 13-Feb-97 00:52:04  tt2.graffiti
+     802     270 66.3% 13-Feb-97 00:51:06  tt3.graffiti
+    4160    1788 57.0% 20-Feb-97 19:54:24  1oo_cG10.doc
+     340     155 54.4% 20-Feb-97 19:54:36  File_ID.diz
+    8940    3294 63.1% 20-Feb-97 19:54:14  GRAFFITI.rexx
+-------- ------- ----- --------- --------
+   16067    6031 62.4% 24-Feb-97 19:56:12   7 files

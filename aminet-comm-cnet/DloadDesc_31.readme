@@ -1,0 +1,9 @@
+Short:        DownloadDescript - Allows user's to download short descripts.
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+	DownloadDescript allows your user's to download a text file containing
+the CNet SHORT descriptions for all selected files.  The generated file is
+in files.bbs format for easy addition/support of BBS and network transfers.

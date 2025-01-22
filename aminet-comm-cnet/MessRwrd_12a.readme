@@ -1,0 +1,9 @@
+Short:        Rewards users with bytes and/or files for messages written.
+Author:       tde94lis@te.hik.se (Stefan Lindström)
+Uploader:     tde94lis te hik se (Stefan Lindström)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Fixed a bug occuring when doing fast-logons.
+Added a GUI-front to the configurationprogram.
+Both config and main-program is now localised.

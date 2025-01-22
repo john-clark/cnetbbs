@@ -1,0 +1,16 @@
+Short:        MCI *only* status command for CNet3/4
+Author:       Neurodancer/1oo% <neurodancer@timewarp.insider.org>
+Uploader:     Devil/1oo% <devil p-lost franken de>
+Type:         comm/cnet
+Version:      1.0
+Architecture: m68k-amigaos
+
+This is a replacement for CNet's built-in "Status" command. Its *NOT*
+programmed but *ONLY* MCI! Included are files for the most commonly
+used terminal emulations (Ascii, Amiga-Ansi 8 colors, IBM-Ansi 16
+colors). It displays everything the original command does except the
+computer type (not that easy to get with MCI). Actually, I'm using
+these files for quite a while on my BBS and only updated the look of
+the Ascii/Amiga part. And while doing so, I thought... why not share
+this stuff with the rest of the CNet comunity? I think we all need
+stuff like that.

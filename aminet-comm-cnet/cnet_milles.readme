@@ -1,0 +1,64 @@
+Short:        Mille Bornes French Card Game for CNet!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.18
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/4.26b+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_milles.lha
+
+v1.18 one last bug fix. ;-) Also includes a logentry line for SysOp maint.
+
+v1.17 hopefully last release version. Added ability to DISABLE the BreakIn mode in Human vs. Amiga games, as well as changing the Amiga's method for playing Hazard Cards.
+
+v1.16 getting close to being finished now. More bug fixes, plus the ability to CREATE and SEND OLM's from within the game!
+
+v1.15 oops, variable conflict in the new smart path. Also clobbered another RoW error!
+
+v1.14 updated for CNet Amiga, v4.24g. Also includes fixes to the QUICKSTART mode and a few other goodies.
+
+v1.13 introduces the QUICKSTART mode. The users can now specify arguments on the command line after the MIL command to QUICKLY start a game. There's also a new command "AutoFinish" which can be used 
+after ALL the cards have been drawn from the Draw Pile, so you can quickly finish a hand when you're down to the point where all YOU'RE doing is DISCARDING cards.
+
+v1.11 introduces the ability for the game to watch for incoming OLM Messages. You'll be alerted that you have one waiting and can then use the new OLM command to read and/or respond to the message. P
+ressing ENTER when your done will return you to the game. This version also includes a new SPEED command, which allows the player to alter the speed to which the Amiga Players play their game(so for 
+those already familiar with the game, this can dramatically speed up their game!) Lastly, some more bug fixes(thought I'd mention those LAST this time! hehe)
+
+v1.10 more bugs fixed. This version includes the Amiga vs Human BreakIN features that allow you to swap seats with any Amiga player, take on a different Amiga partner, kick out your Human Partner, or
+ Play a partner.
+
+v1.07 fixes some bugs, as well as introduces an IMPROVED High Score files. The SAVED GAME routines have also been tweeked for more power as well.
+
+v1.06 fixes NUMEROUS bugs. Also includes the SHOW file for use in your "sys.welcome" files. The text strings that print at the bottom of the screen now print 40% faster. Program consolidation is now 
+complete! Optimization is still to come. More changes, too!
+
+v1.05 fixes yet another RoW bug. This version also fixes a problem in the SAVED game files, where it wouldn't save ALL the players!
+
+v1.04 should fix the numerous bugs related to the Right of Way card, as well as including High Score files for HANDS and GAMES for 2, 3, 4, or 6 players specifically. The Amiga Players have also been
+ made more powerful, as well as having their names changed again.
+
+v1.00 of the classic French Card game "Mille Bornes", copyright 1962 by Parker Brothers. This is a 100% EXACT translation, which means if the original Rule Book said it was possible, then it's possib
+le in this game! This includes:
+
+- 2 and 3 player Individual Games, as well as 4 and 6 player Team Games.
+
+- Ability to play to 700 miles or opt to play the 1000 mile extension.
+
+- All bonuses and other possible scoring methods supported.
+
+- Coup Fourre's fully supported!
+
+- FULL Games supported, which means you can play up to 5000 miles, in a series of hands, just like the real game!
+
+In addition, because this version lacks a true "head to head" module, the following additional enhancements are included:
+
+- The ability to control a PARTNER's hand in a team game, as well as your own.
+
+- The ability to make the Amiga play any game by itself.
+
+- The ability to "Break-In" on an Amiga versus Amiga game and sit in place of one of the Amiga players(and additionally sit in on a partners seat as well).
+
+- The ability to SAVE up to FIVE games for continuation at a later date. These can be ANY games or 5 different places during the SAME game, etc. Your choice!
+
+Enjoy!

@@ -1,0 +1,23 @@
+Short:        This GRAPHS your subboard popularity/usage!
+Author:       case@energytele.com (Jeremy Rusnak)
+Uploader:     case energytele com (Jeremy Rusnak)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+   Written by the author of NEWZMAKER, the popular news file generator!
+
+   Introduce WATCHER.  This program automatically records when users enter a
+subboard and keeps track of how popular your subboards are.  It works both
+from the new scan at logon and when users are physically in the Base area.
+WATCHER generates a graphical report that presents you three types of ways to
+check out the information it has collected.
+
+   First, it will give you a numerical figure telling you how many times the
+sub was entered by users.  Next, you get a percentage report that lets you
+know what percentage of the total entries that sub is responsible for. Finally
+you have a neato bar graph that shows how that sub compares to your most
+popular sub.
+
+ Version 1.00 28-Feb-1995: FIRST PUBLIC RELEASE OF WATCHER
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Looking forward to your comments and ideas!

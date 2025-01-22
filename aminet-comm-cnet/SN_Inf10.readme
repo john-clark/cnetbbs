@@ -1,0 +1,13 @@
+Short:        SN Info v1.0 - Latest PFile status, support info & PGP key
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Phil Beazley (beazleyp mqg-smtp3 usmc mil)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+To cut down on the size of each archive and instead of duplicating files
+with each of my releases, the following files, in their most up-to-date
+form, are located in SN_Inf??.lha and will be uploaded whenever significant
+changes have been made.
+
+        SupportNote.readme        SN_Files.txt
+        MyPGPKey.txt              SN_FilesInfo.txt

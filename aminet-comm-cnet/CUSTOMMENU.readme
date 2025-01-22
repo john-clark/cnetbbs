@@ -1,0 +1,26 @@
+Short: A custon menu driver for CNet
+Type: CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Darkman
+
+Custom Menu is just that:  A custom menu driver which allows you to create
+an unlimited amount of menus and sub-menus, and ability which is otherwise
+denied by cnet.  It is run on Arexx, and runs Arexx Pfiles, as well as reads
+text files.
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     333     164 50.7% 20-Sep-92 11:54:24  ac.displayme
+    1884     735 60.9% 11-Nov-90 18:04:56  automessage.rexx
+      77      44 42.8% 11-Nov-90 17:47:18  chat.log
+    5876    2299 60.8% 11-Nov-90 18:05:46  cm.doc
+     411     238 42.0% 11-Nov-90 17:51:20  cmd.comm.x
+     419     237 43.4% 10-Nov-90 16:24:22  customboot
+    2976     972 67.3% 11-Nov-90 17:49:58  custommenu
+      77      43 44.1% 11-Nov-90 17:46:54  log.cm
+     101      92  8.9% 11-Nov-90 18:07:20  main.dat
+-------- ------- ----- --------- --------
+   12154    4824 60.3% 11-Nov-92 07:00:00   9 files

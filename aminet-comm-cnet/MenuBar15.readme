@@ -1,0 +1,17 @@
+Short:        MenuBar v1.5.  FULL release.
+Author:       serv0@vianet.on.ca (Darryl Sokoloski)
+Uploader:     serv0 vianet on ca (Darryl Sokoloski)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+FULL RELEASE:
+	The first release (v1.0) was uploaded WITHOUT the actual program!
+This release includes ALL required files w/full documentation.
+
+ABOUT MENUBAR:
+	MenuBar is a CNet/3 PFile (CNetC) that displays the BBS Name, a 
+random "One Liner" quote that users can add, and a SysOp comment OR BBS 
+Location OR whatever else you fancy.  MenuBar operates in five(5) modes.  
+One of those modes is the Config Panel, for easy configuration.
+
+Check it out!

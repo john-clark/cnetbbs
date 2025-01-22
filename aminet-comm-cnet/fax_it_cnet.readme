@@ -1,0 +1,46 @@
+Short:    A nifty FAX door for CNet and GPFax
+Author:   Glenn Schworak
+Uploader: manderson@uop.edu (Malcolm Anderson)
+Type:     comm/bbs/cnet
+
+FAX-IT V3.0 -*- By: Glenn J. Schworak
+    ---- CNet only version ----
+This program will allow your users to
+send messages to FAX machines from 
+your Excelsior or CNet BBS through 
+the use of your FAXmodem and GPFax 
+software. Updated: 9/15/94
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    5085    1993 60.8% 02-Oct-94 17:11:52  FAX-IT/autofax.gpf
+      95      86  9.4% 10-Sep-94 19:02:26  FAX-IT/Text/start.td
+     526     319 39.3% 10-Sep-94 08:49:06  FAX-IT/tryfax
+    1233     592 51.9% 10-Sep-94 13:17:02  FAX-IT/usrobotics_users.info
+    5528    2145 61.1% 10-Sep-94 19:00:56  FAX-IT/USRobotics_Users/autofax.gpf
+    1040     614 40.9% 10-Sep-94 18:58:58  FAX-IT/USRobotics_Users/usr_users.readme
+    1389     727 47.6% 19-Aug-94 23:50:10  FAX-IT/help.fax
+      43      43  0.0% 05-Apr-94 22:58:30  FAX-IT/Numbers/371-0944
+      66      66  0.0% 05-Apr-94 22:33:54  FAX-IT/Numbers/375-9646
+      31      31  0.0% 23-Apr-94 11:59:34  FAX-IT/Numbers/399-2014
+     110     102  7.2% 01-Feb-94 18:57:42  FAX-IT/start.fax
+      95      86  9.4% 10-Sep-94 19:02:56  FAX-IT/start.td
+    1408    1060 24.7% 03-May-93 05:52:10  FAX-IT/Text/runback
+     110     102  7.2% 01-Feb-94 18:57:42  FAX-IT/Text/start.fax
+    1599     809 49.4% 10-Sep-94 08:46:08  FAX-IT/datacall.gpf
+   11426    4222 63.0% 10-Sep-94 10:00:42  FAX-IT/fax-it
+    2450    1233 49.6% 10-Sep-94 08:46:48  FAX-IT/fax-it.cfg
+   23750    9221 61.1% 01-Oct-94 09:01:32  FAX-IT/fax-it.doc
+     103      94  8.7% 09-Sep-94 18:32:16  FAX-IT/fax-it.welcome
+    1182     619 47.6% 10-Sep-94 08:47:28  FAX-IT/fax-stat
+     870     475 45.4% 10-Sep-94 10:04:22  FAX-IT/fax-times
+     833     378 54.6% 10-Sep-94 08:48:04  FAX-IT/fax-trap
+   30052   12740 57.6% 05-Feb-94 22:59:58  FAX-IT/gw.iff
+     516     317 38.5% 20-Aug-94 23:18:48  FAX-IT/answer.gpf
+    2392    1316 44.9% 10-Sep-94 19:50:14  FAX-IT/cnet.readme
+     243     186 23.4% 01-Oct-94 09:12:16  file_id.diz
+-------- ------- ----- --------- --------
+   92175   39576 57.0% 03-Oct-94 14:23:12   26 files

@@ -1,0 +1,10 @@
+Short:        Excellent Raw Downloader For CNet 3.05+
+Author:       Snoopy@Thenet.co.uk (Daniel Garnett)
+Uploader:     Snoopy thenet co uk (Daniel Garnett)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+This Is A kewl Cnet Utility Which When Runs Asks For A Password
+If the user/sysop gets it right then the sysop will get a requester
+Asking for him/her to select the file(s) to send to the user.. 
+Version 2 Of this great program.

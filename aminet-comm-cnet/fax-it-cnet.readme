@@ -1,0 +1,13 @@
+Short:        A nifty FAX door for CNet and GPFax
+Author:       Glenn Schworak
+Uploader:     manderson uop edu (Malcolm Anderson)
+Type:         comm/bbs/cnet
+Architecture: m68k-amigaos
+
+FAX-IT V3.0 -*- By: Glenn J. Schworak
+    ---- CNet only version ----
+This program will allow your users to
+send messages to FAX machines from 
+your Excelsior or CNet BBS through 
+the use of your FAXmodem and GPFax 
+software. Updated: 9/15/94

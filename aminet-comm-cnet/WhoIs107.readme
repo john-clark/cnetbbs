@@ -1,0 +1,12 @@
+Short:        Quickly lookup users by Alias/realname/UUCP ID
+Author:       bmaple@burner.com (Bob Maple)
+Uploader:     bmaple burner com (Bob Maple)
+Type:         comm/cnet
+Requires:     CNet Amiga Professional v4.13 or greater
+Architecture: m68k-amigaos
+
+WhoIs is a very fast C PFile that lets you type in a user's alias, real
+name, or UUCP ID (or any fragment thereof) and find out the other two
+missing pieces of information.
+
+Requires CNet Professional v4.13 or above.

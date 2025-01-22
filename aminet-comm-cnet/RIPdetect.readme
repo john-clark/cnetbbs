@@ -1,0 +1,7 @@
+Short:        Autodetect RIP & ANSI for Cnet3
+Uploader:     gatb vax1 bemidji msus edu
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+             Autodetects RIP, ANSI, and plain callers. For Cnet/3.
+                            Installs in 30 seconds.

@@ -1,0 +1,13 @@
+Short:        Bug Fix Boxing Pfile for Cnet BBS
+Author:       Charles A. Van Tuyl
+Uploader:     vtcaesar mannheim-netz de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Version:  3.0
+
+	Installation bug that had an arithematic error on line 1755 caused
+the game to crash anytime a new user joined. Unfortunately, this caused the
+game to crash when started new. Sorry for the oversight....
+
+http://www.mannheim-netz.de/user/chatuy

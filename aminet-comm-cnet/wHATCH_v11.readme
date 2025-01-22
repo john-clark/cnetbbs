@@ -1,0 +1,16 @@
+Short:        Hatch Utility for CNet with Fhatch OR MailManager
+Author:       johnny@room109.xs4all.nl
+Uploader:     nico room109 xs4all nl
+Type:         comm/cnet
+Version:      1.10
+Architecture: m68k-amigaos
+
+[>>>---- Now there is a BETTER way. ----<<<]
+* Works 100% together with the Fhatch util.
+* Online MULTI! file hatching from udbase.
+* Uses Cnet file description when possible.
+* Full MOUSE/CURSOR controlled (real cewl)!
+* Use all settings from Tick.cfg (*,H,X,N).
+* Shows Area listings in alfabetic window.
+* Also directly supports Mail Manger (1.x)
+=[ The wARP WAY!, The Filehatch tool v1.1 ]=

@@ -1,0 +1,22 @@
+Short:        AmiNet ANSI-Colored Text File Listings!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      v3.0
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_aminet.lha
+
+An UPDATED version of the AmiNet Index Listings has been created, and includes listings of files located on the following CD's: 5, 6, Set I, 7, 8, Set II, 9, and 10, however the LOCATION of the archi
+
+ve has changed.
+
+v3.0's listings now use ANSI-Color codes, which now makes these files compatible with ANY Amiga BBS Program. You'll find the updated archive in the following Aminet directory:
+
+        Aminet/Comm/bbs/aminet_lists.lha
+
+From now on, please check this alternate directory for the most recent changes made to these listings.
+
+Dotoran/Dave Weeks
+
+-- Written by Dotoran of Frontiers --

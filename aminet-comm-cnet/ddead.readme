@@ -1,0 +1,9 @@
+Short:        Punish the user who drop's the carrier to often.
+Author:       tde94lis@te.hik.se (Stefan Lindstrom)
+Uploader:     tde94lis te hik se (Stefan Lindstrom)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+If a user drops the carrier one time to much, 
+he/she will be get the puishment ,the SysOp
+finds fit.

@@ -1,0 +1,10 @@
+Short:        CNetMultiPort - Developer's package for CNet Amiga
+Author:       Ray Akey
+Uploader:     yau5 cs uwindsor ca
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Problems/Bugs: rakey@metshop.jammys.net
+
+Allows developers to easily write P-Files/doors that support multiple ports.
+Too many features and too powerful to describe here.  See the docs and RTFM!

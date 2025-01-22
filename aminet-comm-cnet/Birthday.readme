@@ -1,0 +1,11 @@
+Short:        Happy Birthday Pfile with MANY features!
+Author:       Chaos@sunken.gate.net (John Cruise)
+Uploader:     Chaos sunken gate net (John Cruise)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+ Users that have a Birthday are greeted with a Birthday Ansi Screen.. 
+Saves Who banner and changes to state "It's My Birthday today!!" and 
+after birthday is over, Will change Who banner to original state.  
+Also has option to see if any other users share your same birthday. 
+This Program ONLY shows day & month NOT the year, as to not offend anyone.

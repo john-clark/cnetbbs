@@ -1,0 +1,64 @@
+Short:        CNet Amiga WHO Replacement Package!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      2.73
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.54+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/cnet_who.lha
+
+Modified to work on 3.05c and v4.54+ of CNet Amiga Pro...
+
+-- v2.73 --
+    - Released June 2, 1998!
+    - Updated for the newer versions of CNet as well as some bug fixes!
+
+    You will find three versions of the WHO command, each with it's own list
+of features:
+
+"Short Who" - The "W" Command:
+ ~~~~~~~~~         ~
+    - Port Number (Scans ALL Loaded Ports. Will only display IDLE ports if
+                   you have this enabled through CNet's CONFIG program!)
+    - User's Handle
+    - Where the User IS in your System!
+    - Conference Control Flag (+) Supported 100%. (This means that users on
+      other ports who try to Hide or Muffle a Conf. Controller will appear
+      to do so on THEIR screens, but will FAIL to do so on the Controller's
+      WHO screen, just like CNET!)
+    - Hiding "h", and Muffling "m" fully supported.
+    - Attempted Hiding "H", and Attempted Muffling "M" also supported!
+      (This is what a Conference Controller will see on their WHO screens
+       of user's who are trying to Hide or Muffle them!)
+    - Idle Ports now have the ability to show how LONG they've been Idle,
+      provided you have "Show Idle Ports" set in CONFIG!
+    - Occupied Ports that have been IDLE for LONGER than 5 minutes now tell
+      you this, so that you can get an idea as to whether or not the user
+      on the port is REALLY there or not!
+    - Fully colorized, with two separate HELP menus for beginning users!
+
+"Normal Who" - The "WH" Command:
+ ~~~~~~~~~~         ~~
+    - Contains everything the "Short" format does, PLUS:
+    - Logon Time.
+    - Current CPS Rate (Baud/100).
+    - City, State, and Country User Hails From.
+    - User's Short, Internal CNet WHO Banner!
+    - Idle Ports can now use an optional IDLE Banner, a line of up to 54
+      characters that could possibly tell such info as phone numbers, baud
+      rates, times, etc. If an Idle Banner is NOT created, the user will be
+      shown the regular "<No One>  0  Idle" line instead, unless a DEFAULT
+      Idle Banner has also been created.
+
+"Long Who" - The "WHO" Command:
+ ~~~~~~~~         ~~~
+    - Contains all "Short" and "Normal" information, PLUS:
+    - Last Call Date.
+    - Gender of User (Male or Female)[Color Coded Blue or Red]
+    - Time Used Online TODAY (in Minutes)
+    - The User's 3-Line "Glimpse" file.
+    - A History Flag "*" Telling which Users Have History Files, which are
+      text files of up to 20-Lines!
+
+-- Written by Dotoran of Frontiers --

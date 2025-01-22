@@ -1,0 +1,13 @@
+Short:        Display's random start screens, CNet 3.+
+Author:       davep@tbag.org
+Architecture: m68k-amigaos
+
+uploader      davep@tbag.org
+Type:         comm/cnet
+distribution: O.K. 
+
+
+	This is an extremely simple program that will display Random screens
+in place of The sys.start screen.  I wrote this for My CNet BBs because I had 
+a few screens I was debating between using for My sys.start, and then figured 
+it would be cool to use them all randomly.

@@ -1,0 +1,8 @@
+Short:        Displays the Top Ten Callers according to your selection for CNet 3.05
+Author:       Qwert (no e-mail)
+Uploader:     juergen sokrates franken de
+Type:         comm/cnet
+Version:      v1.01 (..95)
+Architecture: m68k-amigaos
+
+Features:       - 12 rows with differnt data for sorting

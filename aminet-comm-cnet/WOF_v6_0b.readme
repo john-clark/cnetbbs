@@ -1,0 +1,40 @@
+Short: Wheel of Fortune for CNet BBS
+Uploader: andrewt@gas.uug.arizona.edu
+Author: Dotoran
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1086     495 54.4% 13-Aug-93 01:22:18  !FRONTIERS!
+    1688     768 54.5% 27-Nov-93 13:22:28  WOF6.READ_ME_FIRST!
+    1269     573 54.8% 30-Nov-93 17:22:06  WOF6.READ_ME_SECOND
+     468     232 50.4% 30-Nov-93 13:29:46  WoFortune.Config
+   19485    4807 75.3% 30-Nov-93 14:36:30  WoFortune/Config
+    3932    1729 56.0% 28-Nov-93 11:17:00  WoFortune/Docs.ANS
+    3362    1547 53.9% 28-Nov-93 11:17:54  WoFortune/Docs.ASC
+    3932    1731 55.9% 28-Nov-93 13:10:04  WoFortune/Docs.IBM
+   63888   16943 73.4% 30-Nov-93 14:43:00  WoFortune/Game.ANS
+   61796   14583 76.4% 30-Nov-93 14:33:40  WoFortune/Game.ASC
+   61220   17089 72.0% 30-Nov-93 14:42:40  WoFortune/Game.IBM
+   10450    2632 74.8% 29-Nov-93 16:51:16  WoFortune/Maint
+   31505    5299 83.1% 27-Nov-93 14:46:44  WoFortune/PuzData
+    1734     576 66.7% 27-Nov-93 14:23:46  WoFortune/Register.Viewer
+    2183     650 70.2% 27-Nov-93 12:09:16  WoFortune/Register/wof.CONFIG.First
+    1530     546 64.3% 27-Nov-93 12:09:00  WoFortune/Register/wof.CONFIG.Second
+    1352     526 61.0% 27-Nov-93 12:09:30  WoFortune/Register/wof.GamEditor.BWINNER
+    1634     575 64.8% 27-Nov-93 12:09:42  WoFortune/Register/wof.GamEditor.BWINNERS
+    1609     573 64.3% 27-Nov-93 12:17:26  WoFortune/Register/wof.GamEditor.GAMEDATA
+    1719     587 65.8% 27-Nov-93 12:10:04  WoFortune/Register/wof.GamEditor.PLAYERS
+    1750     558 68.1% 27-Nov-93 12:10:28  WoFortune/Register/wof.GamEditor.STATS
+    1337     521 61.0% 27-Nov-93 12:10:46  WoFortune/Register/wof.GamEditor.WINNER
+    1557     577 62.9% 27-Nov-93 12:08:42  WoFortune/Register/wof.GamEditor.WINNERS
+    2108     695 67.0% 27-Nov-93 12:21:32  WoFortune/Register/wof.PuzEditor
+    4477    1484 66.8% 26-Nov-93 16:52:24  WoFortune/SetUp
+   21368    8163 61.7% 30-Nov-93 14:28:46  WoFortune/WOF6.HISTORY!
+   30167   10347 65.7% 30-Nov-93 13:38:46  WoFortune/WOF6.README!
+    7508    2909 61.2% 27-Nov-93 13:27:48  WoFortune/WOF6.REGISTER!
+   57760   24407 57.7% 12-Dec-93 14:21:40  WoFortune.Loader
+-------- ------- ----- --------- --------
+  403874  122122 69.7% 19-Dec-93 23:33:08   29 files

@@ -1,0 +1,137 @@
+Short:        View Log Manager for CNet Amiga 4.24+!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      5.02
+Requires:     AmigaOS 2/3.x, CNet Amiga, v4.24+
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/viewlog.lha aminet/comm/cnet/viewlog40.lzh
+
+   ViewLog, v5.02 is an update to fix a "real" bug in the VL_Maint file when
+used on systems with less than 15 logs created initially. This version also
+has my newest error-checking routines installed(which translate the lethal
+mci-code characters into their readable { and \ counterparts).
+
+   ViewLog, v5.01 is an update to correct some corrupted characters that were
+in some v5.00 command files, which caused them not to be usable.
+
+   ViewLog, v5.00 was completely rewritten from the ground up to be much
+more powerful than previous versions. This version of ViewLog was written
+for use with the latest versions of CNet Amiga(v4.22 as of this writing),
+and will NOT function on earlier versions. (Grab a copy of ViewLog, v4.1 if 
+you'd like to use this on a v3.05c CNet version)
+
+   What ViewLog does is to read how you have your current logs setup(in the
+CNet Config program), then additionally goes into your "SysData:Log/" path
+and looks there for any OTHER logs you may have set up. It then adds these
+logs to it's config file, so that you can edit them further.
+
+   For each log scanned in, the following can be done to each:
+
+    - You can specify an Access Group Range for each log, which determines
+      which, if any, users on your bbs can view the log.
+
+    - You can choose to trim the log yourself, or to let automaintenance
+      do it.
+
+    - You can specify how LONG each log should be(in lines) after it has
+      been trimmed.
+
+    - You can optionally specify if a log should have a "history" kept on
+      it. This history will contain all previously trimmed portions of the
+      original log file.
+
+    - You can specify how LONG each log HISTORY should be(again, in lines)
+      after it has been trimmed.
+
+    - You can create a "header" for each log, which makes it a bit easier
+      to figure out what the info in each log MEANS.
+
+    - You can set a "Master SysOp" flag, which means only the SysOp holding
+      ID number 1 can trim or delete a log or history file.
+
+   The USER Version of ViewLog will list ONLY those logs THAT user has
+access to reading. Depending on the user's terminal settings, they will
+have the ability to use an ANSI selection method, or an ASCII menu system.
+
+   The SYSOP Version of ViewLog allows the SysOp to view logs and histories,
+trim any log/history, delete any log/history, launch the config, maint, or
+amaint modules, as well as various other goodies! :-)
+
+   Used in conjunction with my AnsiRead Program, the users and sysops also
+have the full power to search, count, mark and save text, and easily move
+around within each log file. If you don't already have AnsiRead, then I
+HIGHLY suggest getting a copy of this file for use with ViewLog, v5.00!
+
+=== v5.00 ===
+
+    - Release Date: October 2, 1996!
+    - This version SPECIFICALLY written for v4.23 CNet Amiga, and will NOT
+      run on earlier 4.xx versions, NOR will it run on v3.05c. SysOps till
+      using v3.05c will have to continue using the 4.1 version ViewLog.
+    - Those bugs I could remember in the BETA version were removed, and the
+      following additional changes were also made:
+        - The "ViewLog5.cfg" file is now stored directly in the "ViewLog5/"
+          directory, and it is now possible to store this directory ANYWHERE
+          on your system you so wish.
+        - The CONFIG program was modified:
+            - The "Command Path" was removed, as it is no longer needed.
+            - Toggles for AnsiRead usage in both the LF and VL modules were
+              included.
+            - A complete path/filename are now asked for the LOCATION of the
+              AnsiRead program IF you'll be using it.
+        - The AMAINT program received some corrections, notably where it
+          saw instances of your first defined log(in the VL_Data) file as
+          being NEW. The output of this file, while it is running, was also
+          modified to more adequately describe what it is doing.
+        - The MAINT program needed certain modifications to it's getuser
+          values in order to correctly read your log values from CNet's
+          memory structures. The "Q" command was also fixed.
+        - The USERLOG viewer received the enhanced AnsiRead calls, as well
+          as the "smart" path changes.
+        - The SYSOPLOG viewer received the same changes as were made to the
+          USERLOG, and additionally:
+            - The "A" command was not working.
+            - History files were being corrupted during trimming operations.
+            - The colors used for displaying the names of the logs were not
+              being reset properly when the "ALL" menu receeded off the top
+              of the screen.
+            - A few additional confirmation requests were added in areas
+              where they were lacking.
+        - The amigaguide doc file was updated to include info on suggested
+          log usage, as well as having it's BETA notes removed. This HISTORY
+          file was also included.
+
+=== v4.90 ===
+
+    - This was the BETA version 5.00, released February 20, 1996 to only a
+      handful of users. Written for the first release of CNet, v4.xx by Ken
+      Pletzer, this file was started completely from scratch, as there were
+      some specific NEW features I wanted to see added:
+
+        - You can now specify ACCESS GROUP RANGES for each log to be used
+          in the determination of who exactly gets to see each log.
+        - Separate group ranges, as well as a "master" control were also
+          added to determine who has the ability to perform maintenance on
+          each log.
+        - The logs can now be TRIMMED, or shortened to a specified number
+          of lines, again where each log can have it's own trim value.
+        - If you so choose, each log can also have a "history" file created
+          from the "trimmings" of the above operation. You can also specify
+          the length you wish each history file to be.
+        - A new ANSI (and Ascii) screen display has been added for the User
+          Log, so that ALL users can view logs.
+        - A superior SysOp ViewLog module was also included.
+        - A companion program, AnsiRead, is highly suggested to be used in
+          conjunction with ViewLog. This AnsiRead program is used in the
+          display of the logs and offers MANY commands for manipulating the
+          log, searching for text strings, enabling/disabling interpretation
+          of ANSI/MCI codes and MUCH, MUCH more.
+        - The main README file was converted to AmigaGuide for more ease of
+          use, as well as receiving "enhancements" for those using the 3.1
+          operating systems.
+        - A "title" bar can also be created for each log, which is useful
+          in figuring out what the DATA in a log means.
+
+-- Written by Dotoran of Frontiers --

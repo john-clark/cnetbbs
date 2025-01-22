@@ -1,0 +1,10 @@
+Short:        SN Maint Record v1.1 - Keep track of BBS modifications!
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Phil Beazley (beazleyp mqg-smtp3 usmc mil)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Sometimes it's hard to keep track of all the modifications you've made to
+the system.  I made this so I could "jot" down what I did whenever I made
+any changes.  It's also handy for users to view so they can see what's going
+on with the BBS.

@@ -1,0 +1,15 @@
+Short:        Game of Nim for Cnet Amiga
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.20
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3/4
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+Replace:      aminet/comm/cnet/nim.lha
+
+v1.20 Game of Nim.
+
+Given 15 stones, you and the Amiga take it in turns to remove 1, 2, or 3 stones per turn. The player that must remove the LAST stone loses the game.
+
+-- Written by Dotoran of Frontiers --

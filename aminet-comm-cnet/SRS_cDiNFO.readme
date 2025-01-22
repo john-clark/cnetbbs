@@ -1,0 +1,12 @@
+Short:        CNet Tool to show CD`s online
+Author:       sascha@toxic.franken.de
+Uploader:     sascha toxic franken de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+
+ This is just another little Tool to make your BBS more comfortable for
+ the users.
+
+ It shows you an ANSI and the name and description of the CD that you have
+ in any direct exchange subboard or in any device.

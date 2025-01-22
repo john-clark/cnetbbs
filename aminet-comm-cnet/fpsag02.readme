@@ -1,0 +1,11 @@
+Short:        The Flux Point Subboard Activity Graph.
+Author:       Peter Klein@2:235/202.0
+Uploader:     nico room109 xs4all nl (Nico Van Royen)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+FPSAG.rexx v0.2 - (26-Mar-95) - Flux Point
+Subboard Activity Graph. - Creates a
+bargraph of the subboard activity. This is
+updated when a user enters a subboard, or
+uses the global search commands.

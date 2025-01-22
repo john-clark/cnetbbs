@@ -1,0 +1,20 @@
+Short:        Arexx: Add BBSLink.Net Wall to CNet
+Author:       james@ksshedbuilder.com (James Plotts)
+Uploader:     james ksshedbuilder com (James Plotts)
+Type:         comm/cnet
+Version:      1.0
+Requires:     comm/www/httpj200.lha
+Architecture: generic
+Distribution: Aminet
+
+               CNet BBSLink Wall  Version 1.0.0                                
+  Written by Link of CheckSum Acknowledged BBS on 3 Feb 2018       
+  Used to seamlessly connect a CNet Amiga BBS to the BBSLink.Net   
+  door game server WALL. It is public domain software.                                               
+	
+  An Arexx script that allows a CNet Sysop to add the BBSLink.Net
+  Wall to the system.  This allows users to view and write on the 
+  wall that is ran at BBSLink.Net.
+	
+*****************************************************************
+********* CheckSum Acknowledged BBS telnet://24.225.22.26:2600 **  

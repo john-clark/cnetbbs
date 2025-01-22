@@ -1,0 +1,24 @@
+Short:        Dave Letterman's Top 10 Lists for CNet!
+Author:       dotoran@buffnet.net (david weeks)
+Uploader:     dotoran buffnet net (david weeks)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+v1.2 Dave's Top 10 Lists
+
+An update to my original which includes error checking, changewhere notification, killing of the more prompt, as well as a proper version string.
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1029     463 55.0% 29-Sep-95 22:27:32  !Frontiers
+    2851    1179 58.6% 07-Oct-95 12:48:58  Top10List.README!
+   19335   10391 46.2% 17-Dec-91 23:52:12  Top10Lists/List1
+   19948   10553 47.0% 17-Dec-91 23:52:12  Top10Lists/List2
+   19932   10600 46.8% 17-Dec-91 23:52:14  Top10Lists/List3
+   20115   10908 45.7% 17-Dec-91 23:52:14  Top10Lists/List4
+    1712     840 50.9% 07-Oct-95 12:46:06  Top10Lists/Top10List
+-------- ------- ----- --------- --------
+   84922   44934 47.0% 07-Oct-95 12:49:54   7 files
+
+--- from dotoran

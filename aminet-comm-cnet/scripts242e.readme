@@ -1,0 +1,35 @@
+Short: Various scripts for CNet v2.42e 
+Type: comm/bbs 
+Uploader: professor@thgtwy.biloxi.ms.us
+Author: Vince's Vault
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    4604    4467  2.9% 21-Jan-93 08:15:02  Test/HSCHK
+    7614    3059 59.8% 21-Jan-93 08:15:02  Test/HSCHK.doc
+    3034    1318 56.5% 21-Jan-93 08:16:02  Test/ReDMS
+    3689    1847 49.9% 21-Jan-93 08:16:04  Test/ReDMS.doc
+     151     131 13.2% 21-Jan-93 08:16:04  Test/Strip
+    1884    1055 44.0% 21-Jan-93 08:15:02  Test/Stripper
+    1122     511 54.4% 21-Jan-93 08:15:04  Test/Stripper.DOC
+     754     450 40.3% 21-Jan-93 08:16:04  Test/vc
+     242     183 24.3% 21-Jan-93 08:16:04  Test/xarc2lha
+     249     188 24.4% 21-Jan-93 08:16:06  Test/xarj2lha
+     883     510 42.2% 21-Jan-93 08:16:06  Test/xdms.ReDMSbackup
+      94      90  4.2% 21-Jan-93 08:16:06  Test/xdms2dms
+     127     112 11.8% 21-Jan-93 08:16:06  Test/xdoc2lha
+     127     112 11.8% 21-Jan-93 08:16:08  Test/xdox2lha
+     127     112 11.8% 21-Jan-93 08:16:08  Test/xexe2lha
+     338     230 31.9% 21-Jan-93 08:16:08  Test/xlha2lha
+     264     192 27.2% 21-Jan-93 08:16:08  Test/xlzh2lha
+     127     112 11.8% 21-Jan-93 08:16:10  Test/xtxt2lha
+     107      97  9.3% 21-Jan-93 08:16:10  Test/xwrp2wrp
+     251     190 24.3% 21-Jan-93 08:16:10  Test/xzip2lha
+     246     189 23.1% 21-Jan-93 08:16:10  Test/xzoo2lha
+     696     256 63.2% 06-Dec-92 21:25:58  ac.displayme
+    1247     440 64.7% 02-Mar-94 17:04:22  TGBBS.displayme
+-------- ------- ----- --------- --------
+   27977   15851 43.3% 02-Mar-94 07:00:00   23 files

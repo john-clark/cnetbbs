@@ -1,0 +1,19 @@
+Short:        C-Net Amiga Pfile - Arcade Action
+Author:       amiga@snet.net  Zonkerz from #AmIRC undernet
+Uploader:     amiga snet net  http://pages cthome net/amiga
+Type:         comm/cnet
+Requires:     Cnet Amiga version 3
+Architecture: m68k-amigaos
+
+
+
+
+   I wrote this for a friends bbs some time ago, and never released it
+   anywhere else... so here it is.
+
+   it's sorta like a Online pac-man with several different mazes(more can be made easily)
+   a Spider chases you around a maze as you try to collect all the gold coins
+   so that you can go to the next level.  Keeps track of hi-scores.
+
+
+	Stop by my website for other C-NET Games that I've written.

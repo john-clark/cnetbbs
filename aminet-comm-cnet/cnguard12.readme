@@ -1,0 +1,47 @@
+Short:        CNet/4.32+ crash solver. V1.2
+Author:       coletta.s@eurodatabank.com (Stefano Coletta), l.colitti@flashnet.it (Lorenzo Colitti)
+Uploader:     coletta s eurodatabank com (Stefano Coletta)
+Type:         comm/cnet
+Version:      1.2
+Requires:     CNet v4.32+
+Architecture: m68k-amigaos
+
+Are  you  tired of coming back home only to see CNet crashed and your BBS down
+for  the count?  Well, check out Guardian and this problem will become a thing
+of the past!
+
+This  is  not  a  Rexx door nor is it a CNetC program, it is a guardian...  it
+hunts  for  crashed  nodes, tries to revive them and, if necessary, resets the
+system  without  human  intervention.   How?  By monitoring the status of each
+loaded  port and taking the correct moves to reset the Amiga SAFELY.  Guardian
+is  able  to  catch  the  majority  of  node lockups because it is an EXTERNAL
+program  detached  from  CNet.   It  will  NEVER  interfere  with  normal CNet
+operation since a port is crashed and it uses less than 0.01% CPU time.
+
+This is what Guardian does:
+
+1)  Monitors all loaded ports (whether a user is online or not) to see if they
+    are locked  up.
+2)  If a  node  crashes, Guardian tries to unlock or close and then reload it.
+    If it succeeds, it goes back to monitoring.
+3)  If not, it  immediately closes all loaded nodes that are IDLE (where there
+    is no user online) and shuts down CNet related tasks (ie. Yank-Task, etc.)
+4)  It  then sends two  OLMs telling  remaining  online users to logout within
+    a configurable period of time.
+5)  Sends a mail message to every kicked user to inform them why they have been
+    disconnected. The crashed user also receives a message asking for a
+    detailed report of what he/she was doing before the crash.
+6)  It waits for all users to log out before closing the remaining ports; if a
+    user  does  not log out within a  specified  (configurable) period of time,
+    Guardian closes the port anyway. The user was warned... 
+    If a user logs out of his own accord, CNet closes the port automatically.
+7)  When  all ports  except the locked  one are idle Guardian unmounts ALL devs
+    through an external utility and resets the Amiga.
+8)  In rare instances Guardian is able to close  all the ports and reload them
+    without forcing a reset.
+
+Everything Guardian does is logged.  The default file is SYSDATA:Log/Guardian,
+but this can be changed by editing Guardian.cfg.
+
+  This program is the final solution you have always wanted for your CNet BBS.
+Well, you won't know if you don't try it, will you?! :-)

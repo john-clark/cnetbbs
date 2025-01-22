@@ -1,0 +1,29 @@
+Short:    Random Pfile advertiser!
+Author:   glenn-b@cnet577.cts.com
+Uploader: glenn-b@cnet577.cts.com
+Type:     comm/cnet
+
+This AREXX program will randomly display one pfile title screen during logon
+(SYSTEXT:sys.welcome). Works best when there are many screens to choose from.
+Easily configurable, tested on CNet 3.05c but should work on 2.96+. This is
+CallMeWare (free) just keep the distribution together and call someday!
+--
+---------------------------------------------------------------------------
+       /// "Only Amiga makes it possible!"    | G-WiZ (Glenn Batuyong)
+      ///                                     | SysOp of Visionary GFX
+\\\  ///   Amiga 2000HD 40MHz 68030 5MB RAM   | 619-6906248 CNet PRO 14.4k 
+ \\\///   Dual CPU/KICK system, VXL*30 power! | glenn-b@cnet577.cts.com
+  \XX/           POWERED BY MOTOROLA!         | batuyong@astreet.cts.com
+---------------------------------------------------------------------------
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    1358     589 56.6% 07-Aug-94 17:21:28  PScreen.rexx
+     328     173 47.2% 07-Aug-94 17:34:18  FILE_ID.DIZ
+     739     285 61.4% 29-May-94 21:03:00  Visionary.TXT
+    4023    1706 57.5% 07-Aug-94 17:10:58  PScreen.DOC
+-------- ------- ----- --------- --------
+    6448    2753 57.3% 08-Aug-94 10:58:18   4 files

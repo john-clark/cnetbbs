@@ -1,0 +1,28 @@
+Short:        ProWho 2.1, Auto Updating Who for CNet by Trebor
+Author:       trebor@funhouse.thenet.co.uk (Robert Hewick)
+Uploader:     trebor funhouse thenet co uk (Robert Hewick)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+          Professional Who Replacement Version 2.1 [Unregistered]
+                         (C) 1997 by Trebor
+                       Release Date: 04/05/97
+
+WHAT IS IT?                                                             
+===========                                                             
+
+     This Professional Tool is a Replacement for CNet`s "WHo" command,
+     Which allows auto updating instead of having to type WHo every second.
+     You can also configure it very easily with its built in Visual Editor.
+     
+     If you have more than one node this Tool will be used to its full 
+     potential, making users life hell of lot easier, but if you only have
+     one node unlike myself it`s still better than the standard WHo :).
+
+     This program has been tested on the following machines sucessfully:-
+
+     Amiga 4000/040/26MEG RAM  -  CNet 4.26e <-- Mine :)
+     Amiga 4000/030            -  CNet 3.05
+     Amiga 2000                -  CNet 4.26
+     Amiga 1200/030	       -  CNet 3.05
+     Amiga 1200                -  CNet 3.05

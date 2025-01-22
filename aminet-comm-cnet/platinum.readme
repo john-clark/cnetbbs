@@ -1,0 +1,131 @@
+Short:        CNet Text/AmigaGuide Filelist Generator!
+Author:       dotoran@bluemoon.net (david weeks)
+Uploader:     dotoran bluemoon net (david weeks)
+Type:         comm/cnet
+Version:      1.96
+Requires:     AmigaOS 2/3.x, CNet Amiga, v3.05c/v4.22
+Architecture: m68k-amigaos
+Distribution: anywhere, everywhere, please mirror!
+
+    - Allows the SysOp to create BOTH text AND amigaguide formatted listings
+      of files.
+
+    - There are three types of scans that PLATINUM can do on a directory:
+
+        - File Directory - If a "/data/_Items3" file exists.
+
+        - Text Directory - If a "/data/_Items2" file exists.
+
+        - Dos Directory  - If neither of the above exists.
+
+    - Regardless of the TYPE of directory in question, each filelist will
+      contain at LEAST the filename, short description, file size, and the
+      AGE of the file(in DAYS) Each listing will also contain a line of
+      totals(files, bytes, etc).
+
+    - If a "File Directory", one where an _Items3 file exists, the listing
+      will also contain the number of times file was downloaded, whether or
+      not the file was tested, if it was virus scanned, if it's marked as a
+      SysOp Favorite, if it's a FREE Download, and the FULL eight line short
+      description(from the _short file). A check will also be done on the
+      "missing" flag, the "killed" flag, and the "post" flag, and these will
+      be skipped is seen.
+
+    - ALL listings(txt or guide) may also contain a Header File (or NEW
+      FILES Header), a "Table of Contents", a listing of MAGIC Names, a
+      "Most Downloaded Files" Listing, a "FREE Downloads" listing, a "SysOp
+      Favorites" Listing, and a Footer File.
+
+    - You have the ability of creating MULTIPLE listings, as well as a NEW
+      FILES listing. You might choose to create a main FILES list, a NEWFILES
+      list, then separate listings for specific groups(perhaps based on the
+      computer being used, whether they were a SysOp, had Adult access, etc.)
+
+    - You have the ability of individually toggling whether a TXT or GUIDE
+      formatted listing is created for EACH list, so it's possible to create
+      BOTH for SOME of the lists, only TXT's for others, only GUIDES, etc.
+
+    - Each file can also be PACKED, using either ZIP, LHA, or LZX. You can
+      opt to PACK the TXT file using one format, and the GUIDE using a
+      different one, or choose NOT to pack a listing.
+
+    - An included "Ansi-ARexx" config file allows the SysOp to easily modify
+      any of the above settings, as well as creating the list of MAGIC names,
+      with descriptions, Directory Paths, with descriptions, and more! This
+      file also uses the "rexxreqtools" library to display requestors asking
+      for information whenever it warrants the need for one(like when you're
+      editing a path, or choosing the listing to use as JM's filelist, etc.)
+
+    - As well as being able to create MUTLIPLE listings, you also have the
+      ability of specifying WHICH directories to USE in each listing, AND
+      what ORDER you wish them to appear in. The config file has numerous
+      ways to make creating these "sorted" lists a snap!
+
+    - A series of external text files for Headers, Footers, and GuideTexts
+      can also be created. If you opt NOT to create one of the above, the
+      "small"(4 lines) text file will be used(if it exists), but the "large"
+      (10 lines) text file is used if you specify YES to include one. The
+      CNet Visual Editor is used to edit these files from within CONFIG.
+
+    - You can specify WHERE you wish the created filelists to be stored.
+
+    - As mentioned below, you can specify up to SIX Node Addresses to where
+      a user could FREQ you from. These addresses are used to create buttons
+      in the AmigaGuides to ask the user to specify the correct .REQ name to
+      use.
+
+    - For those with slower systems, there's a toggle that allows filelists
+      to be created from "Dos Information". You'll lose a lot of the "neat"
+      features, however it will create smaller filelistings, which won't
+      hurt the download times as much.
+
+    - You can specify the number of days files will be considered NEW as, as
+      well as the minimum number of times a file needs to be DOWNLOADED, so
+      it can appear on the "Most Downloaded Files" listing.
+
+    - You can toggle whether or not you wish the "Tiny Navigation System"
+      to be used in AmigaGuides(more on this below).
+
+    - Those using JamMail can specify one of the filelists to be used as
+      the file sent to a user who types FILELIST from their "Press ESC
+      twice..." prompt.
+
+    - Those using FFRS can specify if they wish the INDEX file FFRS uses to
+      locate files be updated each time filelists are created.
+
+    - AmigaGuide formatted listings have these added features:
+
+        - A "Pre-Header" allows SysOps running Multiple Networks to ask the
+          reader to select which network they wish to REQUEST from. An "out"
+          is also given for those NOT running mailer software.
+
+        - The "Table of Contents" list, as well as the three Special Lists
+          have the ability of taking you directly to the directory that
+          houses the appropriate file(s).
+
+        - The filelists, Magic list, Most Downloads List, SysOp Favorites,
+          and Free Downloads listing have the ability of letting you click
+          on their filenames and have that file's name added to a .REQ file.
+
+        - A "Tiny Navigation System" is included in the form of some small
+          buttons that appear at the start of every filelist. These buttons
+          allow you to immediately go to the buttons screen, the magic names
+          screen, one of the three special lists screens, or the main title
+          screen, all at the click of a mouse button! Additional buttons let
+          you KILL/DELETE a .REQ file that was already started, or VIEW the
+          CONTENTS of a .REQ in progress.
+
+        - A "customized" HELP Node is also created within each listing,
+          which will only discuss commands available in THAT listing. For
+          instance, if no "SysOp Favorites" exist, then the " S " button
+          is not discussed, etc. (nor will the "S" button appear on the
+          Navigation bar)
+
+        - Up to EIGHT "Text Buttons" can also be included in the AmigaGuide
+          listings. You can define ALL EIGHT, yet only choose to USE one or
+          two in each listing, as well as specifying the ORDER you'd like
+          the buttons to appear in. You'll be asked for the text to appear
+          on the button, as well as the full path to the text file to use
+          in the created node.
+
+-- Written by Dotoran of Frontiers --

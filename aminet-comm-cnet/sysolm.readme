@@ -1,0 +1,53 @@
+Short:        Automaticly send users olms.
+Uploader:     gatb vax1 bemidji msus edu
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+Automatically sends your callers certain OLMs during certain events.
+The SysOp can add/remove OLMs, configure when they occur, and what they say.
+
+> *** System Message ***
+> New file just uploaded.  Type "NF" to list.
+
+> *** System Message ***
+> Users have started a group-conference.  To join, type "J" from the main-menu.
+
+> *** System Message ***
+> New vote-topic added.  Type "VOTE" from the main-menu.
+
+> *** System Message ***
+> New caller just logged-in.  Type "WHO" to list.
+
+> *** System Message ***
+> Caller just logged-out.  Type "WHO" to list.
+
+> *** System Message ***
+> New-user just registered.
+
+> *** System Message ***
+> Network mail has arrived and is being unpacked.
+> (System slow-down may occur.)
+
+
+
+Each user can configure which System-OLMs he wishes to receive/avoid:
+
+> [A] <OFF> Also ring bell during these System-OLMs?
+> [B] <ON>  New file just uploaded.  Type 'NF' to list.
+> [C] <ON>  New message just posted.  Type 'NM' to list.
+> [D] <ON>  New response just posted.  Type 'NM' to list.
+> [E] <ON>  New vote-topic being added.  Type 'VOTE' from the main-menu.
+> [F] <OFF> New news/gfile/pfile added.
+> [G] <ON>  New caller just logged-in.  Type 'WHO' to list.
+> [H] <ON>  Caller just logged-out.  Type 'WHO' to list.
+> [I] <ON>  New-user starting the registration process.
+> [J] <ON>  New-user just completed the registration process.
+> [K] <ON>  Network mail is being processed.
+> [L] <OFF> Network mail is done being processed.
+> [M] <OFF> SysOp is now available for chats.
+> [N] <ON>  SysOp is no longer available for chats.
+> [O] <ON>  The system currently has ALL lines in use.
+> [P] <ON>  Polling for network mail.
+> [Q] <OFF> Users have started a group-conference.
+>
+> Toggle which on/off (_BCDE_GHIJK__NOP_) [none]:

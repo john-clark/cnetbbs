@@ -1,0 +1,10 @@
+Short:        SN Bulletins v2.1 - Two-column bulletins menu
+Author:       Phil Beazley (beazleyp@mqg-smtp3.usmc.mil)
+Uploader:     Phil Beazley (beazleyp mqg-smtp3 usmc mil)
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+My version of a Bulletins program.  Two columns and pretty nice looking.
+Not much you can say about a bulletin menu, I guess.  However, it will
+point out which bulletins have been updated since their last call and
+that's something I haven't seen in any others, so...  Get it!

@@ -1,0 +1,33 @@
+Short:        Mail-Ed v2.4 - CNet mail maintenance.
+Author:       Ray Akey (rakey@netcore.ca)
+Uploader:     rakey netcore ca
+Type:         comm/cnet
+Replaces:     mailed#?.lha
+Architecture: m68k-amigaos
+
+Bugs/problems: rakey@netcore.ca
+
+                                MailEd v2.4
+                               -=-=-=-=-=-=-
+                Written by Ray Akey for CNet Amiga v3.05+
+
+Changes V2.4
+------------
+1. Now capable of killing messages FROM a user.  Network addresses are valid
+   "user patterns" also.  Entering "Heavy" as the user pattern would kill
+   messages from "Heavy Metal" and "HeavyDuty".  Entering "1:246/" as the
+   FROM pattern would kill mail from "Electropig@1:246/90.0" and
+   "Heavy Metal@1:246/74.0" as well.
+2. Network addresses are now expanded when you SCAN/LIST mail in a user's
+   mailbox.   
+3. CTRL-C and / are now recognized even while mailboxes are being scanned.
+
+                                -----------
+                                What is it?
+                                -----------
+A very useful mail utility for sysops which..
+
+  Allows you to kill mail (Urgent AND regular) for ANY user.
+  Is a very efficient Mail Verify utility for SysOps.
+  Is a mail scanner to let you know exactly WHO has mail on your system.
+  Allows you to kill mail based on search criteria, dates, user handles, etc,.

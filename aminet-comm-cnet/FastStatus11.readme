@@ -1,0 +1,22 @@
+Short:        FastStatus V1.1 Fast status view - Cnet
+Author:       erik.pettersson@mailbox.swipnet.se
+Uploader:     erik pettersson mailbox swipnet se
+Type:         bbs/cnet
+Version:      1.1
+Architecture: m68k-amigaos
+Distribution: Mailware
+
+FastStatus is a little rexx script that check the most inportat stuff about
+the user and shows it where you want to... (I use it at my login sequence)
+LhA Registered V1.62 - Copyright (c) 1994 by Stefan Boberg.     
+All rights reserved. Not for commercial use.
+
+Listing of archive 'PFiles:Utilities/.SnillesRelese/FastStatus11.lha':
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    4793    2089 56.4% 29-Sep-96 15:16:58  faststatus/FastStatus.Guide
+    2090     907 56.6% 29-Sep-96 14:56:44  faststatus/FastStatus.Rexx
+-------- ------- ----- --------- --------
+    6883    2996 56.4% 29-Sep-96 17:52:04   2 files
+
+Operation successful.

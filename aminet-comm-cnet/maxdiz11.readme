@@ -1,0 +1,39 @@
+Short: FILE-ID.DIZ processor for CNet
+Type: comm/cnet
+Uploader: marlin@cnet577.cts.com
+
+Long: 
+
+.-----------------------------------------.
+| +  MaxDiz V1.10 - [Bugs Fixed & 100%]   |
+|    ----------------------------------   |
+| 250 Lines On All Descriptions.........  |
+| Bground, Fground, Centered Signatures.  |
+| Full Editing Abilities - VisEd/LineEd.. |
+| File_ID.Diz Processing/Editing/Creation.|
+| BBS Advertisment Stripping............. |
+| Adds Width, Height, Depth, FileType Info|
+| To GIF's, Jpegs, Iff's, ILBM's, Anims.. |
+| Fully Configurable & Easy To Install... |
+`-[ Programmed By /X\ad/X\ax  RaDiAnCe ]--'
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+    2273     563 75.2% 01-Jul-94 03:27:42  C.info
+   16156    9570 40.7% 24-Jun-94 16:40:36  C/dmsdiz
+   15684    9172 41.5% 24-Jun-94 16:40:38  C/exediz
+    5060    2607 48.4% 24-Jun-94 16:40:42  C/GfxInfo
+   17640    9366 46.9% 01-Jul-94 03:26:56  C/Mapus
+    4412    2096 52.4% 24-Jun-94 16:40:38  C/Speediz
+    9476    5827 38.5% 24-Jun-94 16:40:38  C/TXTdiz
+    2273     565 75.1% 04-Jul-94 04:05:26  Pfiles.info
+      43      43  0.0% 05-Jul-94 04:20:32  Pfiles/BBS_ADDS.LST
+    1911     990 48.1% 05-Jul-94 04:31:54  Pfiles/MaxDiz.Install
+   17442    5728 67.1% 05-Jul-94 15:01:10  Pfiles/MaxDiz.Rexx
+   14444    6326 56.2% 05-Jul-94 04:37:40  Pfiles/MaxDiz.Txt
+     528     314 40.5% 05-Jul-94 15:37:10  File_ID.Diz
+-------- ------- ----- --------- --------
+  107342   53167 50.4% 10-Jul-94 12:44:14   13 files

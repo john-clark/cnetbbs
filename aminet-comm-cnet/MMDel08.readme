@@ -1,0 +1,8 @@
+Short:        MultiMail deleter for CNETV3.05
+Author:       Florian Lohoff@2:2449/845
+Uploader:     vgueth hrz uni-bielefeld de
+Type:         comm/cnet
+Architecture: m68k-amigaos
+
+ A MultiMail deleter for CNET V3.05. Deletes MultiMails (Urgent&Normal)
+ from every user Mailbox. Identifies its mails via From & Subject field.

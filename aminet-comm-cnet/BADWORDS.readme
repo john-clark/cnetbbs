@@ -1,0 +1,21 @@
+Short: Bad language message parser for CNet
+Type: comms/bbs/CNet/AREXX
+Uploader: philip@griffith.dwr.csiro.au
+Author: Ray Akey (AKA Heavy Metal)
+
+BadWords simply parses messages after exiting (saving) the C-Net editor and
+checks all words entered with a list of "Badwords" created by the sysop and
+if found, users are notified of their inappropriate choice of words and knocks
+them back into the editor to remove the offending word(s).
+
+
+============================= Archive contents =============================
+
+Original  Packed Ratio    Date     Time    Name
+-------- ------- ----- --------- --------  -------------
+     333     164 50.7% 20-Sep-92 11:54:24  ac.displayme
+   10616    6437 39.3% 26-Jun-92 00:12:16  BadWords
+    2670    1275 52.2% 26-Jun-92 00:09:34  BadWords.doc
+      74      59 20.2% 25-Jun-92 20:27:28  BadWords.words
+-------- ------- ----- --------- --------
+   13693    7935 42.0% 20-Sep-92 06:00:00   4 files
