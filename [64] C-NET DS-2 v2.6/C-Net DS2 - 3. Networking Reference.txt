@@ -1,0 +1,330 @@
+  Networking Docs for Cnet v2.0 & v2.5
+ --------------------------------------
+
+ To install Networking on your system, proceed with the following steps:
+
+Step 1
+
+ Remove ALL previous networking files, programming modifications and data from
+your system.
+
+Step 2
+
+ Copy all the dsp.files from the disk onto your dsp.file drive.
+ Copy "sys.net.rules" onto your system drive.
+
+Step 3
+
+ To DSP.MODEM add these lines:
+
+63045 ifu4%=.and(right$(d1$,4)=va$orright$(d1$,4)=vb$)thena$="net.sender":goto62
+63046 ifu4%=.anda$="^"thena$="net.sender:goto62
+
+ To DSP.LOGON add this line:
+
+627 ifa$="66"thena$="net.receive":goto62
+
+ To DSP.SUBS add: gosub1000
+
+At the end of line 644 and right before the goto544 in line 566
+
+Also you must add the lines that are in dsp.subs <add> to the end of dsp.subs
+
+ To DSP.RESTART add these lines:
+
+732 va$="":vb$="":x=1:a$="sys.net.config":gosub65:gosub3
+733 ifa=.thenfori=1to10:sysp,24:next:va$=a$:sysp,24:vb$=a$
+734 close2
+
+Step 4
+
+Run the dsp.net.config file and enter in the pertinent information. This will
+create the file sys.net.config which contains the following info:
+
+record#1  - NODE:Boardname
+record#2  - City, Province/State
+record#3  - Boardname
+record#4  - Network access
+record#5  - News/Wall maint access
+record#6  - T or P (Tone or Pulse dial)
+record#7  - # calls to connect
+record#8  - Cnet version (2.0 or 2.5)
+record#9  - name of Net Library
+record#10 - daily callout time #1
+record#11 - daily callout time #2
+record#12 - net connection password
+
+Step 5
+
+ If AND ONLY IF you are the HOME board, then run dsp.net.nodes, this will allow
+you to add and remove boards from the active Net.
+ Remember that the Board names you add MUST be the same as the ones that each
+individual NODE sysop has in his "sys.net.config" file.
+ You are only allowed 50 boards in the Network at this time, but that is quite
+a few, you must think of the time that is needed to process the info passed
+around, as well as the drive space that is required.
+  
+
+  Network Program Explanantion
+ ------------------------------
+
+ The network is a closed circle of bbs boards, with each board calling ONLY
+the board next in line. In a four bbs network, the boards call out in the
+following order:
+
+Board 1 calls Board 2
+Board 2 calls Board 3
+Board 3 calls Board 4
+Board 4 calls Board 1
+
+ What you SHOULD do is stagger the call out times so that all the boards aren't
+trying to call at the same time.
+ Edit line 63045 in your modem file and set Board 1's time at 3am, Board 2's
+time at 3:30am, Board 3's time at 4am, Board 4's time at 4:30am.
+ Be sure to leave time enough between the call times for the system to
+organize what it has received before it calls out.
+
+ Also, if any of the boards makes use of the 2ndary callout time (to do that
+make it different from callout time #1 in your configuration) it would be
+better to have them do that BEFORE or AFTER the main networking cycle.
+ Or if all the boards want to do it, you could have two full cycles.
+
+
+ When the time reaches the call time OR someone pushes the "^" key on the 64,
+the board runs dsp.net.sender. This program looks for any files that begin
+with "loc." or "sys.net.update" and if found, it proceeds to dial the bbs
+number.
+ If no connection is made after 5 tries then it adds a "1" to the phone number
+(if there isn't one already) assuming the number is long distance. To avoid
+this, make your call attempts less than 5 in your sys.net.config file.
+ In order to connect, it is important that the destination bbs has a bell or
+control-g at the end of the line:
+
+PRESS BACKSPACE OR DELETE:
+
+ If not, then the bbs will hang until a timeout occurs.
+
+ If a connection is made and the BBS you are calling has been disabled (the
+sysop has used the lightbar to turn the net off) it will be noted in your log
+and the netting is aborted.
+
+ The netting is also aborted if the net passwords do not match. It is important
+that all boards in the net have the same net password. This feature is for
+preventing unwanted boards from netting with your system.
+
+ Once a connection is made, the source board uploads all it's files.
+ The source board will then hang up and write the activities to the log.calls/
+errors and the log.u/d files.
+
+ The destination bbs now loads the dsp.net.mailer file and looks for netmail
+for it's users. This file falls through to dsp.net.sort
+
+ Dsp.net.sort scans through all the net files it just received and rewrites
+them, weeding out stuff that originated on that board. This file falls through
+to dsp.net.filer
+ 
+ Dsp.net.filer looks for sys.net.update and replaces your old sys.networks file
+if you got an update. Then it adds new items to the news, wall, personals,   
+classifieds and pub. It falls through to dsp.net.subs
+
+ Dsp.net.subs adds net messages. If the Library name not match the one in your
+data file, you will not get any messages.
+
+(note only ONE net Library can be used and the netted sub boards MUST have the
+first 3 letters in common as well as ending in "/Net", don't have any netted
+subboards that start with "THE"!!!)
+
+ Also, if you receive a response to a post you don't have, or a post for a
+sub board you don't have, it will not be added anywhere.
+ As well, if you have frozen a post, it will not add new net responses, or if
+the subboard is full (50 posts) it will not add in new posts.
+ This file falls through to dsp.net.re-sort.
+
+ Dsp.net.re-sort is not a file for all sysops. It was written because the bbs
+my board calls is only 1200 baud, and originates most of the messages.
+ Since files that originate on the bbs you are calling will be weeded out by
+that system, this file weeds them out before calling it, that way reducing
+the size of the files you have to send, as well as your phone bill.
+ This means the dsp.net.sort on the other bbs will have nothing to do, but
+it is cheaper!
+ If you aren't calling long distance, you may leave this file out, and have
+dsp.net.subs load dsp.net.adder instead of this one.
+
+ The last file is dsp.adder, and this takes all your "net." files and adds
+them to the end of your "loc." files which will be sent when your bbs calls
+out.
+
+
+TO DISABLE THE NETWORKING you may move your lightbar cursor over to U4 and
+highlight it. This will prevent use of the sender, receiver and the files that
+your users run for networking. It will also prevent saving messages in the
+netted Library for transmission but it will allow them to be saved as regular
+messages.
+
+ If an error occurs during the network processing and the error is minor (not
+a system locking up error!), it will be written to your log.calls/errors file.
+
+  Networking User Files
+ -----------------------
+
+	dsp.Network   This is the menu for the networking functions, it
+will allow access to all the net files on the board. Is is easiest to install
+this file in your CN file by doing the following:
+
+Line 184: Add 1 to the value of b and add NE just before the closing quotes
+of b$
+
+Line 186: Add ,500 to the end (check to make sure line 500 is not used for
+something already, and if so, find a new blank line)
+
+Line 500: a$="Network":goto207
+
+ Now add the command "NET" to your main menu (sys.menu 1).
+
+dsp.netinfo   This program just gives a list of all the boards on
+the current network setup.
+
+dsp.netmail   This programs lets users exchange mail between the
+networked boards. It does NOT allow a user to send mail to a user on the same
+board (thats what normal mail is for!)
+
+dsp.netads   This file has 2 functions, one is a Classifieds file
+to allow the users to place ads like in a newspaper, the other is a Personals
+column (where all ads are anonymous).
+ You may send mail to the writer, and it will direct it to a netted board, or
+send it directly to a user if the ad was made on the same board as it was
+read from.
+ The subjects for this file are in data statements at the end of the program.
+ Note that only the sysop has maint access for this file!
+
+dsp.netfiles   This is a combo Wall and News program. Users with
+News/Wall maint access may restart the two files, News may only be added by
+these same users.
+
+dsp.netpub   This is the only online game included (so far) and
+keeps track of the top ten drinkers
+
+ Acknowledgement should go to Les Paul, the sysop of Music Review BBS for the
+original idea and most of the code for the networking program itself.
+ However, the program was still buggy and hopefully this version has solved
+most of them.
+ Note also that there is no guarantee of compatibility with boards that use
+any other version of the networking (in fact there probably IS NO compatibility
+unless the other sysop uses these dsp files!)
+
+
+
+
+                 Paul van Doleweerd
+                 The Deadworld BBS
+                 1-416-668-7347
+
+  Updated last on December 26th, 1991
+
+Additional Notes:
+----------------
+
+  If one of the boards is busy during the call time, nothing will be lost,
+more stuff will be sent the next day.
+ It was decided NOT to have the sender skip to the next bbs as the net subs
+would not be the same on all boards if one was skipped.
+
+ If you wish to add a file to be sent, add to the data statements in dsp.net.
+sender, remember that you must keep "sys.net.update" as the LAST file.
+If you are calling the home board, this file is not sent, this is done by
+ignoring the last DATA item.
+ The first data item is the number of files, the first of which is the name
+of the file you are sending, the second is the name that file is to have when
+it reaches the board you are calling.
+
+
+Variable List: (deprecated, 6/10/2020)
+-------------
+
+NE$="NODE:"+Your Board Name
+
+  Used as a separator on your loc.files
+
+BN$=Your Board Name
+
+CI$=Your Location (City/Province)
+
+VE$="2.0" or "2.5"
+
+  Used for disk operations
+
+LN$=Library Name
+
+  Used in dsp.net.subs and dsp.subs
+
+U4%=0 or 1
+
+  Disables network if u4%=1, accessed with the Lightbar
+
+VA$,VB$=Callout times (four digits)
+
+  NOTE:to have a PM callout time, 80 is added to the hour (see your cnet
+  manual for an explanantion)
+
+Updated Variable List: (as of 6/10/2020)
+While reading sys.netconfigure:
+
+Record	Var		Description
+1		bn$		Your BBS name
+2		ci$		Your BBS location (City ST) note the space and not comma
+3		bp$		Your BBS phone number
+4		a%(i)	Network access level
+5		pt$		Phone type (normally Tone or Pulse, in later revisions v3.13+ this is either M for modem or T for Telnet)
+6		nd		Network drive (from system drives 0-7, usually 2 for email)
+7		ve$		Version number (2.0, 2.5, 2.6, 3.0  use 2.6 for storms edge version, 2.5 unless directed otherwise)
+8		ln$		Library name for netsubs
+9		hn$		Home Node board name
+10		hp$		Home Node phone number
+11		hn		isHomeNode flag (. or 1)
+12		lc$		Last successful net call (7 digit date code, WYYMMDD)
+13		cd$		Calls per day setting
+14		ns$		List of netsubs (in first 3 character format GenNumChaSpoMus etc)
+15		t1$		Netwall status (Activated or Deactivated)
+16		t2$		Net classifieds status (Activated or Deactivated)
+
+During net transfer:
+
+	nn$		Node name connecting (mid(an$,4)) where an$ would be "NODE-13th Floor" for example, so nn$="13th Floor"
+	bc$		Incoming BBS Location
+	sy$		Incoming BBS Sysop name
+	bp$		Incoming BBS phone number
+	
+During net sort:
+	rn		Value of total existing posts in the verified netsub
+	v%(a)	The category of received net items for the current month, as read from sys.netstat yymm
+	b%(a)	The category of discovered net items in n.temp (for reporting)
+			1	Posts
+			2	Responses
+			3	Email
+			4	Netwall
+			5	Classifieds ads
+			6	Matchmaker entries
+	nf$		Name of the recipient for -NetMail-
+	rn$(x)	The 10 (as of this version) possible net entries that can be transferred
+			If a$ during line read finds any of the following, those fields are then read into a$
+			1	-NetMail-			Destination node name, Recipient handle (or Sysop), 
+			2	-NetWall-			
+			3	-NetNews-
+			4	-NetClassifieds-
+			5	-NetUpdate-
+			6	-NetSubs-			Date, title of post/thread, author name, sub board name (at source BBS)
+			7	-NetSubUpdate-
+			8	-NetConfig-
+			9	-NetNodeReset-
+			10	-NetMatchmaker-
+			
+-NetMail-, Wall, News, Classifieds, Update, Subs, SubUpdate, Config, NodeReset, Matchmaker
+
+
+Routines [net.sort]
+	535			Reads a record of current open file into a$, and checks for -Net item as a header
+	1275		Open filename in b$ as either write or append, and dump the remaining data into the target utilizing d1$, until ^ is found
+	1320		Some lookup with sys.netstat yymm - pull any previous items for this month as v%(x)
+	1330		Create sys.netstat yymm - write in the b%(x) values one per line of items received this month, or update/rewrite current file with v%(x)
+	1400		Update the bottom of the screen with the number of items discovered
+	
